@@ -60,7 +60,7 @@
                                 </summary>
                                 <div class="event-details">
                                     <table class="score-table">
-                                        <tr><th>项目</th><th>排名</th><th>分数</th><th>资源</th></tr>
+                                        <tr><th>项目</th><th>排名</th><th>分数</th><th>视频</th></tr>
                                         ${renderRow('短节目 (SP)', event.segments.SP)}
                                         ${renderRow('自由滑 (FS)', event.segments.FS)}
                                     </table>
@@ -84,7 +84,7 @@
             ? `<a href="${segment.protocol_url}" target="_blank" style="text-decoration: underline; color: inherit;">${segment.score}</a>`
             : segment.score;
         const videoDisplay = segment.video_url
-            ? `<a href="${segment.video_url}" target="_blank">观看</a>`
+            ? `<a href="${segment.video_url}" target="_blank">▶️</a>`
             : `<span style="color: #ccc;">暂无视频</span>`;
 
         return `
@@ -97,4 +97,5 @@
     }
 </script>
 </body>
+
 </html>
