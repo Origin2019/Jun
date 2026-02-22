@@ -152,7 +152,7 @@
                         "video_url": ""
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://www.bilibili.com/video/BV17Hk6BUEJp?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
                 "name": "2025 木下集团杯",
@@ -325,7 +325,7 @@
                         "score": "171.93",
                         "rank": "2",
                         "protocol_url": "https://results.isu.org/results/season2425/gpcan2024/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1MbvpBvEo4?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
                 "exhibition_video": ""
@@ -544,7 +544,7 @@
                         "score": "196.39",
                         "rank": "2",
                         "protocol_url": "https://www.isuresults.com/results/season2223/wc2023/data0105.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1pcvpB9EMF?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
                 "exhibition_video": ""
@@ -695,13 +695,13 @@
                         "score": "99.51",
                         "rank": "4",
                         "protocol_url": "https://results.isu.org/results/season2122/owg2022/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1M5411m7X4?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "182.87",
                         "rank": "7",
                         "protocol_url": "https://results.isu.org/results/season2122/owg2022/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1rR4y1w7hc?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
                 "exhibition_video": ""
@@ -1694,4 +1694,5 @@
             }
         ]
     }
+
 ]
