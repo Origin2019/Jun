@@ -1,0 +1,297 @@
+
+/* 下面是网站首页 */
+/* 网页整体背景和排版 */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+
+.home-page {
+    background-color: #ffffff;
+    background-image: url("封面图片.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.about-page {
+    display: block;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.top-banner {
+    width: 100%;       /* 容器占满全宽 */
+    height: 250px;     /* 你可以根据需要调整高度，让它看起来很窄 */
+    overflow: hidden;  /* 如果图片太高，剪掉多余部分 */
+}
+
+.top-banner img {
+    width: 100%;       /* 图片宽度占满容器 */
+    height: 100%;      /* 图片高度占满容器 */
+    object-fit: cover; /* 核心：图片会按比例缩放并填充，不会变形，多余部分会被裁剪 */
+    object-position: center; /* 图片在容器中居中显示（比如保留人物的脸部） */
+}
+
+/* 中间的白色卡片 */
+.card {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    text-align: center;
+
+    position: relative;
+    z-index: 10;
+}
+
+h1 {
+    color: #2c3e50; /* 深蓝灰色标题 */
+}
+
+/* 酷炫的按钮 */
+.cool-btn {
+    background-color: #74b9ff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 25px; /* 胶囊形状 */
+    cursor: pointer;
+    transition: all 0.3s ease; /* 动画过渡效果 */
+}
+
+/* 鼠标放上去时按钮的变化 */
+.cool-btn:hover {
+    background-color: #0984e3; /* 颜色变深 */
+    transform: translateY(-3px); /* 按钮往上浮动一点点 */
+    box-shadow: 0 5px 15px rgba(255, 107, 129, 0.4); /* 增加发光阴影 */
+}
+
+
+/* 下面是轮播图 */
+/* 轮播图外壳 - 保留并微调 */
+.carousel-container {
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* 图片轨道 - 保留 */
+.carousel-track {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s ease-in-out;
+}
+
+/* 新增：滑块单元 - 关键！ */
+.slide {
+    display: block;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;      /* 防止滑块被挤压 */
+    position: relative;  /* 让文字能相对于它定位 */
+    text-decoration: none;  /* 彻底去掉下划线 */
+    color: inherit;         /* 颜色继承父级，防止变成蓝色 */
+    outline: none;          /* 去掉点击时的外边框线 */
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* 修改：图片样式 - 适配新结构 */
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 新增：图片上的文字样式 */
+.slide-text {
+    position: absolute;
+    bottom: 50px;        /* 位于小圆点上方 */
+    left: 20px;
+    text-align: left;
+    right: auto;
+    color: white !important;
+    max-width: 80%;
+    font-size: 1.3rem;   /* 字号大一点 */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); /* 强力阴影，保证文字清晰 */
+    pointer-events: none; /* 让鼠标点击可以穿透文字，不影响切换 */
+    text-decoration: none;
+}
+
+/* 鼠标悬停时，不需要下划线，只需要手型 */
+.slide:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 小圆点部分 - 全部保留 */
+.dots-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 10; /* 确保圆点在文字层上方 */
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.dot.active {
+    background-color: white;
+    transform: scale(1.2);
+}
+
+
+/* 下面是那几个小框 */
+/* 外层包装，限制宽度并居中 */
+.scroll-wrapper {
+    max-width: 1100px;    /* 与你的 Banner 或轮播图宽度协调 */
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* 滚动容器 */
+.scroll-container {
+    display: flex;         /* 让子元素横向排列 */
+    gap: 20px;            /* 卡片之间的间距 */
+    overflow-x: auto;      /* 核心：超出宽度时显示横向滚动条 */
+    padding-bottom: 25px;  /* 给滚动条留点空间 */
+    scroll-behavior: smooth; /* 滚动时更丝滑 */
+}
+
+/* 隐藏或美化滚动条 (可选) */
+.scroll-container::-webkit-scrollbar {
+    height: 8px;           /* 滚动条高度 */
+}
+.scroll-container::-webkit-scrollbar-thumb {
+    background: #ccc;      /* 滚动条颜色 */
+    border-radius: 10px;
+}
+.scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* 单个小框样式 */
+.info-card {
+    flex: 0 0 200px;       /* 核心：不伸缩，不收缩，固定宽度为 200px */
+    height: 300px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-card:hover {
+    transform: translateY(-5px); /* 悬停微动效 */
+}
+
+/* 小框里的图片 */
+.info-card img {
+    width: 100%;
+    height: 100%;         /* 固定高度 */
+    object-fit: cover;
+    position: absolute;    /* 让图片作为底层背景 */
+    top: 0;
+    left: 0;
+}
+
+/* 小框里的文字 */
+.card-desc {
+    position: absolute;    /* 绝对定位 */
+    bottom: 0;             /* 贴在底部 */
+    width: 100%;
+    padding: 15px 10px;
+
+    background: rgba(0, 0, 0, 0.5); /* 半透明黑背景，保证文字清晰 */
+    color: white;          /* 文字改白色 */
+    font-size: 0.95rem;
+    text-align: center;
+    box-sizing: border-box; /* 保证 padding 不撑破框 */
+}
+
+
+/* 下面是比赛时间轴 */
+.timeline-container {
+    max-width: 800px;
+    margin: 50px auto;
+    border-left: 4px solid #3498db; /* 时间轴的主线 */
+    padding-left: 30px;
+}
+
+.season-node {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/* 时间轴上的小圆点 */
+.season-node::before {
+    content: '';
+    position: absolute;
+    left: -38px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background: #3498db;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.season-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #2c3e50;
+    list-style: none; /* 去掉默认箭头 */
+}
+
+.event-card {
+    background: #f8f9fa;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.event-name {
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.score-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.score-table td, .score-table th {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
