@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>比赛</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f7f9; color: #333; line-height: 1.6; }
+        .timeline-container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        .title { text-align: center; color: #2c3e50; margin-bottom: 40px; font-size: 2em; }
+
+        /* 赛季节点样式 */
+        .season-node { background: #fff; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; }
+        .season-title { padding: 15px 20px; background: #2c3e50; color: #fff; font-weight: bold; cursor: pointer; outline: none; }
+
+        /* 比赛卡片样式 */
+        .event-wrapper { padding: 10px 20px; }
+        .event-card { border-left: 3px solid #3498db; margin: 10px 0; background: #fafafa; }
+        .event-name { padding: 10px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-weight: 500; }
+        .total-score { background: #e1f5fe; color: #0288d1; padding: 2px 8px; border-radius: 4px; font-size: 0.9em; }
+
+        /* 表格样式 */
+        .event-details { padding: 15px; border-top: 1px solid #eee; }
+        .score-table { width: 100%; border-collapse: collapse; margin-bottom: 15px; }
+        .score-table th, .score-table td { padding: 12px; text-align: center; border-bottom: 1px solid #eee; }
+        .score-table th { color: #7f8c8d; font-size: 0.85em; text-transform: uppercase; }
+        .score-table a { transition: color 0.2s;}
+        .score-table a:hover { color: #3498db;}
+
+        /* 按钮样式 */
+        a { color: #3498db; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+        .btn-ex { display: inline-block; background: #9b59b6; color: #fff; padding: 8px 15px; border-radius: 20px; font-size: 0.8em; margin-top: 10px; }
+        .btn-ex:hover { background: #8e44ad; color: #fff; text-decoration: none; }
+    </style>
+</head>
+<body>
+<div class="timeline-container">
+    <h2 class="title">比赛时间轴</h2>
+    <div id="timeline-content">加载中...</div>
+</div>
+
+<script>
+    // 修改点 3：用 JavaScript 读取 JSON
+    fetch('competitions.json')
+        .then(response => response.json())
+        .then(data => {
+            const container = document.getElementById('timeline-content');
+            let html = '';
+
+            data.forEach(season => {
+                html += `
+                <details class="season-node">
+                    <summary class="season-title">${season.season}</summary>
+                    <div class="event-wrapper">
+                        ${season.events.map(event => `
+                            <details class="event-card">
+                                <summary class="event-name">
+                                    <span>${event.name}</span>
+                                    <span class="total-score">${event.total_score}</span>
+                                </summary>
+                                <div class="event-details">
+                                    <table class="score-table">
+                                        <tr><th>项目</th><th>排名</th><th>分数</th><th>资源</th></tr>
+                                        ${renderRow('短节目 (SP)', event.segments.SP)}
+                                        ${renderRow('自由滑 (FS)', event.segments.FS)}
+                                    </table>
+                                    ${event.exhibition_video ? `
+                                        <div class="exhibition">
+                                            <a href="${event.exhibition_video}" class="btn-ex" target="_blank">表演滑 (Gala)</a>
+                                        </div>
+                                    ` : ''}
+                                </div>
+                            </details>
+                        `).join('')}
+                    </div>
+                </details>`;
+            });
+            container.innerHTML = html;
+        });
+
+    // 辅助函数：渲染表格行
+    function renderRow(label, segment) {
+        const scoreDisplay = segment.protocol_url
+            ? `<a href="${segment.protocol_url}" target="_blank" style="text-decoration: underline; color: inherit;">${segment.score}</a>`
+            : segment.score;
+        const videoDisplay = segment.video_url
+            ? `<a href="${segment.video_url}" target="_blank">观看</a>`
+            : `<span style="color: #ccc;">暂无视频</span>`;
+
+        return `
+            <tr>
+                <td>${label}</td>
+                <td>${segment.rank || '-'}</td>
+                <td>${scoreDisplay}</td>
+                <td>${videoDisplay}</td>
+            </tr>`;
+    }
+</script>
+</body>
+</html>

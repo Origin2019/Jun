@@ -1,0 +1,1697 @@
+[
+    {
+        "season": "2025-26 赛季",
+        "events": [
+            {
+                "name": "2026 米兰-科尔蒂纳冬季奥林匹克运动会(个人)",
+                "total_score": "[273.92]Rank: 4",
+                "segments": {
+                    "SP": {
+                        "score": "92.72",
+                        "rank": "6",
+                        "protocol_url": "https://results.isu.org/results/season2526/owg2026/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "181.20",
+                        "rank": "5",
+                        "protocol_url": "https://results.isu.org/results/season2526/owg2026/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2026 米兰-科尔蒂纳冬季奥林匹克运动会(团体)",
+                "total_score": "无个人排名",
+                "segments": {
+                    "SP": {
+                        "score": "83.53",
+                        "rank": "8",
+                        "protocol_url": "https://results.isu.org/results/season2526/owg2026/FSKXTEAM--------------QUAL0001MN--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "-",
+                        "rank": "-",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2026 四大洲锦标赛",
+                "total_score": "[273.62]🥈 第 2 名",
+                "segments": {
+                    "SP": {
+                        "score": "88.89",
+                        "rank": "6",
+                        "protocol_url": "https://www.isuresults.com/results/season2526/fc2026/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "184.73",
+                        "rank": "1",
+                        "protocol_url": "https://www.isuresults.com/results/season2526/fc2026/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2026 全韩锦标赛",
+                "total_score": "[277.84]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "97.50",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "180.34",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2025 韩国总统杯排名赛",
+                "total_score": "[255.72]🥈 第 2 名",
+                "segments": {
+                    "SP": {
+                        "score": "82.91",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "172.81",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2025 大奖赛NHK杯",
+                "total_score": "[230.26]Rank: 5",
+                "segments": {
+                    "SP": {
+                        "score": "91.60",
+                        "rank": "3",
+                        "protocol_url": "https://results.isu.org/results/season2526/gpjpn2025/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "138.66",
+                        "rank": "10",
+                        "protocol_url": "https://results.isu.org/results/season2526/gpjpn2025/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2025 丹尼斯·谭纪念杯",
+                "total_score": "退赛(WD)",
+                "segments": {
+                    "SP": {
+                        "score": "70.78",
+                        "rank": "13",
+                        "protocol_url": "https://turnir.rline.kz/2025/cskaz2025/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "退赛(WD)",
+                        "rank": "-",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2025 大奖赛中国杯",
+                "total_score": "[217.53]Rank: 8",
+                "segments": {
+                    "SP": {
+                        "score": "75.61",
+                        "rank": "7",
+                        "protocol_url": "https://results.isu.org/results/season2526/gpchn2025/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "141.92",
+                        "rank": "8",
+                        "protocol_url": "https://results.isu.org/results/season2526/gpchn2025/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2025 木下集团杯",
+                "total_score": "[253.31]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "87.76",
+                        "rank": "1",
+                        "protocol_url": "https://www.jsfresults.com/InterNational/2025-2026/csjpn2025/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "165.55",
+                        "rank": "1",
+                        "protocol_url": "https://www.jsfresults.com/InterNational/2025-2026/csjpn2025/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            }
+        ]
+    },
+    {
+        "season": "2024-25 赛季",
+        "events": [
+            {
+                "name": "2025 世界锦标赛",
+                "total_score": "[265.74]Rank: 7",
+                "segments": {
+                    "SP": {
+                        "score": "86.41",
+                        "rank": "10",
+                        "protocol_url": "https://results.isu.org/results/season2425/wc2025/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "179.33",
+                        "rank": "5",
+                        "protocol_url": "https://results.isu.org/results/season2425/wc2025/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2025 四大洲锦标赛",
+                "total_score": "[265.02]🥈 第 2 名",
+                "segments": {
+                    "SP": {
+                        "score": "79.24",
+                        "rank": "4",
+                        "protocol_url": "https://results.isu.org/results/season2425/fc2025/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "185.78",
+                        "rank": "2",
+                        "protocol_url": "https://results.isu.org/results/season2425/fc2025/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2025 第九届亚洲冬季运动会",
+                "total_score": "[281.69]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "94.09",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "187.60",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2025 全韩锦标赛",
+                "total_score": "[281.02]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "90.53",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "190.49",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2024 韩国总统杯排名赛",
+                "total_score": "[264.59]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "93.30",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "171.29",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2025 世界大学生冬季运动会",
+                "total_score": "[264.94]🥉 第 3 名",
+                "segments": {
+                    "SP": {
+                        "score": "82.40",
+                        "rank": "5",
+                        "protocol_url": "https://s3-crs-prod.microplustimingservices.com/WU2025/STATIC/_PDF/WUG2025/FSK/2025-01-16/FSKMSINGLES-----------QUAL000100--__C77B_1.0.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "182.54",
+                        "rank": "2",
+                        "protocol_url": "https://s3-crs-prod.microplustimingservices.com/WU2025/STATIC/_PDF/WUG2025/FSK/2025-01-18/FSKMSINGLES-----------FNL-000100--__C77B_1.0.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2024 大奖赛芬兰站",
+                "total_score": "退赛(WD)",
+                "segments": {
+                    "SP": {
+                        "score": "77.33",
+                        "rank": "7",
+                        "protocol_url": "https://results.isu.org/results/season2425/gpfin2024/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "退赛(WD)",
+                        "rank": "-",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2024 大奖赛加拿大站",
+                "total_score": "[260.31]🥉 第 3 名",
+                "segments": {
+                    "SP": {
+                        "score": "88.38",
+                        "rank": "4",
+                        "protocol_url": "https://results.isu.org/results/season2425/gpcan2024/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "171.93",
+                        "rank": "2",
+                        "protocol_url": "https://results.isu.org/results/season2425/gpcan2024/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2024 上海超级杯",
+                "total_score": "[269.53]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "92.28",
+                        "rank": "1",
+                        "protocol_url": "https://results.isu.org/results/season2425/sht2024/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "177.25",
+                        "rank": "1",
+                        "protocol_url": "https://results.isu.org/results/season2425/sht2024/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2024 雾迪杯",
+                "total_score": "[228.48]Rank: 4",
+                "segments": {
+                    "SP": {
+                        "score": "69.81",
+                        "rank": "10",
+                        "protocol_url": "http://www.deu-event.de/results/Nebelhorn_2024/CSGER2024/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "158.67",
+                        "rank": "3",
+                        "protocol_url": "http://www.deu-event.de/results/Nebelhorn_2024/CSGER2024/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            }
+        ]
+    },
+    {
+        "season": "2023-24 赛季",
+        "events": [
+            {
+                "name": "2024 世界锦标赛",
+                "total_score": "[249.65]Rank: 10",
+                "segments": {
+                    "SP": {
+                        "score": "88.21",
+                        "rank": "9",
+                        "protocol_url": "https://www.isuresults.com/results/season2324/wc2024/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "161.44",
+                        "rank": "11",
+                        "protocol_url": "https://www.isuresults.com/results/season2324/wc2024/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2024 四大洲锦标赛",
+                "total_score": "[272.95]🥉 第 3 名",
+                "segments": {
+                    "SP": {
+                        "score": "95.30",
+                        "rank": "3",
+                        "protocol_url": "https://www.isuresults.com/results/season2324/fc2024/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "177.65",
+                        "rank": "2",
+                        "protocol_url": "https://www.isuresults.com/results/season2324/fc2024/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2024 全韩锦标赛",
+                "total_score": "[275.94]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "96.51",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "179.43",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2023 韩国总统杯排名赛",
+                "total_score": "[260.53]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "86.28",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "174.25",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2023 大奖赛加拿大站",
+                "total_score": "[216.61]Rank: 9",
+                "segments": {
+                    "SP": {
+                        "score": "86.18",
+                        "rank": "2",
+                        "protocol_url": "https://www.isuresults.com/results/season2324/gpcan2023/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "130.43",
+                        "rank": "11",
+                        "protocol_url": "https://www.isuresults.com/results/season2324/gpcan2023/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2023 上海超级杯",
+                "total_score": "[254.86]🥈 第 2 名",
+                "segments": {
+                    "SP": {
+                        "score": "91.80",
+                        "rank": "1",
+                        "protocol_url": "https://www.isuresults.com/results/season2324/sht23/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "163.06",
+                        "rank": "2",
+                        "protocol_url": "https://www.isuresults.com/results/season2324/sht23/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2023 内佩拉纪念赛",
+                "total_score": "[222.16]Rank: 6",
+                "segments": {
+                    "SP": {
+                        "score": "83.91",
+                        "rank": "2",
+                        "protocol_url": "https://www.kraso.sk/wp-content/uploads/sutaze/2023_2024/NepelaMemorial2023/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "138.25",
+                        "rank": "7",
+                        "protocol_url": "https://www.kraso.sk/wp-content/uploads/sutaze/2023_2024/NepelaMemorial2023/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            }
+        ]
+    },
+    {
+        "season": "2022-23 赛季",
+        "events": [
+            {
+                "name": "2023 世界团体锦标赛",
+                "total_score": "[289.15]无个人排名",
+                "segments": {
+                    "SP": {
+                        "score": "101.33",
+                        "rank": "2",
+                        "protocol_url": "https://results.isu.org/results/season2223/wtt2023/data0103.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "187.82",
+                        "rank": "1",
+                        "protocol_url": "https://results.isu.org/results/season2223/wtt2023/data0105.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2023 世界锦标赛",
+                "total_score": "[296.03]🥈 第 2 名",
+                "segments": {
+                    "SP": {
+                        "score": "99.64",
+                        "rank": "3",
+                        "protocol_url": "https://www.isuresults.com/results/season2223/wc2023/data0103.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "196.39",
+                        "rank": "2",
+                        "protocol_url": "https://www.isuresults.com/results/season2223/wc2023/data0105.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2023 四大洲锦标赛",
+                "total_score": "[250.14]Rank: 4",
+                "segments": {
+                    "SP": {
+                        "score": "83.77",
+                        "rank": "5",
+                        "protocol_url": "https://www.isuresults.com/results/season2223/fc2023/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "166.37",
+                        "rank": "4",
+                        "protocol_url": "https://www.isuresults.com/results/season2223/fc2023/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2023 全韩锦标赛",
+                "total_score": "[271.21]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "101.04",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "170.17",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2022 韩国总统杯排名赛",
+                "total_score": "[286.55]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "101.36",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "185.19",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2022 大奖赛NHK杯",
+                "total_score": "[254.76]🥉 第 3 名",
+                "segments": {
+                    "SP": {
+                        "score": "80.35",
+                        "rank": "6",
+                        "protocol_url": "https://www.isuresults.com/results/season2223/gpjpn2022/data0103.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "174.41",
+                        "rank": "2",
+                        "protocol_url": "https://www.isuresults.com/results/season2223/gpjpn2022/data0105.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2022 大奖赛美国站",
+                "total_score": "[264.05]🥉 第 3 名",
+                "segments": {
+                    "SP": {
+                        "score": "94.44",
+                        "rank": "2",
+                        "protocol_url": "https://www.isuresults.com/results/season2223/gpusa2022/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "169.61",
+                        "rank": "3",
+                        "protocol_url": "https://www.isuresults.com/results/season2223/gpusa2022/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2022 芬兰杯(后合并为大奖赛芬兰站)",
+                "total_score": "[253.20]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "91.06",
+                        "rank": "1",
+                        "protocol_url": "https://www.figureskatingresults.fi/results/2223/CSFIN2022/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "162.14",
+                        "rank": "1",
+                        "protocol_url": "https://www.figureskatingresults.fi/results/2223/CSFIN2022/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2022 内佩拉纪念赛",
+                "total_score": "[226.32]🥈 第 2 名",
+                "segments": {
+                    "SP": {
+                        "score": "80.81",
+                        "rank": "2",
+                        "protocol_url": "https://www.kraso.sk/wp-content/uploads/sutaze/2022_2023/20220929_nepela/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "145.51",
+                        "rank": "2",
+                        "protocol_url": "https://www.kraso.sk/wp-content/uploads/sutaze/2022_2023/20220929_nepela/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            }
+        ]
+    },
+    {
+        "season": "2021-22 赛季",
+        "events": [
+            {
+                "name": "2022 北京冬季奥林匹克运动会",
+                "total_score": "[282.38]Rank: 5",
+                "segments": {
+                    "SP": {
+                        "score": "99.51",
+                        "rank": "4",
+                        "protocol_url": "https://results.isu.org/results/season2122/owg2022/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "182.87",
+                        "rank": "7",
+                        "protocol_url": "https://results.isu.org/results/season2122/owg2022/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2022 四大洲锦标赛",
+                "total_score": "[273.22]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "98.96",
+                        "rank": "1",
+                        "protocol_url": "https://www.isuresults.com/results/season2122/fc2022/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "174.26",
+                        "rank": "1",
+                        "protocol_url": "https://www.isuresults.com/results/season2122/fc2022/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2022 全韩锦标赛",
+                "total_score": "[283.31]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "98.31",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "185.00",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2021 韩国总统杯排名赛",
+                "total_score": "[239.16]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "87.09",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "152.07",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2021 大奖赛NHK杯",
+                "total_score": "[259.60]🥉 第 3 名",
+                "segments": {
+                    "SP": {
+                        "score": "95.92",
+                        "rank": "3",
+                        "protocol_url": "https://www.isuresults.com/results/season2122/gpjpn2021/data0103.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "163.68",
+                        "rank": "5",
+                        "protocol_url": "https://www.isuresults.com/results/season2122/gpjpn2021/data0105.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2021 大奖赛意大利站",
+                "total_score": "[247.74]Rank: 5",
+                "segments": {
+                    "SP": {
+                        "score": "95.56",
+                        "rank": "3",
+                        "protocol_url": "https://www.isuresults.com/results/season2122/gpita2021/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "152.18",
+                        "rank": "6",
+                        "protocol_url": "https://www.isuresults.com/results/season2122/gpita2021/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2021 亚洲公开赛",
+                "total_score": "[214.24]Rank: 6",
+                "segments": {
+                    "SP": {
+                        "score": "74.47",
+                        "rank": "5",
+                        "protocol_url": "https://www.isuresults.com/results/season2122/cschn2021/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "139.77",
+                        "rank": "5",
+                        "protocol_url": "https://www.isuresults.com/results/season2122/cschn2021/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            }
+        ]
+    },
+    {
+        "season": "2020-21 赛季",
+        "events": [
+            {
+                "name": "2021 世界锦标赛",
+                "total_score": "[245.99]Rank: 10",
+                "segments": {
+                    "SP": {
+                        "score": "91.15",
+                        "rank": "8",
+                        "protocol_url": "https://www.isuresults.com/results/season2021/wc2021/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "154.84",
+                        "rank": "13",
+                        "protocol_url": "https://www.isuresults.com/results/season2021/wc2021/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2020 韩国总统杯排名赛",
+                "total_score": "[225.20]🥈 第 2 名",
+                "segments": {
+                    "SP": {
+                        "score": "77.95",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "147.25",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2021 全韩锦标赛",
+                "total_score": "[257.12]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "90.36",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "166.76",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            }
+        ]
+    },
+    {
+        "season": "2019-20 赛季",
+        "events": [
+            {
+                "name": "2020 四大洲锦标赛",
+                "total_score": "[265.43]Rank: 5",
+                "segments": {
+                    "SP": {
+                        "score": "90.37",
+                        "rank": "6",
+                        "protocol_url": "https://www.isuresults.com/results/season1920/fc2020/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "175.06",
+                        "rank": "4",
+                        "protocol_url": "https://www.isuresults.com/results/season1920/fc2020/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2020 全韩锦标赛",
+                "total_score": "[278.54]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "93.45",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "185.09",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2019 韩国总统杯排名赛",
+                "total_score": "[254.44]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "89.61",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "164.83",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2019 大奖赛中国杯",
+                "total_score": "[222.26]Rank: 6",
+                "segments": {
+                    "SP": {
+                        "score": "69.40",
+                        "rank": "11",
+                        "protocol_url": "https://www.isuresults.com/results/season1920/gpchn2019/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "152.86",
+                        "rank": "6",
+                        "protocol_url": "https://www.isuresults.com/results/season1920/gpchn2019/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2019 大奖赛美国站",
+                "total_score": "[219.67]Rank: 8",
+                "segments": {
+                    "SP": {
+                        "score": "78.98",
+                        "rank": "7",
+                        "protocol_url": "https://www.isuresults.com/results/season1920/gpusa2019/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "140.69",
+                        "rank": "9",
+                        "protocol_url": "https://www.isuresults.com/results/season1920/gpusa2019/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2019 秋季经典赛",
+                "total_score": "[230.44]Rank: 4",
+                "segments": {
+                    "SP": {
+                        "score": "84.23",
+                        "rank": "4",
+                        "protocol_url": "https://lamp.skatecanada.ca/results/2019ACI/CSCAN2019_Men_SP_Scores.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "146.21",
+                        "rank": "4",
+                        "protocol_url": "https://lamp.skatecanada.ca/results/2019ACI/CSCAN2019_Men_FS_Scores.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            }
+        ]
+    },
+    {
+        "season": "2018-19 赛季",
+        "events": [
+            {
+                "name": "2019 世界锦标赛",
+                "total_score": "[229.26]Rank: 19",
+                "segments": {
+                    "SP": {
+                        "score": "79.17",
+                        "rank": "18",
+                        "protocol_url": "https://www.isuresults.com/results/season1819/wc2019/data0103.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "150.09",
+                        "rank": "18",
+                        "protocol_url": "https://www.isuresults.com/results/season1819/wc2019/data0105.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2019 四大洲锦标赛",
+                "total_score": "[255.83]Rank: 6",
+                "segments": {
+                    "SP": {
+                        "score": "97.33",
+                        "rank": "2",
+                        "protocol_url": "https://www.isuresults.com/results/season1819/fc2019/fc2019_Men_SP_Scores.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "158.50",
+                        "rank": "8",
+                        "protocol_url": "https://www.isuresults.com/results/season1819/fc2019/fc2019_Men_FS_Scores.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2019 全韩锦标赛",
+                "total_score": "[245.52]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "89.12",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "156.40",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2018 韩国总统杯排名赛",
+                "total_score": "[257.01]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "77.28",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "179.73",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2018/2019 大奖赛总决赛",
+                "total_score": "[263.49]🥉 第 3 名",
+                "segments": {
+                    "SP": {
+                        "score": "89.07",
+                        "rank": "4",
+                        "protocol_url": "https://www.isuresults.com/results/season1819/gpf1819/gpf1819_Men_SP_Scores.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "174.42",
+                        "rank": "3",
+                        "protocol_url": "https://www.isuresults.com/results/season1819/gpf1819/gpf1819_Men_FS_Scores.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2018 大奖赛芬兰站",
+                "total_score": "[243.19]🥉 第 3 名",
+                "segments": {
+                    "SP": {
+                        "score": "82.82",
+                        "rank": "4",
+                        "protocol_url": "https://www.isuresults.com/results/season1819/gpfin2018/gpfin2018_Men_SP_Scores.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "160.37",
+                        "rank": "3",
+                        "protocol_url": "https://www.isuresults.com/results/season1819/gpfin2018/gpfin2018_Men_FS_Scores.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2018 大奖赛加拿大站",
+                "total_score": "[254.77]🥉 第 3 名",
+                "segments": {
+                    "SP": {
+                        "score": "88.86",
+                        "rank": "3",
+                        "protocol_url": "https://www.isuresults.com/results/season1819/gpcan2018/gpcan2018_Men_SP_Scores.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "165.91",
+                        "rank": "3",
+                        "protocol_url": "https://www.isuresults.com/results/season1819/gpcan2018/gpcan2018_Men_FS_Scores.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2018 芬兰杯",
+                "total_score": "[239.19]🥈 第 2 名",
+                "segments": {
+                    "SP": {
+                        "score": "84.67",
+                        "rank": "2",
+                        "protocol_url": "https://www.figureskatingresults.fi/results/1819/CSFIN2018/CSFIN2018_Men_SP_Scores.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "154.52",
+                        "rank": "2",
+                        "protocol_url": "https://www.figureskatingresults.fi/results/1819/CSFIN2018/CSFIN2018_Men_FS_Scores.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2018 秋季经典赛",
+                "total_score": "[259.78]🥈 第 2 名",
+                "segments": {
+                    "SP": {
+                        "score": "90.56",
+                        "rank": "2",
+                        "protocol_url": "https://lamp.skatecanada.ca/results/2018ACI/CSCAN2018_Men_SP_Scores.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "169.22",
+                        "rank": "1",
+                        "protocol_url": "https://lamp.skatecanada.ca/results/2018ACI/CSCAN2018_Men_FS_Scores.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            }
+        ]
+    },
+    {
+        "season": "2017-18 赛季",
+        "events": [
+            {
+                "name": "2018 平昌冬季奥林匹克运动会",
+                "total_score": "[248.59]Rank: 15",
+                "segments": {
+                    "SP": {
+                        "score": "83.43",
+                        "rank": "15",
+                        "protocol_url": "https://www.isuresults.com/results/season1718/owg2018/OWG2018_MenSingleSkating_SP_Scores.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "165.16",
+                        "rank": "14",
+                        "protocol_url": "https://www.isuresults.com/results/season1718/owg2018/OWG2018_MenSingleSkating_FS_Scores.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2018 全韩锦标赛",
+                "total_score": "[252.65]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "84.05",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "168.60",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2017 韩国总统杯排名赛",
+                "total_score": "[224.66]🥈 第 2 名",
+                "segments": {
+                    "SP": {
+                        "score": "75.24",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "149.42",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2017 大奖赛加拿大站",
+                "total_score": "[210.32]Rank: 9",
+                "segments": {
+                    "SP": {
+                        "score": "68.46",
+                        "rank": "11",
+                        "protocol_url": "https://www.isuresults.com/results/season1718/gpcan2017/gpcan2017_Men_SP_Scores.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "141.86",
+                        "rank": "8",
+                        "protocol_url": "https://www.isuresults.com/results/season1718/gpcan2017/gpcan2017_Men_FS_Scores.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            }
+        ]
+    },
+    {
+        "season": "2016-17 赛季(青年组)",
+        "events": [
+            {
+                "name": "2017 世界青年锦标赛",
+                "total_score": "[242.45]Rank: 5",
+                "segments": {
+                    "SP": {
+                        "score": "82.34",
+                        "rank": "2",
+                        "protocol_url": "https://www.isuresults.com/results/season1617/wjc2017/wjc2017_JuniorMen_SP_Scores.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "160.11",
+                        "rank": "6",
+                        "protocol_url": "https://www.isuresults.com/results/season1617/wjc2017/wjc2017_JuniorMen_FS_Scores.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2017 全韩锦标赛",
+                "total_score": "[238.07]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "81.83",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "156.24",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2016/17 青年大奖赛总决赛",
+                "total_score": "[225.55]🥉 第 3 名",
+                "segments": {
+                    "SP": {
+                        "score": "71.85",
+                        "rank": "4",
+                        "protocol_url": "https://www.isuresults.com/results/season1617/gpf1617/gpf1617_JuniorMen_SP_Scores.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "153.70",
+                        "rank": "3",
+                        "protocol_url": "https://www.isuresults.com/results/season1617/gpf1617/gpf1617_JuniorMen_FS_Scores.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2016 韩国总统杯排名赛",
+                "total_score": "[242.44]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "75.82",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "166.40",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2016 青年大奖赛德国站",
+                "total_score": "[220.54]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "76.82",
+                        "rank": "1",
+                        "protocol_url": "https://www.isuresults.com/results/season1617/jgpger2016/jgpger2016_JuniorMen_SP_Scores.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "143.72",
+                        "rank": "1",
+                        "protocol_url": "https://www.isuresults.com/results/season1617/jgpger2016/jgpger2016_JuniorMen_FS_Scores.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2016 青年大奖赛横滨站",
+                "total_score": "[239.47]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "79.34",
+                        "rank": "2",
+                        "protocol_url": "https://www.isuresults.com/results/season1617/jgpjpn2016/jgpjpn2016_JuniorMen_SP_Scores.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "160.13",
+                        "rank": "1",
+                        "protocol_url": "https://www.isuresults.com/results/season1617/jgpjpn2016/jgpjpn2016_JuniorMen_FS_Scores.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            }
+        ]
+    },
+    {
+        "season": "2015-16 赛季(青年组)",
+        "events": [
+            {
+                "name": "2016 世界青年锦标赛",
+                "total_score": "[207.11]Rank: 7",
+                "segments": {
+                    "SP": {
+                        "score": "74.38",
+                        "rank": "7",
+                        "protocol_url": "https://www.isuresults.com/results/season1516/wjc2016/wjc2016_JuniorMen_SP_Scores.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "132.73",
+                        "rank": "6",
+                        "protocol_url": "https://www.isuresults.com/results/season1516/wjc2016/wjc2016_JuniorMen_FS_Scores.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2016 冬季青年奥林匹克运动会",
+                "total_score": "[198.90]Rank: 5",
+                "segments": {
+                    "SP": {
+                        "score": "68.76",
+                        "rank": "4",
+                        "protocol_url": "https://www.isuresults.com/results/season1516/yog2016/YOG2016_Men_SP_Scores.pdf",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "130.14",
+                        "rank": "5",
+                        "protocol_url": "https://www.isuresults.com/results/season1516/yog2016/YOG2016_Men_FS_Scores.pdf",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2016 全韩锦标赛",
+                "total_score": "[189.98]🥉 第 3 名",
+                "segments": {
+                    "SP": {
+                        "score": "58.60",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "131.38",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2015 韩国总统杯排名赛",
+                "total_score": "[220.40]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "70.41",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "149.99",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2015 加拿大秋季经典赛(青年组)",
+                "total_score": "[198.44]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "65.48",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "132.96",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            }
+        ]
+    },
+    {
+        "season": "2014-15 赛季(少高组)",
+        "events": [
+            {
+                "name": "2015 全韩锦标赛",
+                "total_score": "[181.13]🥉 第 3 名",
+                "segments": {
+                    "SP": {
+                        "score": "58.28",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "122.85",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2014 韩国总统杯排名赛(青年组)",
+                "total_score": "[175.74]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "57.36",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "118.38",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            }
+        ]
+    },
+    {
+        "season": "2013-14 赛季(少高组)",
+        "events": [
+            {
+                "name": "2014 全韩锦标赛",
+                "total_score": "[184.38]Rank: 5",
+                "segments": {
+                    "SP": {
+                        "score": "60.44",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "123.94",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2013 韩国总统杯排名赛(青年组)",
+                "total_score": "[170.31]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "56.56",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "113.75",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            }
+        ]
+    },
+    {
+        "season": "2012-13 赛季(少高组)",
+        "events": [
+            {
+                "name": "2013 全韩锦标赛(青年组)",
+                "total_score": "[150.74]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "50.67",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "100.07",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2012 韩国总统杯排名赛(青年组)",
+                "total_score": "[143.93]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "44.21",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "99.72",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            }
+        ]
+    },
+    {
+        "season": "2011-12 赛季(少高组)",
+        "events": [
+            {
+                "name": "2012 全韩锦标赛(青年组)",
+                "total_score": "[133.21]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "46.26",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "86.95",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2011 韩国总统杯排名赛(青年组)",
+                "total_score": "[123.19]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "39.73",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "83.46",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            }
+        ]
+    },
+    {
+        "season": "2010-11 赛季(少高组)",
+        "events": [
+            {
+                "name": "2011 全韩锦标赛(青年组)",
+                "total_score": "[107.81]Rank: 4",
+                "segments": {
+                    "SP": {
+                        "score": "37.16",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "70.65",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2010 韩国总统杯排名赛(青年组)",
+                "total_score": "[103.13]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "33.37",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "69.76",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            }
+        ]
+    }
+]

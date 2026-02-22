@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>关于 Junhwan Cha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="about-page">
+    <div class="top-banner">
+        <img src="static/banner.jpg" alt="Banner">
+    </div>
+
+    <div class="carousel-container">
+        <div class="carousel-track" id="track">
+            <a href="http://xhslink.com/o/1DBdOsQx4w" class="slide" target="_blank">
+                <img src="static/轮播图1.jpg" alt="1">
+                <div class="slide-text">群演嘉宾贡献精彩演技</div>
+            </a>
+
+            <a href="http://xhslink.com/o/AEIDZtzQGDs" class="slide" target="_blank">
+                <img src="static/轮播图2.jpg" alt="2">
+                <div class="slide-text">米兰冬奥会gala</div>
+            </a>
+
+            <a href="https://m.weibo.cn/status/5267805618569993?sourceType=weixin&from=10G1395060&wm=9006_2001&featurecode=newtitle&s_channel=4&s_trans=p7gty1jAJ8qse0dC5aQ5Yw%3D%3D_5267805618569993_s&rp_trans=REQ4Y1JaRkcxNWc5dkUvaGEzTXF3RFh0bkZsa1BrdzBiNFhxWDB3VytMNjA1d3NSdU5HdTl6RFdjV1VjeURDN3QwT3gwUjl3NjlNS1YvVmlRN21hblRZYUZoNFdUWWMraTJ4b3J0ZHNwa3Z1WWNvSG5XRm8xNjNvUWRTNjVJdUUxNGdtUHRLZ3A3N3lmdFBEeTZiMXVBPT0%3D&jumpfrom=weibocom" class="slide" target="_blank">
+                <img src="static/轮播图3.jpg" alt="3">
+                <div class="slide-text">收到自由滑选曲作者女儿的赠礼</div>
+            </a>
+        </div>
+
+        <div class="dots-container">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+    </div>
+
+    <div class="scroll-wrapper">
+        <div class="scroll-container">
+            <a href="https://isu-skating.com/figure-skating/skaters/junhwan-cha/" class="info-card" target="_blank">
+                <img src="static/card1.jpg" alt="1">
+                <div class="card-desc">👤个人简介[BIO]</div>
+            </a>
+            <a href="competition.html" class="info-card">
+                <img src="static/card2.jpg" alt="2">
+                <div class="card-desc">🥇比赛</div>
+            </a>
+            <a href="https://weibo.com/p/100808cdcc2059c709e828d8921caf7ac1683a/super_index?from=page_100808&mod=TAB#place" class="info-card" target="_blank">
+                <img src="static/card3.jpg" alt="3">
+                <div class="card-desc">🧣微博超话</div>
+            </a>
+            <a href="https://isu-skating.com/figure-skating/world-standings/33521/" class="info-card" target="_blank">
+                <img src="static/card8.jpg" alt="4">
+                <div class="card-desc">🆙世界排名</div>
+            </a>
+            <div class="info-card">
+                <img src="static/card4.jpg" alt="5">
+                <div class="card-desc">🎵各赛季选曲</div>
+            </div>
+            <div class="info-card">
+                <img src="static/card5.jpg" alt="6">
+                <div class="card-desc">📅未来赛程</div>
+            </div>
+            <div class="info-card">
+                <img src="static/card6.jpg" alt="7">
+                <div class="card-desc">📺综艺</div>
+            </div>
+            <div class="info-card">
+                <img src="static/card7.jpg" alt="8">
+                <div class="card-desc">📽童星时期</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentIndex = 0;
+        const track = document.getElementById('track');
+        const dots = document.querySelectorAll('.dot');
+
+        function updateSlide() {
+            // 向左移动的距离：当前的索引 * 100%
+            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+            // 更新小圆点的状态
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentIndex);
+            });
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % 3; // 3 是图片数量，循环切换
+            updateSlide();
+        }
+
+        // 设置每 5 秒 (5000 毫秒) 自动切换
+        let timer = setInterval(nextSlide, 5000);
+
+        // 点击圆点手动切换
+        function currentSlide(index) {
+            currentIndex = index;
+            updateSlide();
+            // 重置定时器，防止手动点击后立刻自动跳页
+            clearInterval(timer);
+            timer = setInterval(nextSlide, 5000);
+        }
+    </script>
+</body>
+</html>
