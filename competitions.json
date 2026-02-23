@@ -84,15 +84,15 @@
                 "segments": {
                     "SP": {
                         "score": "82.91",
-                        "rank": "3",
+                        "rank": "",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1WhUdBJETq?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "172.81",
-                        "rank": "2",
+                        "rank": "",
                         "protocol_url": "",
-                        "video_url": "https://www.bilibili.com/video/BV17FSTBgE1d?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": ""
                     }
                 },
                 "exhibition_video": ""
@@ -366,7 +366,7 @@
                         "video_url": "https://www.bilibili.com/video/BV1vLbAehEEL?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
-                "exhibition_video": "https://www.bilibili.com/video/BV1jFsSeWEW3?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                "exhibition_video": ""
             }
         ]
     },
@@ -457,7 +457,7 @@
                         "score": "86.18",
                         "rank": "2",
                         "protocol_url": "https://www.isuresults.com/results/season2324/gpcan2023/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": "https://www.bilibili.com/video/BV13G411C7WV?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": ""
                     },
                     "FS": {
                         "score": "130.43",
@@ -501,7 +501,7 @@
                         "score": "138.25",
                         "rank": "7",
                         "protocol_url": "https://www.kraso.sk/wp-content/uploads/sutaze/2023_2024/NepelaMemorial2023/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": "https://www.bilibili.com/video/BV1Xu411u7iy?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": ""
                     }
                 },
                 "exhibition_video": ""
@@ -658,7 +658,7 @@
                         "score": "162.14",
                         "rank": "1",
                         "protocol_url": "https://www.figureskatingresults.fi/results/2223/CSFIN2022/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": "https://www.bilibili.com/video/BV1SD4y1y7n3?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": ""
                     }
                 },
                 "exhibition_video": ""
