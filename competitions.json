@@ -79,7 +79,7 @@
                 "exhibition_video": ""
             },
             {
-                "name": "2025 韩国总统杯排名赛",
+                "name": "2025 韩国会长杯排名赛",
                 "total_score": "[255.72]🥈 第 2 名",
                 "segments": {
                     "SP": {
@@ -214,7 +214,7 @@
                         "video_url": ""
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://www.bilibili.com/video/BV1eQAmesEnt?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
                 "name": "2025 第九届亚洲冬季运动会",
@@ -255,20 +255,20 @@
                 "exhibition_video": ""
             },
             {
-                "name": "2024 韩国总统杯排名赛",
+                "name": "2024 韩国会长杯排名赛",
                 "total_score": "[264.59]🥇 第 1 名",
                 "segments": {
                     "SP": {
                         "score": "93.30",
                         "rank": "",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV112znYzEES?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "171.29",
                         "rank": "",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1Tn6AYbEau?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
                 "exhibition_video": ""
@@ -357,13 +357,13 @@
                         "score": "69.81",
                         "rank": "10",
                         "protocol_url": "http://www.deu-event.de/results/Nebelhorn_2024/CSGER2024/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1gstQedEdX?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "158.67",
                         "rank": "3",
                         "protocol_url": "http://www.deu-event.de/results/Nebelhorn_2024/CSGER2024/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1vLbAehEEL?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
                 "exhibition_video": ""
@@ -381,7 +381,7 @@
                         "score": "88.21",
                         "rank": "9",
                         "protocol_url": "https://www.isuresults.com/results/season2324/wc2024/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1Li42197fQ?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "161.44",
@@ -400,7 +400,7 @@
                         "score": "95.30",
                         "rank": "3",
                         "protocol_url": "https://www.isuresults.com/results/season2324/fc2024/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1am41197Bk?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "177.65",
@@ -431,20 +431,20 @@
                 "exhibition_video": ""
             },
             {
-                "name": "2023 韩国总统杯排名赛",
+                "name": "2023 韩国会长杯排名赛",
                 "total_score": "[260.53]🥇 第 1 名",
                 "segments": {
                     "SP": {
                         "score": "86.28",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1vM411R7qc?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "174.25",
                         "rank": "",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1gw411h7Q2?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
                 "exhibition_video": ""
@@ -476,16 +476,16 @@
                         "score": "91.80",
                         "rank": "1",
                         "protocol_url": "https://www.isuresults.com/results/season2324/sht23/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV11j41147rC?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "163.06",
                         "rank": "2",
                         "protocol_url": "https://www.isuresults.com/results/season2324/sht23/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1Ku4y1s71k?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://www.bilibili.com/video/BV1Xw411a7rQ?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
                 "name": "2023 内佩拉纪念赛",
@@ -528,7 +528,7 @@
                         "video_url": "https://www.bilibili.com/video/BV1zM4y1y75f?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://www.bilibili.com/video/BV1pa4y1K72n?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
                 "name": "2023 世界锦标赛",
@@ -557,7 +557,7 @@
                         "score": "83.77",
                         "rank": "5",
                         "protocol_url": "https://www.isuresults.com/results/season2223/fc2023/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1zd4y1J7zK?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "166.37",
@@ -576,19 +576,19 @@
                         "score": "101.04",
                         "rank": "",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1tP411F7wy?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "170.17",
                         "rank": "",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1GY41127N7?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
                 "exhibition_video": ""
             },
             {
-                "name": "2022 韩国总统杯排名赛",
+                "name": "2022 韩国会长杯排名赛",
                 "total_score": "[286.55]🥇 第 1 名",
                 "segments": {
                     "SP": {
@@ -601,7 +601,7 @@
                         "score": "185.19",
                         "rank": "",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1214y1E7D4?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
                 "exhibition_video": ""
@@ -614,7 +614,7 @@
                         "score": "80.35",
                         "rank": "6",
                         "protocol_url": "https://www.isuresults.com/results/season2223/gpjpn2022/data0103.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1wW4y1W7BQ?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "174.41",
@@ -623,7 +623,7 @@
                         "video_url": "https://www.bilibili.com/video/BV1d14y1J7oD?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://www.bilibili.com/video/BV1V24y117FT?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
                 "name": "2022 大奖赛美国站",
@@ -671,7 +671,7 @@
                         "score": "80.81",
                         "rank": "2",
                         "protocol_url": "https://www.kraso.sk/wp-content/uploads/sutaze/2022_2023/20220929_nepela/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1gD4y127KN?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "145.51",
@@ -745,7 +745,7 @@
                 "exhibition_video": ""
             },
             {
-                "name": "2021 韩国总统杯排名赛",
+                "name": "2021 韩国会长杯排名赛",
                 "total_score": "[239.16]🥇 第 1 名",
                 "segments": {
                     "SP": {
@@ -796,7 +796,7 @@
                         "score": "152.18",
                         "rank": "6",
                         "protocol_url": "https://www.isuresults.com/results/season2122/gpita2021/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1Mq4y1k7Ad?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
                 "exhibition_video": ""
@@ -845,7 +845,7 @@
                 "exhibition_video": ""
             },
             {
-                "name": "2020 韩国总统杯排名赛",
+                "name": "2020 韩国会长杯排名赛",
                 "total_score": "[225.20]🥈 第 2 名",
                 "segments": {
                     "SP": {
@@ -904,7 +904,7 @@
                         "video_url": "https://www.bilibili.com/video/BV1em1mYLEFM?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://www.bilibili.com/video/BV1jv411j77i?p=2&vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
                 "name": "2020 全韩锦标赛",
@@ -926,7 +926,7 @@
                 "exhibition_video": ""
             },
             {
-                "name": "2019 韩国总统杯排名赛",
+                "name": "2019 韩国会长杯排名赛",
                 "total_score": "[254.44]🥇 第 1 名",
                 "segments": {
                     "SP": {
@@ -1042,7 +1042,7 @@
                         "video_url": ""
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://www.bilibili.com/video/BV1Rb411h7AU?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
                 "name": "2019 全韩锦标赛",
@@ -1064,7 +1064,7 @@
                 "exhibition_video": "https://www.bilibili.com/video/BV13a41117UQ?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
-                "name": "2018 韩国总统杯排名赛",
+                "name": "2018 韩国会长杯排名赛",
                 "total_score": "[257.01]🥇 第 1 名",
                 "segments": {
                     "SP": {
@@ -1221,7 +1221,7 @@
                 "exhibition_video": "https://www.bilibili.com/video/BV1N34y1y7bp?p=106&vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
-                "name": "2017 韩国总统杯排名赛",
+                "name": "2017 韩国会长杯排名赛",
                 "total_score": "[224.66]🥈 第 2 名",
                 "segments": {
                     "SP": {
@@ -1321,7 +1321,7 @@
                 "exhibition_video": ""
             },
             {
-                "name": "2016 韩国总统杯排名赛",
+                "name": "2016 韩国会长杯排名赛",
                 "total_score": "[242.44]🥇 第 1 名",
                 "segments": {
                     "SP": {
@@ -1440,7 +1440,7 @@
                 "exhibition_video": "https://www.bilibili.com/video/BV1SL411K73C?p=47&vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
-                "name": "2015 韩国总统杯排名赛",
+                "name": "2015 韩国会长杯排名赛",
                 "total_score": "[220.40]🥇 第 1 名",
                 "segments": {
                     "SP": {
@@ -1502,7 +1502,7 @@
                 "exhibition_video": ""
             },
             {
-                "name": "2014 韩国总统杯排名赛(青年组)",
+                "name": "2014 韩国会长杯排名赛(青年组)",
                 "total_score": "[175.74]🥇 第 1 名",
                 "segments": {
                     "SP": {
@@ -1545,7 +1545,7 @@
                 "exhibition_video": ""
             },
             {
-                "name": "2013 韩国总统杯排名赛(青年组)",
+                "name": "2013 韩国会长杯排名赛(青年组)",
                 "total_score": "[170.31]🥇 第 1 名",
                 "segments": {
                     "SP": {
@@ -1588,7 +1588,7 @@
                 "exhibition_video": ""
             },
             {
-                "name": "2012 韩国总统杯排名赛(青年组)",
+                "name": "2012 韩国会长杯排名赛(青年组)",
                 "total_score": "[143.93]🥇 第 1 名",
                 "segments": {
                     "SP": {
@@ -1631,7 +1631,7 @@
                 "exhibition_video": ""
             },
             {
-                "name": "2011 韩国总统杯排名赛(青年组)",
+                "name": "2011 韩国会长杯排名赛(青年组)",
                 "total_score": "[123.19]🥇 第 1 名",
                 "segments": {
                     "SP": {
@@ -1674,7 +1674,7 @@
                 "exhibition_video": ""
             },
             {
-                "name": "2010 韩国总统杯排名赛(青年组)",
+                "name": "2010 韩国会长杯排名赛(青年组)",
                 "total_score": "[103.13]🥇 第 1 名",
                 "segments": {
                     "SP": {
@@ -1696,5 +1696,6 @@
     }
 
 ]
+
 
 
