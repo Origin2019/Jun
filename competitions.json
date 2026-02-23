@@ -243,7 +243,7 @@
                         "score": "90.53",
                         "rank": "",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1WSrHY5EjS?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "190.49",
@@ -300,7 +300,7 @@
                         "score": "77.33",
                         "rank": "7",
                         "protocol_url": "https://results.isu.org/results/season2425/gpfin2024/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1JGmfYdEZq?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "退赛(WD)",
@@ -495,7 +495,7 @@
                         "score": "83.91",
                         "rank": "2",
                         "protocol_url": "https://www.kraso.sk/wp-content/uploads/sutaze/2023_2024/NepelaMemorial2023/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1Bm4y1V7Du?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "138.25",
@@ -563,10 +563,10 @@
                         "score": "166.37",
                         "rank": "4",
                         "protocol_url": "https://www.isuresults.com/results/season2223/fc2023/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1Ns4y1a7J3?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://www.bilibili.com/video/BV1UT411Q7M1?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
                 "name": "2023 全韩锦标赛",
@@ -633,7 +633,7 @@
                         "score": "94.44",
                         "rank": "2",
                         "protocol_url": "https://www.isuresults.com/results/season2223/gpusa2022/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1rP4y1U7Yk?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "169.61",
@@ -677,7 +677,7 @@
                         "score": "145.51",
                         "rank": "2",
                         "protocol_url": "https://www.kraso.sk/wp-content/uploads/sutaze/2022_2023/20220929_nepela/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://www.bilibili.com/video/BV1Ad4y1B747?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
                 "exhibition_video": ""
@@ -723,7 +723,7 @@
                         "video_url": "https://www.bilibili.com/video/BV1Dd4y1m7LE?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://www.bilibili.com/video/BV1GG411N7vK?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
                 "name": "2022 全韩锦标赛",
@@ -961,7 +961,7 @@
                         "video_url": ""
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://www.bilibili.com/video/BV1jv411j77i?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
                 "name": "2019 大奖赛美国站",
@@ -1696,4 +1696,5 @@
     }
 
 ]
+
 
