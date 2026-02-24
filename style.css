@@ -310,6 +310,14 @@ h1 {
     margin-top: 20px;
 }
 
+/* 副标题的样式 */
+.subtitle {
+    font-size: 0.9rem;  /* 比正文略小 */
+    color: #666;        /* 灰色，不抢主标题戏 */
+    margin: 0;
+    font-style: italic; /* 可选：斜体，增加设计感 */
+}
+
 .music-grid {
     display: grid;
     grid-template-columns: 1fr 1fr; /* 核心：平分为两列 */
@@ -362,5 +370,6 @@ h1 {
         grid-template-columns: 1fr;
     }
 }
+
 
 
