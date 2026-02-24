@@ -294,5 +294,61 @@ h1 {
     padding: 10px;
     border-bottom: 1px solid #ddd;
     text-align: left;
-
 }
+
+
+/* 下面是选曲界面 */
+/* 选曲页面外容器 */
+.music-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 核心：平分为两列 */
+    gap: 30px;                     /* 卡片间距 */
+    max-width: 1000px;             /* 整体最大宽度 */
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* 选曲卡片基础样式 */
+.music-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    border-left: 6px solid #74b9ff; /* 蓝色装饰边 */
+    transition: all 0.3s ease;
+}
+
+.music-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(116, 185, 255, 0.2);
+}
+
+/* 赛季标题样式 */
+.season-tag {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2c3e50;
+    border-bottom: 2px solid #f1f1f1;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+}
+
+/* 选曲内容文本排版 */
+.program-box p {
+    margin: 12px 0;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.program-box strong {
+    color: #0984e3;
+    margin-right: 8px;
+}
+
+/* 响应式：手机端自动转为一列 */
+@media (max-width: 768px) {
+    .music-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
