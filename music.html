@@ -9,6 +9,7 @@
 
     <div class="music-header">
         <h1>历年赛季选曲</h1>
+        <p class="subtitle">“→” 表示赛季中换曲</p>
     </div>
 
     <div class="music-grid" id="music-list">
@@ -25,9 +26,9 @@
                     card.innerHTML = `
                         <div class="season-tag">${item.season}</div>
                         <div class="program-box">
-                            <p><strong>SP 短节目:</strong> ${item.sp}</p>
-                            <p><strong>FS 自由滑:</strong> ${item.fs}</p>
-                            <p><strong>EX 表演滑:</strong> ${item.ex}</p>
+                            <p><strong>短节目:</strong> ${item.sp}</p>
+                            <p><strong>自由滑:</strong> ${item.fs}</p>
+                            <p><strong>表演滑:</strong> ${item.ex}</p>
                         </div>
                     `;
                     container.appendChild(card);
@@ -38,3 +39,4 @@
 </body>
 
 </html>
+
