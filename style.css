@@ -299,6 +299,17 @@ h1 {
 
 /* 下面是选曲界面 */
 /* 选曲页面外容器 */
+.music-header {
+    text-align: center;  /* 核心：让内部文本和内联元素居中 */
+    margin-bottom: 30px; /* 给标题和下方内容留点呼吸空间 */
+}
+
+.music-header h1 {
+    font-size: 2.5rem;    /* 可选：调整大标题字号 */
+    color: #2c3e50;      /* 可选：保持与赛季标题颜色一致 */
+    margin-top: 20px;
+}
+
 .music-grid {
     display: grid;
     grid-template-columns: 1fr 1fr; /* 核心：平分为两列 */
@@ -351,4 +362,5 @@ h1 {
         grid-template-columns: 1fr;
     }
 }
+
 
