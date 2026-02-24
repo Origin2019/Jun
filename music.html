@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="about-page">
+
+    <div class="music-header">
+        <h1>历年赛季选曲</h1>
+        <div id="timeline-content">加载中...</div>
+    </div>
+
+    <div class="music-grid" id="music-list">
+        </div>
+
+    <script>
+        fetch('music.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('music-list');
+                data.forEach(item => {
+                    const card = document.createElement('div');
+                    card.className = 'music-card';
+                    card.innerHTML = `
+                        <div class="season-tag">${item.season}</div>
+                        <div class="program-box">
+                            <p><strong>SP 短节目:</strong> ${item.sp}</p>
+                            <p><strong>FS 自由滑:</strong> ${item.fs}</p>
+                            <p><strong>EX 表演滑:</strong> ${item.ex}</p>
+                        </div>
+                    `;
+                    container.appendChild(card);
+                });
+            })
+            .catch(error => console.error('Error loading music data:', error));
+    </script>
+</body>
+</html>
