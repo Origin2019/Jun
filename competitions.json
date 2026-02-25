@@ -48,7 +48,7 @@
                         "score": "88.89",
                         "rank": "6",
                         "protocol_url": "https://www.isuresults.com/results/season2526/fc2026/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://video.weibo.com/show?fid=1034:5258638462222373"
                     },
                     "FS": {
                         "score": "184.73",
@@ -60,20 +60,20 @@
                 "exhibition_video": "https://www.bilibili.com/video/BV1Lnz4BwEea?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
-                "name": "2026 全韩锦标赛",
+                "name": "2026 韩国锦标赛",
                 "total_score": "[277.84]🥇 第 1 名",
                 "segments": {
                     "SP": {
                         "score": "97.50",
-                        "rank": "",
-                        "protocol_url": "",
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/7432884413/QlqEEB25R",
                         "video_url": "https://www.bilibili.com/video/BV1WUiYBxEME?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "180.34",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:5251443691814946?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": ""
@@ -84,15 +84,15 @@
                 "segments": {
                     "SP": {
                         "score": "82.91",
-                        "rank": "",
-                        "protocol_url": "",
-                        "video_url": "https://www.bilibili.com/video/BV1WhUdBJETq?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "rank": "3",
+                        "protocol_url": "https://weibo.com/7432884413/Qg9bGh2tW",
+                        "video_url": "https://weibo.com/tv/show/1034:5238484160413775?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "172.81",
                         "rank": "",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:5238669695713317?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": ""
@@ -105,7 +105,7 @@
                         "score": "91.60",
                         "rank": "3",
                         "protocol_url": "https://results.isu.org/results/season2526/gpjpn2025/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:5230384439558246?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "138.66",
@@ -115,6 +115,25 @@
                     }
                 },
                 "exhibition_video": "https://www.bilibili.com/video/BV1hdkUBtEFN?vd_source=ee061c1404f1440009c2080352c0d3a5"
+            },
+            {
+                "name": "2025 大奖赛中国杯",
+                "total_score": "[217.53]Rank: 8",
+                "segments": {
+                    "SP": {
+                        "score": "75.61",
+                        "rank": "7",
+                        "protocol_url": "https://results.isu.org/results/season2526/gpchn2025/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": "https://www.bilibili.com/video/BV1GrskzQEfq?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                    },
+                    "FS": {
+                        "score": "141.92",
+                        "rank": "8",
+                        "protocol_url": "https://results.isu.org/results/season2526/gpchn2025/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": "https://weibo.com/tv/show/1034:5225722982367263?from=old_pc_videoshow"
+                    }
+                },
+                "exhibition_video": "https://www.bilibili.com/video/BV17Hk6BUEJp?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
                 "name": "2025 丹尼斯·谭纪念杯",
@@ -134,25 +153,6 @@
                     }
                 },
                 "exhibition_video": ""
-            },
-            {
-                "name": "2025 大奖赛中国杯",
-                "total_score": "[217.53]Rank: 8",
-                "segments": {
-                    "SP": {
-                        "score": "75.61",
-                        "rank": "7",
-                        "protocol_url": "https://results.isu.org/results/season2526/gpchn2025/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": "https://www.bilibili.com/video/BV1GrskzQEfq?vd_source=ee061c1404f1440009c2080352c0d3a5"
-                    },
-                    "FS": {
-                        "score": "141.92",
-                        "rank": "8",
-                        "protocol_url": "https://results.isu.org/results/season2526/gpchn2025/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
-                    }
-                },
-                "exhibition_video": "https://www.bilibili.com/video/BV17Hk6BUEJp?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
                 "name": "2025 木下集团杯",
@@ -186,16 +186,16 @@
                         "score": "86.41",
                         "rank": "10",
                         "protocol_url": "https://results.isu.org/results/season2425/wc2025/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:5149016946573316?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "179.33",
                         "rank": "5",
                         "protocol_url": "https://results.isu.org/results/season2425/wc2025/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:5149816066342945?from=old_pc_videoshow"
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://weibo.com/tv/show/1034:5150083776184331?from=old_pc_videoshow"
             },
             {
                 "name": "2025 四大洲锦标赛",
@@ -205,13 +205,13 @@
                         "score": "79.24",
                         "rank": "4",
                         "protocol_url": "https://results.isu.org/results/season2425/fc2025/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:5136223455608898?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "185.78",
                         "rank": "2",
                         "protocol_url": "https://results.isu.org/results/season2425/fc2025/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:5136875086610478?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": "https://www.bilibili.com/video/BV1eQAmesEnt?vd_source=ee061c1404f1440009c2080352c0d3a5"
@@ -222,53 +222,15 @@
                 "segments": {
                     "SP": {
                         "score": "94.09",
-                        "rank": "",
-                        "protocol_url": "",
+                        "rank": "2",
+                        "protocol_url": "https://weibo.com/7432884413/PdP8axOX4",
                         "video_url": "https://www.bilibili.com/video/BV1D8exztEPY?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "187.60",
-                        "rank": "",
-                        "protocol_url": "",
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/7869787499/Pe8LkAYnP",
                         "video_url": ""
-                    }
-                },
-                "exhibition_video": ""
-            },
-            {
-                "name": "2025 全韩锦标赛",
-                "total_score": "[281.02]🥇 第 1 名",
-                "segments": {
-                    "SP": {
-                        "score": "90.53",
-                        "rank": "",
-                        "protocol_url": "",
-                        "video_url": "https://www.bilibili.com/video/BV1WSrHY5EjS?vd_source=ee061c1404f1440009c2080352c0d3a5"
-                    },
-                    "FS": {
-                        "score": "190.49",
-                        "rank": "",
-                        "protocol_url": "",
-                        "video_url": ""
-                    }
-                },
-                "exhibition_video": ""
-            },
-            {
-                "name": "2024 韩国会长杯排名赛",
-                "total_score": "[264.59]🥇 第 1 名",
-                "segments": {
-                    "SP": {
-                        "score": "93.30",
-                        "rank": "",
-                        "protocol_url": "",
-                        "video_url": "https://www.bilibili.com/video/BV112znYzEES?vd_source=ee061c1404f1440009c2080352c0d3a5"
-                    },
-                    "FS": {
-                        "score": "171.29",
-                        "rank": "",
-                        "protocol_url": "",
-                        "video_url": "https://www.bilibili.com/video/BV1Tn6AYbEau?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
                 "exhibition_video": ""
@@ -288,6 +250,44 @@
                         "rank": "2",
                         "protocol_url": "https://s3-crs-prod.microplustimingservices.com/WU2025/STATIC/_PDF/WUG2025/FSK/2025-01-18/FSKMSINGLES-----------FNL-000100--__C77B_1.0.pdf",
                         "video_url": "https://www.bilibili.com/video/BV1hawKeAEx3?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2025 韩国锦标赛",
+                "total_score": "[281.02]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "90.53",
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/7432884413/P897woPjq",
+                        "video_url": "https://www.bilibili.com/video/BV1WSrHY5EjS?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                    },
+                    "FS": {
+                        "score": "190.49",
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/7432884413/P8dNAE3uV",
+                        "video_url": "https://weibo.com/tv/show/1034:5119593677783101?from=old_pc_videoshow"
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2024 韩国会长杯排名赛",
+                "total_score": "[264.59]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "93.30",
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/6106584446/P2J0je5cm",
+                        "video_url": "https://www.bilibili.com/video/BV112znYzEES?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                    },
+                    "FS": {
+                        "score": "171.29",
+                        "rank": "",
+                        "protocol_url": "",
+                        "video_url": "https://www.bilibili.com/video/BV1Tn6AYbEau?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
                 "exhibition_video": ""
@@ -319,7 +319,7 @@
                         "score": "88.38",
                         "rank": "4",
                         "protocol_url": "https://results.isu.org/results/season2425/gpcan2024/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:5093925925617685?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "171.93",
@@ -329,6 +329,25 @@
                     }
                 },
                 "exhibition_video": ""
+            },
+            {
+                "name": "2024 韩国亚冬会选拔赛",
+                "total_score": "[258.93]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "83.95",
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/7650850901/OAXwawP8T",
+                        "video_url": "https://weibo.com/tv/show/1034:5087916901466129?from=old_pc_videoshow"
+                    },
+                    "FS": {
+                        "score": "174.98",
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/7650850901/OBaIh4kz2",
+                        "video_url": "https://weibo.com/tv/show/1034:5088346909638682?from=old_pc_videoshow"
+                    }
+                },
+                "exhibition_video": "https://www.bilibili.com/video/BV1QK1RY4E68?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
                 "name": "2024 上海超级杯",
@@ -366,7 +385,7 @@
                         "video_url": "https://www.bilibili.com/video/BV1vLbAehEEL?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://weibo.com/tv/show/1034:5081253095866374?from=old_pc_videoshow"
             }
         ]
     },
@@ -406,26 +425,26 @@
                         "score": "177.65",
                         "rank": "2",
                         "protocol_url": "https://www.isuresults.com/results/season2324/fc2024/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4997454895185967?from=old_pc_videoshow"
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://weibo.com/tv/show/1034:4997773833994351?from=old_pc_videoshow"
             },
             {
-                "name": "2024 全韩锦标赛",
+                "name": "2024 韩国锦标赛",
                 "total_score": "[275.94]🥇 第 1 名",
                 "segments": {
                     "SP": {
                         "score": "96.51",
-                        "rank": "",
-                        "protocol_url": "",
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/7432884413/NABmEF1bG",
                         "video_url": "https://www.bilibili.com/video/BV1Aa4y1B7Ks?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "179.43",
-                        "rank": "",
-                        "protocol_url": "",
-                        "video_url": ""
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/7432884413/NAKGYeNfJ",
+                        "video_url": "https://weibo.com/tv/show/1034:4987591808974893?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": ""
@@ -437,12 +456,12 @@
                     "SP": {
                         "score": "86.28",
                         "rank": "1",
-                        "protocol_url": "",
+                        "protocol_url": "https://weibo.com/7432884413/NvgAfce66",
                         "video_url": "https://www.bilibili.com/video/BV1vM411R7qc?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "174.25",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1gw411h7Q2?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
@@ -457,13 +476,13 @@
                         "score": "86.18",
                         "rank": "2",
                         "protocol_url": "https://www.isuresults.com/results/season2324/gpcan2023/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4961843580436556?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "130.43",
                         "rank": "11",
                         "protocol_url": "https://www.isuresults.com/results/season2324/gpcan2023/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4962209751564314?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": ""
@@ -501,7 +520,7 @@
                         "score": "138.25",
                         "rank": "7",
                         "protocol_url": "https://www.kraso.sk/wp-content/uploads/sutaze/2023_2024/NepelaMemorial2023/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4951886751793154?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": ""
@@ -550,6 +569,25 @@
                 "exhibition_video": "https://www.bilibili.com/video/BV1n84y1g7pe?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
+                "name": "2023 韩国冬季体育大会",
+                "total_score": "[281.93]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "100.70",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": "https://weibo.com/tv/show/1034:4870562233909290?from=old_pc_videoshow"
+                    },
+                    "FS": {
+                        "score": "181.23",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": "https://weibo.com/tv/show/1034:4870883341434980?from=old_pc_videoshow"
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
                 "name": "2023 四大洲锦标赛",
                 "total_score": "[250.14]Rank: 4",
                 "segments": {
@@ -569,23 +607,23 @@
                 "exhibition_video": "https://www.bilibili.com/video/BV1UT411Q7M1?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
-                "name": "2023 全韩锦标赛",
+                "name": "2023 韩国锦标赛",
                 "total_score": "[271.21]🥇 第 1 名",
                 "segments": {
                     "SP": {
                         "score": "101.04",
-                        "rank": "",
-                        "protocol_url": "",
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/7432884413/Mndm44MLf",
                         "video_url": "https://www.bilibili.com/video/BV1tP411F7wy?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "170.17",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1GY41127N7?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://weibo.com/tv/show/1034:5016229996593181?from=old_pc_videoshow"
             },
             {
                 "name": "2022 韩国会长杯排名赛",
@@ -593,18 +631,18 @@
                 "segments": {
                     "SP": {
                         "score": "101.36",
-                        "rank": "",
-                        "protocol_url": "",
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/7432884413/MhSTbhXNU",
                         "video_url": "https://www.bilibili.com/video/BV1pR4y117Lf?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "185.19",
-                        "rank": "",
-                        "protocol_url": "",
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/7432884413/Mi2SNj0h2",
                         "video_url": "https://www.bilibili.com/video/BV1214y1E7D4?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://weibo.com/tv/show/1034:4843013386731627?from=old_pc_videoshow"
             },
             {
                 "name": "2022 大奖赛NHK杯",
@@ -688,6 +726,25 @@
         "season": "2021-22 赛季",
         "events": [
             {
+                "name": "2022 世界锦标赛",
+                "total_score": "退赛(WD)",
+                "segments": {
+                    "SP": {
+                        "score": "82.43",
+                        "rank": "17",
+                        "protocol_url": "https://www.isuresults.com/results/season2122/wc2022/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
+                        "video_url": "https://weibo.com/tv/show/1034:4750667114545174?from=old_pc_videoshow"
+                    },
+                    "FS": {
+                        "score": "-",
+                        "rank": "退赛(WD)",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
                 "name": "2022 北京冬季奥林匹克运动会",
                 "total_score": "[282.38]Rank: 5",
                 "segments": {
@@ -726,19 +783,19 @@
                 "exhibition_video": "https://www.bilibili.com/video/BV1GG411N7vK?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
-                "name": "2022 全韩锦标赛",
+                "name": "2022 韩国锦标赛",
                 "total_score": "[283.31]🥇 第 1 名",
                 "segments": {
                     "SP": {
                         "score": "98.31",
-                        "rank": "",
-                        "protocol_url": "",
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/7432884413/L9QALwbLJ",
                         "video_url": "https://www.bilibili.com/video/BV1qr4y1r7n5?p=11&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "185.00",
-                        "rank": "",
-                        "protocol_url": "",
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/7432884413/L9QALwbLJ",
                         "video_url": "https://www.bilibili.com/video/BV1qr4y1r7n5?p=12&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
@@ -780,7 +837,7 @@
                         "video_url": "https://www.bilibili.com/video/BV1rT411q7gM?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://weibo.com/tv/show/1034:4735628043288651?from=old_pc_videoshow"
             },
             {
                 "name": "2021 大奖赛意大利站",
@@ -839,7 +896,7 @@
                         "score": "154.84",
                         "rank": "13",
                         "protocol_url": "https://www.isuresults.com/results/season2021/wc2021/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4619510192472125?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": ""
@@ -850,34 +907,34 @@
                 "segments": {
                     "SP": {
                         "score": "77.95",
-                        "rank": "",
-                        "protocol_url": "",
-                        "video_url": ""
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/7432884413/K61eGfEwi",
+                        "video_url": "https://weibo.com/tv/show/1034:4614278033113092?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "147.25",
-                        "rank": "",
-                        "protocol_url": "",
-                        "video_url": ""
+                        "rank": "2",
+                        "protocol_url": "https://weibo.com/7432884413/K6hsVsDRr",
+                        "video_url": "https://weibo.com/tv/show/1034:4614703553642577?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": ""
             },
             {
-                "name": "2021 全韩锦标赛",
+                "name": "2021 韩国锦标赛",
                 "total_score": "[257.12]🥇 第 1 名",
                 "segments": {
                     "SP": {
                         "score": "90.36",
-                        "rank": "",
-                        "protocol_url": "",
-                        "video_url": ""
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/7432884413/K3zg62WbB",
+                        "video_url": "https://weibo.com/7432884413/K3zjIDj1G"
                     },
                     "FS": {
                         "score": "166.76",
-                        "rank": "",
-                        "protocol_url": "",
-                        "video_url": ""
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/7432884413/K3JmgDsE0",
+                        "video_url": "https://weibo.com/tv/show/1034:4608894693998631?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": ""
@@ -907,20 +964,20 @@
                 "exhibition_video": "https://www.bilibili.com/video/BV1jv411j77i?p=2&vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
-                "name": "2020 全韩锦标赛",
+                "name": "2020 韩国锦标赛",
                 "total_score": "[278.54]🥇 第 1 名",
                 "segments": {
                     "SP": {
                         "score": "93.45",
-                        "rank": "",
-                        "protocol_url": "",
-                        "video_url": ""
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/6505562831/InY2cmBOQ",
+                        "video_url": "https://weibo.com/tv/show/1034:4457077649637405?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "185.09",
-                        "rank": "",
-                        "protocol_url": "",
-                        "video_url": ""
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/6505562831/IoerNqlFr",
+                        "video_url": "https://weibo.com/tv/show/1034:4457480021803039?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": ""
@@ -931,15 +988,15 @@
                 "segments": {
                     "SP": {
                         "score": "89.61",
-                        "rank": "",
-                        "protocol_url": "",
-                        "video_url": ""
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/6505562831/IkCOgzrt0",
+                        "video_url": "https://weibo.com/tv/show/1034:4449111261511688?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "164.83",
-                        "rank": "",
-                        "protocol_url": "",
-                        "video_url": ""
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/6505562831/Il9HN39UG",
+                        "video_url": "https://weibo.com/tv/show/1034:4449785021661197?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": ""
@@ -952,13 +1009,13 @@
                         "score": "69.40",
                         "rank": "11",
                         "protocol_url": "https://www.isuresults.com/results/season1920/gpchn2019/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4436505574443530?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "152.86",
                         "rank": "6",
                         "protocol_url": "https://www.isuresults.com/results/season1920/gpchn2019/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4436836009845989?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": "https://www.bilibili.com/video/BV1jv411j77i?vd_source=ee061c1404f1440009c2080352c0d3a5"
@@ -971,13 +1028,13 @@
                         "score": "78.98",
                         "rank": "7",
                         "protocol_url": "https://www.isuresults.com/results/season1920/gpusa2019/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4429006917833635?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "140.69",
                         "rank": "9",
                         "protocol_url": "https://www.isuresults.com/results/season1920/gpusa2019/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4429376566026937?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": ""
@@ -1014,7 +1071,7 @@
                         "score": "79.17",
                         "rank": "18",
                         "protocol_url": "https://www.isuresults.com/results/season1819/wc2019/data0103.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4354051706699096?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "150.09",
@@ -1033,31 +1090,31 @@
                         "score": "97.33",
                         "rank": "2",
                         "protocol_url": "https://www.isuresults.com/results/season1819/fc2019/fc2019_Men_SP_Scores.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4337454392505699?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "158.50",
                         "rank": "8",
                         "protocol_url": "https://www.isuresults.com/results/season1819/fc2019/fc2019_Men_FS_Scores.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4349511125167414?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": "https://www.bilibili.com/video/BV1Rb411h7AU?vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
-                "name": "2019 全韩锦标赛",
+                "name": "2019 韩国锦标赛",
                 "total_score": "[245.52]🥇 第 1 名",
                 "segments": {
                     "SP": {
                         "score": "89.12",
-                        "rank": "",
-                        "protocol_url": "",
-                        "video_url": "https://www.bilibili.com/video/BV1W341177te?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/6505562831/HbEdGu4eN",
+                        "video_url": "https://weibo.com/tv/show/1034:4327665377709537?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "156.40",
-                        "rank": "",
-                        "protocol_url": "",
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/6505562831/HbN7qCTzF",
                         "video_url": "https://www.bilibili.com/video/BV1wu411R7Av?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
@@ -1069,15 +1126,15 @@
                 "segments": {
                     "SP": {
                         "score": "77.28",
-                        "rank": "",
-                        "protocol_url": "",
+                        "rank": "1",
+                        "protocol_url": "https://weibo.com/6505562831/H8uAPl2ce",
                         "video_url": "https://www.bilibili.com/video/BV1CP4y1w7ut?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "179.73",
                         "rank": "",
-                        "protocol_url": "",
-                        "video_url": ""
+                        "protocol_url": "https://weibo.com/6505562831/H8AtKfMUa",
+                        "video_url": "https://weibo.com/tv/show/1034:4320639482577326?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": "https://www.bilibili.com/video/BV1Aa411C7Ku?vd_source=ee061c1404f1440009c2080352c0d3a5"
@@ -1090,16 +1147,16 @@
                         "score": "89.07",
                         "rank": "4",
                         "protocol_url": "https://www.isuresults.com/results/season1819/gpf1819/gpf1819_Men_SP_Scores.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4314592948479547?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "174.42",
                         "rank": "3",
                         "protocol_url": "https://www.isuresults.com/results/season1819/gpf1819/gpf1819_Men_FS_Scores.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4314975619987491?from=old_pc_videoshow"
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://b23.tv/l7S96JG"
             },
             {
                 "name": "2018 大奖赛芬兰站",
@@ -1147,7 +1204,7 @@
                         "score": "84.67",
                         "rank": "2",
                         "protocol_url": "https://www.figureskatingresults.fi/results/1819/CSFIN2018/CSFIN2018_Men_SP_Scores.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4291864325779862?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "154.52",
@@ -1175,7 +1232,7 @@
                         "video_url": ""
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://weibo.com/tv/show/1034:4287277925614652?from=old_pc_videoshow"
             }
         ]
     },
@@ -1202,7 +1259,7 @@
                 "exhibition_video": "https://www.bilibili.com/video/BV1Ps411n7Cq?p=2&vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
-                "name": "2018 全韩锦标赛",
+                "name": "2018 韩国锦标赛",
                 "total_score": "[252.65]🥇 第 1 名",
                 "segments": {
                     "SP": {
@@ -1283,7 +1340,7 @@
                 "exhibition_video": "https://www.bilibili.com/video/BV1SP4y1w78g?p=54&vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
-                "name": "2017 全韩锦标赛",
+                "name": "2017 韩国锦标赛",
                 "total_score": "[238.07]🥇 第 1 名",
                 "segments": {
                     "SP": {
@@ -1315,10 +1372,10 @@
                         "score": "153.70",
                         "rank": "3",
                         "protocol_url": "https://www.isuresults.com/results/season1617/gpf1617/gpf1617_JuniorMen_FS_Scores.pdf",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4505345951727657?from=old_pc_videoshow"
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://weibo.com/tv/show/1034:4302944615766958?from=old_pc_videoshow"
             },
             {
                 "name": "2016 韩国会长杯排名赛",
@@ -1421,7 +1478,7 @@
                 "exhibition_video": ""
             },
             {
-                "name": "2016 全韩锦标赛",
+                "name": "2016 韩国锦标赛",
                 "total_score": "[189.98]🥉 第 3 名",
                 "segments": {
                     "SP": {
@@ -1483,23 +1540,23 @@
         "season": "2014-15 赛季(少高组)",
         "events": [
             {
-                "name": "2015 全韩锦标赛",
+                "name": "2015 韩国锦标赛",
                 "total_score": "[181.13]🥉 第 3 名",
                 "segments": {
                     "SP": {
                         "score": "58.28",
                         "rank": "",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4584195377266694?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "122.85",
                         "rank": "",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4584195742171167?from=old_pc_videoshow"
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "https://weibo.com/tv/show/1034:4584196320985121?from=old_pc_videoshow"
             },
             {
                 "name": "2014 韩国会长杯排名赛(青年组)",
@@ -1526,7 +1583,7 @@
         "season": "2013-14 赛季(少高组)",
         "events": [
             {
-                "name": "2014 全韩锦标赛",
+                "name": "2014 韩国锦标赛",
                 "total_score": "[184.38]Rank: 5",
                 "segments": {
                     "SP": {
@@ -1569,7 +1626,7 @@
         "season": "2012-13 赛季(少高组)",
         "events": [
             {
-                "name": "2013 全韩锦标赛(青年组)",
+                "name": "2013 韩国锦标赛(青年组)",
                 "total_score": "[150.74]🥇 第 1 名",
                 "segments": {
                     "SP": {
@@ -1612,7 +1669,7 @@
         "season": "2011-12 赛季(少高组)",
         "events": [
             {
-                "name": "2012 全韩锦标赛(青年组)",
+                "name": "2012 韩国锦标赛(青年组)",
                 "total_score": "[133.21]🥇 第 1 名",
                 "segments": {
                     "SP": {
@@ -1655,7 +1712,7 @@
         "season": "2010-11 赛季(少高组)",
         "events": [
             {
-                "name": "2011 全韩锦标赛(青年组)",
+                "name": "2011 韩国锦标赛(青年组)",
                 "total_score": "[107.81]Rank: 4",
                 "segments": {
                     "SP": {
@@ -1696,6 +1753,7 @@
     }
 
 ]
+
 
 
 
