@@ -13,7 +13,7 @@ body {
 
 .home-page {
     background-color: #ffffff;
-    background-image: url("static/封面图片.jpg");
+    background-image: url("static/cover.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -370,6 +370,7 @@ h1 {
         grid-template-columns: 1fr;
     }
 }
+
 
 
 
