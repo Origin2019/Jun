@@ -15,7 +15,7 @@
     "season": "2023-2024赛季",
     "sp": "Masquerade Waltz by Aram Khatchaturian",
     "fs": "The Batman Theme",
-    "ex": "golden hour by JVKE → "
+    "ex": "golden hour by JVKE → Casino Brawl / Pray for Me"
   },
     {
     "season": "2022-2023赛季",
@@ -63,13 +63,13 @@
     "season": "2015-2016赛季",
     "sp": "Danse Macabre by Camille Saint-Saens",
     "fs": "Swan Lake by Petr I. Tchaikovski",
-    "ex": "One Day I'll Fly Away from Moulin Rouge Soundtrack"
+    "ex": "One Day I'll Fly Away by Nicole Kidman (Moulin Rouge OST)"
   },
     {
     "season": "2014-2015赛季",
-    "sp": "",
-    "fs": "",
-    "ex": ""
+    "sp": "Danse Macabre by Camille Saint-Saens",
+    "fs": "Piano Concerto No.3",
+    "ex": "One Day I'll Fly Away by Nicole Kidman (Moulin Rouge OST)"
   },
     {
     "season": "2013-2014赛季",
@@ -97,4 +97,5 @@
   }
 
 ]
+
 
