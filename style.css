@@ -377,8 +377,13 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh; /* 不占满全屏，留出上下空间 */
-    background: #f0f7ff; /* 淡淡的底色，衬托蓝色泡泡 */
+    width: 100%;          /* 确保宽度占满 */
+    min-height: 100vh;    /* 核心修改：从 80vh 改为 100vh，占满全屏高度 */
+    background: linear-gradient(135deg, #e0f2fe 0%, #f0f7ff 100%);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    margin: 0;
+    padding: 0;
 }
 
 .bubble-container {
@@ -486,5 +491,10 @@ h1 {
     50% { transform: translateY(-20px); }
 }
 
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
 
 
