@@ -563,7 +563,7 @@ h1 {
 /* --- 第一圈：内环（靠近 BIO） --- */
 .pos-1 { top: 23%; left: 20%; animation-delay: 0s; }        /* MBTI */
 .pos-3 { top: 66%; right: 66%; animation-delay: -1.5s; }    /* 世界排名 */
-.pos-13 { bottom: 25%; right: 0.5%; animation-delay: -3s; }   /* 难度储备 */
+.pos-13 { bottom: 25%; right: -5%; animation-delay: -3s; }   /* 难度储备 */
 .pos-14 { bottom: 65%; left: 2%; animation-delay: -4.5s; } /* Instagram */
 /* --- 第二圈：中环 --- */
 .pos-9 { top: 35%; left: 85%; animation-delay: -1s; }      /* 单位 */
@@ -616,6 +616,7 @@ h1 {
         animation: none !important; /* 手机端关掉动画更流畅 */
     }
 }
+
 
 
 
