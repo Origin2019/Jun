@@ -498,8 +498,8 @@ h1 {
 /* 右下角区域 */
 .pos-5 { bottom: 8%; right: 18%; animation-delay: -0.5s; }
 /* 顶部和底部正中 */
-.pos-7 { top: -8%; left: 45%; animation-delay: -3s; }
-.pos-8 { bottom: -10%; left: 48%; animation-delay: -4.5s; }
+.pos-7 { top: 8%; left: 45%; animation-delay: -3s; }
+.pos-8 { bottom: 10%; left: 48%; animation-delay: -4.5s; }
 
 /* 浮动动画 */
 @keyframes float-main {
@@ -538,4 +538,5 @@ h1 {
         animation: none !important; /* 手机端关掉动画更流畅 */
     }
 }
+
 
