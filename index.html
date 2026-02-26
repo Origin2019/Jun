@@ -13,5 +13,39 @@
             <button class="cool-btn">进入</button>
         </a>
     </div>
+
+    <div id="guideModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2>网站功能指南</h2>
+            <div class="guide-text">
+                <p><strong>关于页面：</strong> 包含车俊焕的个人简介、精美轮播图以及未来行程。</p>
+                <p><strong>比赛成绩：</strong> 详细记录了从少年组至今的所有比赛得分与视频链接。</p>
+                <p><strong>赛季选曲：</strong> 整理了历年短节目、自由滑及表演滑的选曲曲目。</p>
+                <p><strong>趣味泡泡：</strong> 在介绍页悬浮鼠标，可以探索关于他的冷知识！</p>
+            </div>
+            <button class="cool-btn" onclick="closeModal()">我知道了</button>
+        </div>
+    </div>
+
+    <script>
+        const modal = document.getElementById("guideModal");
+
+        function openModal() {
+            modal.style.display = "flex";
+        }
+
+        function closeModal() {
+            modal.style.display = "none";
+        }
+
+        // 点击弹窗外部也可以关闭
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                closeModal();
+            }
+        }
+    </script>
 </body>
+
 </html>
