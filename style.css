@@ -13,7 +13,7 @@ body {
 
 .home-page {
     background-color: #ffffff;
-    background-image: url("static/cover.webp");
+    background-image: url("static/封面图片.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -616,6 +616,7 @@ h1 {
         animation: none !important; /* 手机端关掉动画更流畅 */
     }
 }
+
 
 
 
