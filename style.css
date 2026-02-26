@@ -485,20 +485,20 @@ h1 {
 
 /* 泡泡位置设定 */
 /* --- 第一圈：内环（靠近 BIO） --- */
-.pos-1 { top: 35%; left: 40%; animation-delay: 0s; }        /* MBTI */
+.pos-1 { top: 27%; left: 20%; animation-delay: 0s; }        /* MBTI */
 .pos-3 { top: 66%; right: 66%; animation-delay: -1.5s; }    /* 世界排名 */
 .pos-13 { bottom: 30%; right: 35%; animation-delay: -3s; }   /* 难度储备 */
-.pos-14 { bottom: 50%; left: 10%; animation-delay: -4.5s; } /* Instagram */
+.pos-14 { bottom: 60%; left: 5%; animation-delay: -4.5s; } /* Instagram */
 /* --- 第二圈：中环 --- */
 .pos-9 { top: 35%; left: 85%; animation-delay: -1s; }      /* 单位 */
-.pos-11 { top: 40%; right: 86%; animation-delay: -2.5s; }   /* 口味 */
+.pos-11 { top: 40%; right: 90%; animation-delay: -2.5s; }   /* 口味 */
 .pos-12 { bottom: 56%; right: 40%; animation-delay: -4s; }  /* 一哥 */
-.pos-10 { bottom: 50%; left: 30%; animation-delay: -5.5s; } /* 喜欢梦龙 */
+.pos-10 { bottom: 45%; left: 25%; animation-delay: -5.5s; } /* 喜欢梦龙 */
 /* --- 第三圈：外环（边缘区域） --- */
-.pos-6 { top: 75%; left: 10%; animation-delay: -2s; }        /* 外训 */
+.pos-6 { top: 75%; left: 5%; animation-delay: -2s; }        /* 外训 */
 .pos-4 { top: 66%; right: 10%; animation-delay: -3.5s; }     /* 同伴 */
-.pos-2 { top: 15%; left: 65%; transform: translateX(-50%); animation-delay: -0.5s; } /* 免除兵役(置顶) */
-.pos-8 { bottom: 10%; left: 50%; transform: translateX(-50%); animation-delay: -4s; } /* 大学(置底) */
+.pos-2 { top: 15%; left: 80%; transform: translateX(-50%); animation-delay: -0.5s; } /* 免除兵役(置顶) */
+.pos-8 { bottom: 10%; left: 45%; transform: translateX(-50%); animation-delay: -4s; } /* 大学(置底) */
 /* --- 角落补充 --- */
 .pos-7 { top: 10%; left: 55%; animation-delay: -6s; }         /* 视力 */
 .pos-5 { bottom: 10%; right: 20%; animation-delay: -1.2s; }   /* 爱猫人士 */
@@ -540,6 +540,7 @@ h1 {
         animation: none !important; /* 手机端关掉动画更流畅 */
     }
 }
+
 
 
 
