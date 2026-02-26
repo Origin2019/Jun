@@ -505,7 +505,7 @@ h1 {
     z-index: 5;
     font-weight: bold;
     font-size: 2.5rem;
-    color: white
+    color: white;
     animation: float-main 6s infinite ease-in-out;
 }
 
@@ -616,6 +616,7 @@ h1 {
         animation: none !important; /* 手机端关掉动画更流畅 */
     }
 }
+
 
 
 
