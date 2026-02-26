@@ -13,7 +13,7 @@ body {
 
 .home-page {
     background-color: #ffffff;
-    background-image: url("static/cover.jpg");
+    background-image: url("static/cover.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -485,5 +485,6 @@ h1 {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-20px); }
 }
+
 
 
