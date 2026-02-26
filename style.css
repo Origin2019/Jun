@@ -388,8 +388,8 @@ h1 {
 
 .bubble-container {
     position: relative;
-    width: 600px;
-    height: 500px;
+    width: 900px;
+    height: 700px;
 }
 
 /* 泡泡通用样式 */
@@ -450,19 +450,24 @@ h1 {
 .bubble-detail {
     max-height: 0;
     opacity: 0;
-    font-size: 0.8rem;
-    color: #555;
+    font-size: 0.85rem;
+    line-height: 1.4; /* 增加行间距，方便阅读 */
+    color: #444;
     transition: all 0.4s ease;
     margin-top: 5px;
+    overflow-y: auto; /* 如果文字实在太多，允许内部滚动 */
 }
 
 /* 悬浮展开详情逻辑 */
 .bubble-sm:hover {
-    width: 180px; /* 展开变宽 */
-    height: 180px;
-    border-radius: 30px; /* 变成圆角矩形泡泡感 */
-    background: rgba(255, 255, 255, 0.8);
-    z-index: 10;
+    width: 200px; /* 展开变宽 */
+    height: auto;
+    min-height: 180px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.95); /* 展开后背景更实一点，方便阅读文字 */
+    z-index: 100; /* 确保展开时在最顶层 */
+    padding: 15px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
 .bubble-sm:hover .bubble-detail {
@@ -476,9 +481,25 @@ h1 {
 }
 
 /* 泡泡位置设定 */
-.pos-1 { top: 10%; left: 20%; animation-delay: 0s; }
-.pos-2 { top: 15%; right: 15%; animation-delay: -2s; }
-.pos-3 { bottom: 15%; left: 30%; animation-delay: -4s; }
+/* 左上角区域 */
+.pos-1 { top: 5%; left: 10%; animation-delay: 0s; }
+.pos-11 { top: 22%; left: 0%; animation-delay: -1.5s; }
+/* 右上角区域 */
+.pos-2 { top: 8%; right: 8%; animation-delay: -2s; }
+.pos-9 { top: 28%; right: 2%; animation-delay: -3.5s; }
+/* 左侧中部区域 */
+.pos-6 { top: 45%; left: -5%; animation-delay: -4s; }
+.pos-10 { bottom: 25%; left: 8%; animation-delay: -1s; }
+/* 右侧中部区域 */
+.pos-4 { top: 48%; right: -2%; animation-delay: -5s; }
+.pos-12 { bottom: 28%; right: 5%; animation-delay: -2.5s; } /* 对应 HTML 里的“一哥” */
+/* 左下角区域 */
+.pos-3 { bottom: 5%; left: 15%; animation-delay: -6s; }
+/* 右下角区域 */
+.pos-5 { bottom: 8%; right: 18%; animation-delay: -0.5s; }
+/* 顶部和底部正中 */
+.pos-7 { top: -8%; left: 45%; animation-delay: -3s; }
+.pos-8 { bottom: -10%; left: 48%; animation-delay: -4.5s; }
 
 /* 浮动动画 */
 @keyframes float-main {
@@ -497,4 +518,24 @@ h1 {
     100% { background-position: 0% 50%; }
 }
 
+@media (max-width: 768px) {
+    .bubble-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 20px;
+    }
+    .bubble {
+        position: relative !important; /* 取消绝对定位 */
+        top: auto !important;
+        left: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        transform: none !important;
+        animation: none !important; /* 手机端关掉动画更流畅 */
+    }
+}
 
