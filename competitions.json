@@ -1284,7 +1284,7 @@
                     "SP": {
                         "score": "77.70",
                         "rank": "6",
-                        "protocol_url": "",
+                        "protocol_url": "https://www.isuresults.com/results/season1718/owg2018/OWG2018_TeamMen_SP_M_Scores.pdf",
                         "video_url": ""
                     },
                     "FS": {
@@ -1566,7 +1566,7 @@
                     "FS": {
                         "score": "139.97",
                         "rank": "3",
-                        "protocol_url": "",
+                        "protocol_url": "https://www.isuresults.com/results/season1516/yog2016/YOG2016_MixedNOCTeam_FS_M_Scores.pdf",
                         "video_url": ""
                     }
                 },
@@ -2169,12 +2169,4 @@
             }
         ]
     }
-
 ]
-
-
-
-
-
-
-
