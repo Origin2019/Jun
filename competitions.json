@@ -1302,7 +1302,7 @@
                 "segments": {
                     "SP": {
                         "score": "84.05",
-                        "rank": 1"",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1kW41157D1?p=3&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
@@ -2170,3 +2170,4 @@
         ]
     }
 ]
+
