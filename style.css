@@ -567,7 +567,7 @@ h1 {
 .pos-14 { bottom: 65%; left: 2%; animation-delay: -4.5s; } /* Instagram */
 /* --- 第二圈：中环 --- */
 .pos-9 { top: 35%; left: 85%; animation-delay: -1s; }      /* 单位 */
-.pos-11 { top: 45%; right: 90%; animation-delay: -2.5s; }   /* 口味 */
+.pos-11 { top: 45%; right: 85%; animation-delay: -2.5s; }   /* 口味 */
 .pos-12 { bottom: 50%; right: 25%; animation-delay: -4s; }  /* 一哥 */
 .pos-10 { bottom: 42%; left: 25%; animation-delay: -5.5s; } /* 喜欢梦龙 */
 /* --- 第三圈：外环（边缘区域） --- */
@@ -616,6 +616,7 @@ h1 {
         animation: none !important; /* 手机端关掉动画更流畅 */
     }
 }
+
 
 
 
