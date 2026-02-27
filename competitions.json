@@ -90,7 +90,7 @@
                     },
                     "FS": {
                         "score": "172.81",
-                        "rank": "",
+                        "rank": "2",
                         "protocol_url": "",
                         "video_url": "https://weibo.com/tv/show/1034:5238669695713317?from=old_pc_videoshow"
                     }
@@ -285,7 +285,7 @@
                     },
                     "FS": {
                         "score": "171.29",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1Tn6AYbEau?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
@@ -807,13 +807,13 @@
                 "segments": {
                     "SP": {
                         "score": "87.09",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1qr4y1r7n5?p=7&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "152.07",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1qr4y1r7n5?p=8&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
@@ -1083,6 +1083,25 @@
                 "exhibition_video": ""
             },
             {
+                "name": "2019 韩国冬季体育大会",
+                "total_score": "[239.17]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "85.06",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "154.11",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
                 "name": "2019 四大洲锦标赛",
                 "total_score": "[255.83]Rank: 6",
                 "segments": {
@@ -1132,7 +1151,7 @@
                     },
                     "FS": {
                         "score": "179.73",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "https://weibo.com/6505562831/H8AtKfMUa",
                         "video_url": "https://weibo.com/tv/show/1034:4320639482577326?from=old_pc_videoshow"
                     }
@@ -1240,7 +1259,7 @@
         "season": "2017-18 赛季",
         "events": [
             {
-                "name": "2018 平昌冬季奥林匹克运动会",
+                "name": "2018 平昌冬季奥林匹克运动会（个人）",
                 "total_score": "[248.59]Rank: 15",
                 "segments": {
                     "SP": {
@@ -1259,18 +1278,37 @@
                 "exhibition_video": "https://www.bilibili.com/video/BV1Ps411n7Cq?p=2&vd_source=ee061c1404f1440009c2080352c0d3a5"
             },
             {
+                "name": "2018 平昌冬季奥林匹克运动会（团体）",
+                "total_score": "无个人排名",
+                "segments": {
+                    "SP": {
+                        "score": "77.70",
+                        "rank": "6",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "-",
+                        "rank": "-",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": "https://www.bilibili.com/video/BV1Ps411n7Cq?p=2&vd_source=ee061c1404f1440009c2080352c0d3a5"
+            },
+            {
                 "name": "2018 韩国锦标赛",
                 "total_score": "[252.65]🥇 第 1 名",
                 "segments": {
                     "SP": {
                         "score": "84.05",
-                        "rank": "",
+                        "rank": 1"",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1kW41157D1?p=3&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "168.60",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1kW41157D1?p=4&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
@@ -1283,13 +1321,13 @@
                 "segments": {
                     "SP": {
                         "score": "75.24",
-                        "rank": "",
+                        "rank": "2",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1N34y1y7bp?p=63&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "149.42",
-                        "rank": "",
+                        "rank": "2",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1N34y1y7bp?p=71&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
@@ -1314,7 +1352,26 @@
                     }
                 },
                 "exhibition_video": ""
-            }
+            },
+            {
+                "name": "2017 平昌冬奥会第一轮选拔赛",
+                "total_score": "[206.92]🥉 第 3 名",
+                "segments": {
+                    "SP": {
+                        "score": "77.25",
+                        "rank": "2",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "129.67",
+                        "rank": "3",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
         ]
     },
     {
@@ -1345,13 +1402,13 @@
                 "segments": {
                     "SP": {
                         "score": "81.83",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1SP4y1w78g?p=37&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "156.24",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1SP4y1w78g?p=41&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
@@ -1383,13 +1440,13 @@
                 "segments": {
                     "SP": {
                         "score": "75.82",
-                        "rank": "",
+                        "rank": "2",
                         "protocol_url": "",
                         "video_url": ""
                     },
                     "FS": {
                         "score": "166.40",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": ""
                     }
@@ -1433,7 +1490,26 @@
                     }
                 },
                 "exhibition_video": ""
-            }
+            },
+            {
+                "name": "2016 韩国青年组大奖赛选拔赛",
+                "total_score": "[210.58]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "74.07",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "136.51",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
         ]
     },
     {
@@ -1459,7 +1535,7 @@
                 "exhibition_video": ""
             },
             {
-                "name": "2016 冬季青年奥林匹克运动会",
+                "name": "2016 冬季青年奥林匹克运动会（个人）",
                 "total_score": "[198.90]Rank: 5",
                 "segments": {
                     "SP": {
@@ -1478,18 +1554,37 @@
                 "exhibition_video": ""
             },
             {
+                "name": "2016 冬季青年奥林匹克运动会（团体）",
+                "total_score": "无个人排名",
+                "segments": {
+                    "SP": {
+                        "score": "-",
+                        "rank": "-",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "139.97",
+                        "rank": "3",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
                 "name": "2016 韩国锦标赛",
                 "total_score": "[189.98]🥉 第 3 名",
                 "segments": {
                     "SP": {
                         "score": "58.60",
-                        "rank": "",
+                        "rank": "4",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1SL411K73C?p=39&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "131.38",
-                        "rank": "",
+                        "rank": "3",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1SL411K73C?p=41&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
@@ -1502,13 +1597,13 @@
                 "segments": {
                     "SP": {
                         "score": "70.41",
-                        "rank": "",
+                        "rank": "3",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1SL411K73C?p=23&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "149.99",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1SL411K73C?p=31&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
@@ -1521,37 +1616,75 @@
                 "segments": {
                     "SP": {
                         "score": "65.48",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1SL411K73C?p=12&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
                         "score": "132.96",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": "https://www.bilibili.com/video/BV1SL411K73C?p=16&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
                 "exhibition_video": ""
-            }
+            },
+            {
+                "name": "2015 韩国青年组大奖赛选拔赛",
+                "total_score": "[156.29]Rank: 4",
+                "segments": {
+                    "SP": {
+                        "score": "59.58",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "96.71",
+                        "rank": "4",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
         ]
     },
     {
-        "season": "2014-15 赛季(少高组)",
+        "season": "2014-15 赛季(Novice组)",
         "events": [
+            {
+                "name": "2015 韩国冬季体育大会（青年组）",
+                "total_score": "[180.18]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "60.53",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "119.65",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
             {
                 "name": "2015 韩国锦标赛",
                 "total_score": "[181.13]🥉 第 3 名",
                 "segments": {
                     "SP": {
                         "score": "58.28",
-                        "rank": "",
+                        "rank": "4",
                         "protocol_url": "",
                         "video_url": "https://weibo.com/tv/show/1034:4584195377266694?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "122.85",
-                        "rank": "",
+                        "rank": "3",
                         "protocol_url": "",
                         "video_url": "https://weibo.com/tv/show/1034:4584195742171167?from=old_pc_videoshow"
                     }
@@ -1564,13 +1697,32 @@
                 "segments": {
                     "SP": {
                         "score": "57.36",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": ""
                     },
                     "FS": {
                         "score": "118.38",
-                        "rank": "",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2014 梅拉诺杯(Novic组)",
+                "total_score": "[134.84]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "46.16",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "88.68",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": ""
                     }
@@ -1580,21 +1732,40 @@
         ]
     },
     {
-        "season": "2013-14 赛季(少高组)",
+        "season": "2013-14 赛季(Novice组)",
         "events": [
+            {
+                "name": "2014 韩国冬季体育大会（Novice组）",
+                "total_score": "[177.49]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "59.35",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "118.14",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
             {
                 "name": "2014 韩国锦标赛",
                 "total_score": "[184.38]Rank: 5",
                 "segments": {
                     "SP": {
                         "score": "60.44",
-                        "rank": "",
+                        "rank": "5",
                         "protocol_url": "",
                         "video_url": ""
                     },
                     "FS": {
                         "score": "123.94",
-                        "rank": "",
+                        "rank": "3",
                         "protocol_url": "",
                         "video_url": ""
                     }
@@ -1607,13 +1778,51 @@
                 "segments": {
                     "SP": {
                         "score": "56.56",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": ""
                     },
                     "FS": {
                         "score": "113.75",
-                        "rank": "",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2013 希望之星锦标赛(8级)",
+                "total_score": "[165.71]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "54.67",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "111.04",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2013 首尔教育监杯(Novice组)",
+                "total_score": "[168.98]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "48.87",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "120.11",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": ""
                     }
@@ -1623,21 +1832,59 @@
         ]
     },
     {
-        "season": "2012-13 赛季(少高组)",
+        "season": "2012-13 赛季(Novice组)",
         "events": [
+            {
+                "name": "2013 韩国冬季体育大会（Novice组）",
+                "total_score": "[144.04]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "50.55",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "93.49",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
             {
                 "name": "2013 韩国锦标赛(青年组)",
                 "total_score": "[150.74]🥇 第 1 名",
                 "segments": {
                     "SP": {
                         "score": "50.67",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": ""
                     },
                     "FS": {
                         "score": "100.07",
-                        "rank": "",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2012 首尔教育监杯(Novice组)",
+                "total_score": "[168.98]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "46.73",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "82.03",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": ""
                     }
@@ -1650,37 +1897,113 @@
                 "segments": {
                     "SP": {
                         "score": "44.21",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": ""
                     },
                     "FS": {
                         "score": "99.72",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": ""
                     }
                 },
                 "exhibition_video": ""
-            }
+            },
+            {
+                "name": "2012 希望之星锦标赛(6级)",
+                "total_score": "[161.62]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "55.05",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "106.57",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2012 亚洲公开赛(Novice组)",
+                "total_score": "[115.16]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "36.15",
+                        "rank": "2",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "79.01",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
         ]
     },
     {
-        "season": "2011-12 赛季(少高组)",
+        "season": "2011-12 赛季(Novice组)",
         "events": [
+            {
+                "name": "2012 韩国男女单项锦标赛（Novice组）",
+                "total_score": "[126.12]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "43.85",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "82.27",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2012 韩国冬季体育大会(Novice组)",
+                "total_score": "[116.66]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "42.30",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "74.36",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
             {
                 "name": "2012 韩国锦标赛(青年组)",
                 "total_score": "[133.21]🥇 第 1 名",
                 "segments": {
                     "SP": {
                         "score": "46.26",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": ""
                     },
                     "FS": {
                         "score": "86.95",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": ""
                     }
@@ -1693,37 +2016,132 @@
                 "segments": {
                     "SP": {
                         "score": "39.73",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": ""
                     },
                     "FS": {
                         "score": "83.46",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": ""
                     }
                 },
                 "exhibition_video": ""
-            }
+            },
+            {
+                "name": "2011 首尔教育监杯",
+                "total_score": "[109.39]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "38.72",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "70.67",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2011 希望之星锦标赛(5级)",
+                "total_score": "[109.28]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "31.71",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "77.57",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
         ]
     },
     {
-        "season": "2010-11 赛季(少高组)",
+        "season": "2010-11 赛季(Novice组)",
         "events": [
+            {
+                "name": "2011 韩国男女单项锦标赛(Novice组)",
+                "total_score": "[111.55]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "35.16",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "76.39",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
             {
                 "name": "2011 韩国锦标赛(青年组)",
                 "total_score": "[107.81]Rank: 4",
                 "segments": {
                     "SP": {
                         "score": "37.16",
-                        "rank": "",
+                        "rank": "3",
                         "protocol_url": "",
                         "video_url": ""
                     },
                     "FS": {
                         "score": "70.65",
-                        "rank": "",
+                        "rank": "4",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2010 希望之星锦标赛(5级)",
+                "total_score": "[99.02]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "34.05",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "64.97",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    }
+                },
+                "exhibition_video": ""
+            },
+            {
+                "name": "2010 首尔教育监杯(Novice组)",
+                "total_score": "[103.41]🥇 第 1 名",
+                "segments": {
+                    "SP": {
+                        "score": "32.85",
+                        "rank": "1",
+                        "protocol_url": "",
+                        "video_url": ""
+                    },
+                    "FS": {
+                        "score": "70.56",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": ""
                     }
@@ -1736,13 +2154,13 @@
                 "segments": {
                     "SP": {
                         "score": "33.37",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": ""
                     },
                     "FS": {
                         "score": "69.76",
-                        "rank": "",
+                        "rank": "1",
                         "protocol_url": "",
                         "video_url": ""
                     }
@@ -1753,6 +2171,7 @@
     }
 
 ]
+
 
 
 
