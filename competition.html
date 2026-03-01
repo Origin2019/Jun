@@ -12,6 +12,12 @@
         .season-node { background: #fff; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; }
         .season-title { padding: 15px 20px; background: #2c3e50; color: #fff; font-weight: bold; cursor: pointer; outline: none; }
 
+        /* 青年组标题颜色（稍浅的蓝灰色） */
+        .season-node.junior .season-title { background: #546e7a; }
+        
+        /* Novice组标题颜色（更浅的蓝灰色） */
+        .season-node.novice .season-title { background: #90a4ae; }
+
         /* 比赛卡片样式 */
         .event-wrapper { padding: 10px 20px; }
         .event-card { border-left: 3px solid #3498db; margin: 10px 0; background: #fafafa; }
@@ -40,7 +46,6 @@
 </div>
 
 <script>
-    // 修改点 3：用 JavaScript 读取 JSON
     fetch('competitions.json')
         .then(response => response.json())
         .then(data => {
@@ -48,8 +53,17 @@
             let html = '';
 
             data.forEach(season => {
+                // --- 1. 逻辑判断：确定组别类名 ---
+                let groupClass = '';
+                if (season.season.includes('青年组')) {
+                    groupClass = 'junior';
+                } else if (season.season.includes('Novice组')) {
+                    groupClass = 'novice';
+                }
+
+                // --- 2. 渲染 HTML：将 groupClass 放入 class 属性中 ---
                 html += `
-                <details class="season-node">
+                <details class="season-node ${groupClass}">
                     <summary class="season-title">${season.season}</summary>
                     <div class="event-wrapper">
                         ${season.events.map(event => `
@@ -78,7 +92,6 @@
             container.innerHTML = html;
         });
 
-    // 辅助函数：渲染表格行
     function renderRow(label, segment) {
         const scoreDisplay = segment.protocol_url
             ? `<a href="${segment.protocol_url}" target="_blank" style="text-decoration: underline; color: inherit;">${segment.score}</a>`
@@ -99,3 +112,4 @@
 </body>
 
 </html>
+
