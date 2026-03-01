@@ -1718,13 +1718,13 @@
                         "score": "46.16",
                         "rank": "1",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4589255985397770?from=old_pc_videoshow"
                     },
                     "FS": {
                         "score": "88.68",
                         "rank": "1",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4589255469760538?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": ""
@@ -1943,7 +1943,7 @@
                         "score": "79.01",
                         "rank": "1",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://weibo.com/tv/show/1034:4515304680652833?from=old_pc_videoshow"
                     }
                 },
                 "exhibition_video": ""
@@ -2170,6 +2170,7 @@
         ]
     }
 ]
+
 
 
 
