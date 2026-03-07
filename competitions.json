@@ -72,7 +72,7 @@
                     "FS": {
                         "score": "180.34",
                         "rank": "1",
-                        "protocol_url": "",
+                        "protocol_url": "http://xhslink.com/o/3cULCWWgf0m",
                         "video_url": "https://weibo.com/tv/show/1034:5251443691814946?from=old_pc_videoshow"
                     }
                 },
@@ -91,7 +91,7 @@
                     "FS": {
                         "score": "172.81",
                         "rank": "2",
-                        "protocol_url": "",
+                        "protocol_url": "http://xhslink.com/o/9IYsyDokU3j",
                         "video_url": "https://weibo.com/tv/show/1034:5238669695713317?from=old_pc_videoshow"
                     }
                 },
@@ -230,7 +230,7 @@
                         "score": "187.60",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7869787499/Pe8LkAYnP",
-                        "video_url": ""
+                        "video_url": "http://xhslink.com/o/7eUKw4f5HJ8"
                     }
                 },
                 "exhibition_video": ""
@@ -252,7 +252,7 @@
                         "video_url": "https://www.bilibili.com/video/BV1hawKeAEx3?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
-                "exhibition_video": ""
+                "exhibition_video": "http://xhslink.com/o/17lQIbJMcCz"
             },
             {
                 "name": "2025 韩国锦标赛",
@@ -286,7 +286,7 @@
                     "FS": {
                         "score": "171.29",
                         "rank": "1",
-                        "protocol_url": "",
+                        "protocol_url": "http://xhslink.com/o/A5ZpX1uaodG",
                         "video_url": "https://www.bilibili.com/video/BV1Tn6AYbEau?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
@@ -2170,6 +2170,7 @@
         ]
     }
 ]
+
 
 
 
