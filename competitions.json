@@ -19,7 +19,7 @@
                         "video_url": ""
                     }
                 },
-                "exhibition_video": "https://www.bilibili.com/video/BV1FBZfByEE4?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                "exhibition_video": ""
             },
             {
                 "name": "2026 米兰-科尔蒂纳冬季奥林匹克运动会(团体)",
@@ -2170,6 +2170,7 @@
         ]
     }
 ]
+
 
 
 
