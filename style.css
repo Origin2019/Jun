@@ -675,8 +675,8 @@ body.long-bg-page {
 
 /* 2. 视频封面容器 */
 .video-preview {
-    flex: 0 0 320px; /* 固定宽度，你可以根据视频比例调整 */
-    height: 180px;
+    flex: 0 0 300px; /* 固定宽度，你可以根据视频比例调整 */
+    height: 200px;
     position: relative;
     border-radius: 15px;
     overflow: hidden;
