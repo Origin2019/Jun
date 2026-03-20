@@ -652,7 +652,7 @@ body.long-bg-page {
 .video-row {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
     margin-bottom: 60px; /* 行与行之间的间距 */
     transition: all 0.3s ease;
 }
@@ -735,13 +735,20 @@ body.long-bg-page {
 
 /* 3. 文字简介（玻璃拟态） */
 .video-info {
-    flex: 1; /* 自动撑开剩余空间 */
+    width: fit-content; 
+    max-width: 450px;    /* 设置最大宽度，防止长句子太长 */
     background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(10px);
-    padding: 25px;
+    backdrop-filter: blur(12px);
+    padding: 20px 30px;
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+    border-left: 6px solid #74b9ff; /* 默认左边装饰线 */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.video-row:nth-child(even) .video-info {
+    text-align: right;       /* 文字右对齐 */
+    border-left: none;       /* 去掉左边线 */
+    border-right: 6px solid #74b9ff; /* 改为右边装饰线 */
 }
 
 .video-info h3 {
