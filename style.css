@@ -652,8 +652,8 @@ body.long-bg-page {
 .video-row {
     display: flex;
     align-items: center;
-    gap: 40px;
-    margin-bottom: 60px; /* 行与行之间的间距 */
+    gap: 30px;
+    margin-bottom: 50px; /* 行与行之间的间距 */
     transition: all 0.3s ease;
 }
 
