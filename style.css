@@ -741,20 +741,20 @@ body.long-bg-page {
     backdrop-filter: blur(12px);
     padding: 20px 30px;
     border-radius: 20px;
-    border-left: 6px solid #74b9ff; /* 默认左边装饰线 */
+    border-left: 6px solid #99cc33; /* 默认左边装饰线 */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
 .video-row:nth-child(even) .video-info {
     text-align: right;       /* 文字右对齐 */
     border-left: none;       /* 去掉左边线 */
-    border-right: 6px solid #74b9ff; /* 改为右边装饰线 */
+    border-right: 6px solid #99cc33; /* 改为右边装饰线 */
 }
 
 .video-info h3 {
     margin-top: 0;
     color: #2c3e50;
-    border-bottom: 2px solid #74b9ff;
+    border-bottom: 2px solid #99cc33;
     display: inline-block;
     margin-bottom: 10px;
 }
