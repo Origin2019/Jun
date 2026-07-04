@@ -8,64 +8,81 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="about-page">
+    <!-- 新增：右上角的艺术字 -->
+    <div class="top-right-text">Let it happen.</div>
     <div class="top-banner">
         <img src="static/banner.webp" alt="Banner">
     </div>
 
-    <div class="carousel-container">
-        <div class="carousel-track" id="track">
-            <a href="https://weibo.com/7650850901/QuLuSw8bA" class="slide" target="_blank">
-                <img src="static/轮播图1.webp" alt="1" loading="lazy">
-                <div class="slide-text">冬奥会慰问午宴，与总统同席</div>
-            </a>
-
-            <a href="https://weibo.com/7893760206/QuGuT6tb1" class="slide" target="_blank">
-                <img src="static/轮播图2.webp" alt="2" loading="lazy">
-                <div class="slide-text">出席联名系列发布活动</div>
-            </a>
-
-            <a href="https://weibo.com/7432884413/QvU1chV36" class="slide" target="_blank">
-                <img src="static/轮播图3.webp" alt="3" loading="lazy">
-                <div class="slide-text">ig更新</div>
-            </a>
+    <!-- 新增：用 hero-section 容器将菜单和轮播图包起来 -->
+    <div class="hero-section">
+        <!-- 新增：左侧菜单栏 -->
+        <div class="side-menu">
+            <h2 class="menu-title">更多</h2>
+            <ul>
+                <li><a href="#">数据统计</a></li>
+                <li><a href="#">推荐节目</a></li>
+            </ul>
         </div>
 
-        <div class="dots-container">
-            <span class="dot active" onclick="currentSlide(0)"></span>
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
+        <!-- 原有的轮播图部分 -->
+        <div class="carousel-container">
+            <div class="carousel-track" id="track">
+                <a href="https://weibo.com/7650850901/QuLuSw8bA" class="slide" target="_blank">
+                    <img src="static/轮播图1.webp" alt="1" loading="lazy">
+                    <div class="slide-text">冬奥会慰问午宴，与总统同席</div>
+                </a>
+
+                <a href="https://weibo.com/7893760206/QuGuT6tb1" class="slide" target="_blank">
+                    <img src="static/轮播图2.webp" alt="2" loading="lazy">
+                    <div class="slide-text">出席联名系列发布活动</div>
+                </a>
+
+                <a href="https://weibo.com/7432884413/QvU1chV36" class="slide" target="_blank">
+                    <img src="static/轮播图3.webp" alt="3" loading="lazy">
+                    <div class="slide-text">ig更新</div>
+                </a>
+            </div>
+
+            <div class="dots-container">
+                <span class="dot active" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
         </div>
     </div>
 
-    <div class="scroll-wrapper">
+    <!-- 修改：在原有的 scroll-wrapper 上额外加了一个 big-box 类，并在内部加上 AAA 标题 -->
+    <div class="scroll-wrapper big-box">
+        <h2 class="box-title">主要信息</h2>
         <div class="scroll-container">
             <a href="introduction.html" class="info-card">
                 <img src="static/card1.webp" alt="1" loading="lazy">
-                <div class="card-desc">👤个人简介</div>
+                <div class="card-desc">个人简介</div>
             </a>
             <a href="competition.html" class="info-card">
                 <img src="static/card2.webp" alt="2" loading="lazy">
-                <div class="card-desc">🥇比赛</div>
+                <div class="card-desc">比赛</div>
             </a>
             <a href="https://weibo.com/p/100808cdcc2059c709e828d8921caf7ac1683a/super_index?from=page_100808&mod=TAB#place" class="info-card" target="_blank">
                 <img src="static/card3.webp" alt="3" loading="lazy">
-                <div class="card-desc">🧣微博超话</div>
+                <div class="card-desc">微博超话</div>
             </a>
             <a href="music.html" class="info-card">
                 <img src="static/card4.webp" alt="4" loading="lazy">
-                <div class="card-desc">🎵各赛季选曲</div>
+                <div class="card-desc">各赛季选曲</div>
             </a>
             <div class="info-card">
                 <img src="static/card5.webp" alt="5" loading="lazy">
-                <div class="card-desc">📅未来赛程</div>
+                <div class="card-desc">未来赛程</div>
             </div>
             <div class="info-card">
                 <img src="static/card6.webp" alt="6" loading="lazy">
-                <div class="card-desc">📺赛场之外</div>
+                <div class="card-desc">赛场之外</div>
             </div>
             <a href="child_star.html" class="info-card">
                 <img src="static/card7.webp" alt="7" loading="lazy">
-                <div class="card-desc">📽童星时期</div>
+                <div class="card-desc">童星时期</div>
             </a>
         </div>
     </div>
@@ -103,18 +120,4 @@
         }
     </script>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-

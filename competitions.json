@@ -4,19 +4,21 @@
         "events": [
             {
                 "name": "2026 米兰-科尔蒂纳冬季奥林匹克运动会(个人)",
-                "total_score": "[273.92]Rank: 4",
+                "total_score": "[273.92] Rank: 4",
+                "best": "SB(赛季最佳)",
                 "segments": {
                     "SP": {
+                        "best": "SB",
                         "score": "92.72",
                         "rank": "6",
                         "protocol_url": "https://results.isu.org/results/season2526/owg2026/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://b23.tv/100jy5N"
                     },
                     "FS": {
                         "score": "181.20",
                         "rank": "5",
                         "protocol_url": "https://results.isu.org/results/season2526/owg2026/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
-                        "video_url": ""
+                        "video_url": "https://b23.tv/DjEXyAo"
                     }
                 },
                 "exhibition_video": ""
@@ -51,6 +53,7 @@
                         "video_url": "https://video.weibo.com/show?fid=1034:5258638462222373"
                     },
                     "FS": {
+                        "best": "SB",
                         "score": "184.73",
                         "rank": "1",
                         "protocol_url": "https://www.isuresults.com/results/season2526/fc2026/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
@@ -99,7 +102,7 @@
             },
             {
                 "name": "2025 大奖赛NHK杯",
-                "total_score": "[230.26]Rank: 5",
+                "total_score": "[230.26] Rank: 5",
                 "segments": {
                     "SP": {
                         "score": "91.60",
@@ -118,7 +121,7 @@
             },
             {
                 "name": "2025 大奖赛中国杯",
-                "total_score": "[217.53]Rank: 8",
+                "total_score": "[217.53] Rank: 8",
                 "segments": {
                     "SP": {
                         "score": "75.61",
@@ -180,7 +183,8 @@
         "events": [
             {
                 "name": "2025 世界锦标赛",
-                "total_score": "[265.74]Rank: 7",
+                "total_score": "[265.74] Rank: 7",
+                "best": "SB(赛季最佳)",
                 "segments": {
                     "SP": {
                         "score": "86.41",
@@ -208,6 +212,7 @@
                         "video_url": "https://weibo.com/tv/show/1034:5136223455608898?from=old_pc_videoshow"
                     },
                     "FS": {
+                        "best": "SB",
                         "score": "185.78",
                         "rank": "2",
                         "protocol_url": "https://results.isu.org/results/season2425/fc2025/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
@@ -230,7 +235,7 @@
                         "score": "187.60",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7869787499/Pe8LkAYnP",
-                        "video_url": "http://xhslink.com/o/7eUKw4f5HJ8"
+                        "video_url": "https://www.bilibili.com/video/BV1XbXmBpE7K?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     }
                 },
                 "exhibition_video": ""
@@ -316,6 +321,7 @@
                 "total_score": "[260.31]🥉 第 3 名",
                 "segments": {
                     "SP": {
+                        "best": "SB",
                         "score": "88.38",
                         "rank": "4",
                         "protocol_url": "https://results.isu.org/results/season2425/gpcan2024/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
@@ -370,7 +376,7 @@
             },
             {
                 "name": "2024 雾迪杯",
-                "total_score": "[228.48]Rank: 4",
+                "total_score": "[228.48] Rank: 4",
                 "segments": {
                     "SP": {
                         "score": "69.81",
@@ -394,7 +400,7 @@
         "events": [
             {
                 "name": "2024 世界锦标赛",
-                "total_score": "[249.65]Rank: 10",
+                "total_score": "[249.65] Rank: 10",
                 "segments": {
                     "SP": {
                         "score": "88.21",
@@ -414,14 +420,17 @@
             {
                 "name": "2024 四大洲锦标赛",
                 "total_score": "[272.95]🥉 第 3 名",
+                "best": "SB(赛季最佳)",
                 "segments": {
                     "SP": {
+                        "best": "SB",
                         "score": "95.30",
                         "rank": "3",
                         "protocol_url": "https://www.isuresults.com/results/season2324/fc2024/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
                         "video_url": "https://www.bilibili.com/video/BV1am41197Bk?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
+                        "best": "SB",
                         "score": "177.65",
                         "rank": "2",
                         "protocol_url": "https://www.isuresults.com/results/season2324/fc2024/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
@@ -470,7 +479,7 @@
             },
             {
                 "name": "2023 大奖赛加拿大站",
-                "total_score": "[216.61]Rank: 9",
+                "total_score": "[216.61] Rank: 9",
                 "segments": {
                     "SP": {
                         "score": "86.18",
@@ -508,7 +517,7 @@
             },
             {
                 "name": "2023 内佩拉纪念赛",
-                "total_score": "[222.16]Rank: 6",
+                "total_score": "[222.16] Rank: 6",
                 "segments": {
                     "SP": {
                         "score": "83.91",
@@ -535,6 +544,7 @@
                 "total_score": "[289.15]无个人排名",
                 "segments": {
                     "SP": {
+                        "best": "PB",
                         "score": "101.33",
                         "rank": "2",
                         "protocol_url": "https://results.isu.org/results/season2223/wtt2023/data0103.pdf",
@@ -552,6 +562,7 @@
             {
                 "name": "2023 世界锦标赛",
                 "total_score": "[296.03]🥈 第 2 名",
+                "best": "PB(个人最佳)",
                 "segments": {
                     "SP": {
                         "score": "99.64",
@@ -560,6 +571,7 @@
                         "video_url": "https://www.bilibili.com/video/BV1Vk4y1L7P3?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
+                        "best": "PB",
                         "score": "196.39",
                         "rank": "2",
                         "protocol_url": "https://www.isuresults.com/results/season2223/wc2023/data0105.pdf",
@@ -589,7 +601,7 @@
             },
             {
                 "name": "2023 四大洲锦标赛",
-                "total_score": "[250.14]Rank: 4",
+                "total_score": "[250.14] Rank: 4",
                 "segments": {
                     "SP": {
                         "score": "83.77",
@@ -746,15 +758,18 @@
             },
             {
                 "name": "2022 北京冬季奥林匹克运动会",
-                "total_score": "[282.38]Rank: 5",
+                "total_score": "[282.38] Rank: 5",
+                "best": "SB(赛季最佳)",
                 "segments": {
                     "SP": {
+                        "best": "SB",
                         "score": "99.51",
                         "rank": "4",
                         "protocol_url": "https://results.isu.org/results/season2122/owg2022/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
                         "video_url": "https://www.bilibili.com/video/BV1M5411m7X4?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
+                        "best": "SB",
                         "score": "182.87",
                         "rank": "7",
                         "protocol_url": "https://results.isu.org/results/season2122/owg2022/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
@@ -841,7 +856,7 @@
             },
             {
                 "name": "2021 大奖赛意大利站",
-                "total_score": "[247.74]Rank: 5",
+                "total_score": "[247.74] Rank: 5",
                 "segments": {
                     "SP": {
                         "score": "95.56",
@@ -860,7 +875,7 @@
             },
             {
                 "name": "2021 亚洲公开赛",
-                "total_score": "[214.24]Rank: 6",
+                "total_score": "[214.24] Rank: 6",
                 "segments": {
                     "SP": {
                         "score": "74.47",
@@ -884,15 +899,18 @@
         "events": [
             {
                 "name": "2021 世界锦标赛",
-                "total_score": "[245.99]Rank: 10",
+                "total_score": "[245.99] Rank: 10",
+                "best": "SB(赛季最佳)",
                 "segments": {
                     "SP": {
+                        "best": "SB",
                         "score": "91.15",
                         "rank": "8",
                         "protocol_url": "https://www.isuresults.com/results/season2021/wc2021/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
                         "video_url": "https://www.bilibili.com/video/BV1nP4y1h72z?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
+                        "best": "SB",
                         "score": "154.84",
                         "rank": "13",
                         "protocol_url": "https://www.isuresults.com/results/season2021/wc2021/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
@@ -946,15 +964,18 @@
         "events": [
             {
                 "name": "2020 四大洲锦标赛",
-                "total_score": "[265.43]Rank: 5",
+                "total_score": "[265.43] Rank: 5",
+                "best": "SB(赛季最佳)",
                 "segments": {
                     "SP": {
+                        "best": "SB",
                         "score": "90.37",
                         "rank": "6",
                         "protocol_url": "https://www.isuresults.com/results/season1920/fc2020/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
                         "video_url": "https://www.bilibili.com/video/BV1Ep4y1X72X?vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
+                        "best": "SB",
                         "score": "175.06",
                         "rank": "4",
                         "protocol_url": "https://www.isuresults.com/results/season1920/fc2020/FSKMSINGLES-----------FNL-000100--_JudgesDetailsperSkater.pdf",
@@ -1003,7 +1024,7 @@
             },
             {
                 "name": "2019 大奖赛中国杯",
-                "total_score": "[222.26]Rank: 6",
+                "total_score": "[222.26] Rank: 6",
                 "segments": {
                     "SP": {
                         "score": "69.40",
@@ -1022,7 +1043,7 @@
             },
             {
                 "name": "2019 大奖赛美国站",
-                "total_score": "[219.67]Rank: 8",
+                "total_score": "[219.67] Rank: 8",
                 "segments": {
                     "SP": {
                         "score": "78.98",
@@ -1041,7 +1062,7 @@
             },
             {
                 "name": "2019 秋季经典赛",
-                "total_score": "[230.44]Rank: 4",
+                "total_score": "[230.44] Rank: 4",
                 "segments": {
                     "SP": {
                         "score": "84.23",
@@ -1065,7 +1086,7 @@
         "events": [
             {
                 "name": "2019 世界锦标赛",
-                "total_score": "[229.26]Rank: 19",
+                "total_score": "[229.26] Rank: 19",
                 "segments": {
                     "SP": {
                         "score": "79.17",
@@ -1103,9 +1124,10 @@
             },
             {
                 "name": "2019 四大洲锦标赛",
-                "total_score": "[255.83]Rank: 6",
+                "total_score": "[255.83] Rank: 6",
                 "segments": {
                     "SP": {
+                        "best": "SB",
                         "score": "97.33",
                         "rank": "2",
                         "protocol_url": "https://www.isuresults.com/results/season1819/fc2019/fc2019_Men_SP_Scores.pdf",
@@ -1161,6 +1183,7 @@
             {
                 "name": "2018/2019 大奖赛总决赛",
                 "total_score": "[263.49]🥉 第 3 名",
+                "best": "SB(赛季最佳)",
                 "segments": {
                     "SP": {
                         "score": "89.07",
@@ -1169,6 +1192,7 @@
                         "video_url": "https://weibo.com/tv/show/1034:4314592948479547?from=old_pc_videoshow"
                     },
                     "FS": {
+                        "best": "SB",
                         "score": "174.42",
                         "rank": "3",
                         "protocol_url": "https://www.isuresults.com/results/season1819/gpf1819/gpf1819_Men_FS_Scores.pdf",
@@ -1260,15 +1284,18 @@
         "events": [
             {
                 "name": "2018 平昌冬季奥林匹克运动会（个人）",
-                "total_score": "[248.59]Rank: 15",
+                "total_score": "[248.59] Rank: 15",
+                "best": "SB(赛季最佳)",
                 "segments": {
                     "SP": {
+                        "best": "SB",
                         "score": "83.43",
                         "rank": "15",
                         "protocol_url": "https://www.isuresults.com/results/season1718/owg2018/OWG2018_MenSingleSkating_SP_Scores.pdf",
                         "video_url": "https://www.bilibili.com/video/BV1Ps411n7Cq?p=4&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
+                        "best": "SB",
                         "score": "165.16",
                         "rank": "14",
                         "protocol_url": "https://www.isuresults.com/results/season1718/owg2018/OWG2018_MenSingleSkating_FS_Scores.pdf",
@@ -1336,7 +1363,7 @@
             },
             {
                 "name": "2017 大奖赛加拿大站",
-                "total_score": "[210.32]Rank: 9",
+                "total_score": "[210.32] Rank: 9",
                 "segments": {
                     "SP": {
                         "score": "68.46",
@@ -1379,9 +1406,11 @@
         "events": [
             {
                 "name": "2017 世界青年锦标赛",
-                "total_score": "[242.45]Rank: 5",
+                "total_score": "[242.45] Rank: 5",
+                "best": "SB(赛季最佳)",
                 "segments": {
                     "SP": {
+                        "best": "SB",
                         "score": "82.34",
                         "rank": "2",
                         "protocol_url": "https://www.isuresults.com/results/season1617/wjc2017/wjc2017_JuniorMen_SP_Scores.pdf",
@@ -1483,6 +1512,7 @@
                         "video_url": "https://www.bilibili.com/video/BV1SP4y1w78g?p=18&vd_source=ee061c1404f1440009c2080352c0d3a5"
                     },
                     "FS": {
+                        "best": "SB",
                         "score": "160.13",
                         "rank": "1",
                         "protocol_url": "https://www.isuresults.com/results/season1617/jgpjpn2016/jgpjpn2016_JuniorMen_FS_Scores.pdf",
@@ -1517,9 +1547,11 @@
         "events": [
             {
                 "name": "2016 世界青年锦标赛",
-                "total_score": "[207.11]Rank: 7",
+                "total_score": "[207.11] Rank: 7",
+                "best": "SB(赛季最佳)",
                 "segments": {
                     "SP": {
+                        "best": "SB",
                         "score": "74.38",
                         "rank": "7",
                         "protocol_url": "https://www.isuresults.com/results/season1516/wjc2016/wjc2016_JuniorMen_SP_Scores.pdf",
@@ -1536,7 +1568,7 @@
             },
             {
                 "name": "2016 冬季青年奥林匹克运动会（个人）",
-                "total_score": "[198.90]Rank: 5",
+                "total_score": "[198.90] Rank: 5",
                 "segments": {
                     "SP": {
                         "score": "68.76",
@@ -1564,6 +1596,7 @@
                         "video_url": ""
                     },
                     "FS": {
+                        "best": "SB",
                         "score": "139.97",
                         "rank": "3",
                         "protocol_url": "https://www.isuresults.com/results/season1516/yog2016/YOG2016_MixedNOCTeam_FS_M_Scores.pdf",
@@ -1631,19 +1664,19 @@
             },
             {
                 "name": "2015 韩国青年组大奖赛选拔赛",
-                "total_score": "[156.29]Rank: 4",
+                "total_score": "[156.29] Rank: 4",
                 "segments": {
                     "SP": {
                         "score": "59.58",
                         "rank": "1",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://b23.tv/RcJqqQb"
                     },
                     "FS": {
                         "score": "96.71",
                         "rank": "4",
                         "protocol_url": "",
-                        "video_url": ""
+                        "video_url": "https://b23.tv/LNidHwp"
                     }
                 },
                 "exhibition_video": ""
@@ -1755,7 +1788,7 @@
             },
             {
                 "name": "2014 韩国锦标赛",
-                "total_score": "[184.38]Rank: 5",
+                "total_score": "[184.38] Rank: 5",
                 "segments": {
                     "SP": {
                         "score": "60.44",
@@ -2093,7 +2126,7 @@
             },
             {
                 "name": "2011 韩国锦标赛(青年组)",
-                "total_score": "[107.81]Rank: 4",
+                "total_score": "[107.81] Rank: 4",
                 "segments": {
                     "SP": {
                         "score": "37.16",

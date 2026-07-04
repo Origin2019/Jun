@@ -4,14 +4,14 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Microsoft YaHei', sans-serif;
 }
 
 .home-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ffffff;
     background-image: url("static/封面图片.webp");
     background-repeat: no-repeat;
@@ -27,15 +27,32 @@ body {
 
 .top-banner {
     width: 100%;       /* 容器占满全宽 */
-    height: 250px;     /* 你可以根据需要调整高度，让它看起来很窄 */
-    overflow: hidden;  /* 如果图片太高，剪掉多余部分 */
+    height: 100vh; /* 设定横幅高度为屏幕高度的 40%，也可根据喜好改为具体像素如 400px */
+    overflow: hidden;
 }
 
 .top-banner img {
-    width: 100%;       /* 图片宽度占满容器 */
-    height: 100%;      /* 图片高度占满容器 */
-    object-fit: cover; /* 核心：图片会按比例缩放并填充，不会变形，多余部分会被裁剪 */
-    object-position: center; /* 图片在容器中居中显示（比如保留人物的脸部） */
+    width: 100%;
+    height: 100%;
+    object-fit: cover ; /* 让图片完整覆盖整个横幅容器，不留白边 */
+    object-position: top center; /* 【关键属性】强制图片以“顶部中心”为基准对齐，防止人物头部被裁掉 */
+    display: block;
+}
+
+/* 新增：右上角艺术文字样式 */
+.top-right-text {
+    position: absolute;       /* 绝对定位，使其脱离正常排版悬浮起来 */
+    top: 80px;                /* 距离网页顶部 40px */
+    right: 40px;              /* 距离网页右侧 50px */
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2rem;          /* 字体大小 */
+    font-weight: bold;        /* 字体加粗 */
+    font-style: italic;       /* 斜体，增加艺术感和动感 */
+    font-family: 'Georgia', serif; /* 使用优雅的衬线字体 */
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+    letter-spacing: 3px;      /* 字母间距稍微拉开一点，显得更高级 */
+    z-index: 20;              /* 确保层级足够高，压在 Banner 图片上面 */
+    pointer-events: none;     /* 让鼠标点击可以穿透文字，避免遮挡可能存在的交互 */
 }
 
 /* 中间的白色卡片 */
@@ -150,7 +167,97 @@ h1 {
     to { opacity: 1; transform: scale(1); }
 }
 
+/* =========================================
+   新增：关于页菜单与轮播图布局 (hero-section)
+   ========================================= */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 1200px;
+    margin: -30vh auto 50px auto; /* 负数上边距向上拉，左右居中，下方留出50px间距 */
+    position: relative;           /* 开启相对定位，为了让 z-index 生效 */
+    z-index: 10;                  /* 提高层级，确保内容盖在 Banner 图片上方，不被背景遮挡 */
+    gap: 80px;
+    padding: 0 20px;
+}
 
+/* 覆盖原本的轮播图居中设定，因为现在被 flex 盒子接管了 */
+.hero-section .carousel-container {
+    margin: 0;
+}
+
+/* =========================================
+   新增：关于页侧边菜单栏 (BBB)
+   ========================================= */
+.side-menu {
+    width: 220px;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-title {
+    margin-top: 0;
+    color: #2c3e50;
+    font-size: 1.6rem;
+    border-bottom: 2px solid #d1e8ff;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu li {
+    margin-bottom: 12px;
+}
+
+.side-menu a {
+    text-decoration: none;
+    color: #555;
+    font-size: 1.05rem;
+    font-weight: bold;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* 悬浮时的动态效果，呼应你原本的蓝色调 */
+.side-menu a:hover {
+    background-color: #d8ecff;
+    color: #0984e3;
+    transform: translateX(6px); /* 悬浮时向右微移 */
+}
+
+
+/* =========================================
+   新增：卡片大框及标题 (AAA)
+   ========================================= */
+.big-box {
+    background: #f8f9fa; /* 浅灰偏白的底色，突出大框的存在感 */
+    border-radius: 20px;
+    padding: 40px 30px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05); /* 柔和的外阴影 */
+    margin-top: 40px;
+}
+
+.box-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: 10px; /* 左上角留一点位置 */
+    color: #2c3e50;
+    font-size: 2rem;
+    border-left: 6px solid #74b9ff; /* 加上一个蓝色装饰边，视觉更统一 */
+    padding-left: 15px;
+}
 
 /* 下面是轮播图 */
 /* 轮播图外壳 - 保留并微调 */
@@ -162,6 +269,7 @@ h1 {
     position: relative;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border: 3px solid #ffffff;
 }
 
 /* 图片轨道 - 保留 */
@@ -247,67 +355,77 @@ h1 {
     padding: 0 20px;
 }
 
-/* 滚动容器 */
+/* 容器（改为自动换行直接排列） */
 .scroll-container {
-    display: flex;         /* 让子元素横向排列 */
-    gap: 20px;            /* 卡片之间的间距 */
-    overflow-x: auto;      /* 核心：超出宽度时显示横向滚动条 */
-    padding-bottom: 25px;  /* 给滚动条留点空间 */
-    scroll-behavior: smooth; /* 滚动时更丝滑 */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* 【关键修改】原来是 center，现在改为 flex-start (左对齐) */
+    gap: 20px;
+    padding-bottom: 20px;
 }
 
-/* 隐藏或美化滚动条 (可选) */
-.scroll-container::-webkit-scrollbar {
-    height: 8px;           /* 滚动条高度 */
-}
-.scroll-container::-webkit-scrollbar-thumb {
-    background: #ccc;      /* 滚动条颜色 */
-    border-radius: 10px;
-}
-.scroll-container::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
 
-/* 单个小框样式 */
+/* 单个小框基础样式 */
 .info-card {
-    flex: 0 0 200px;       /* 核心：不伸缩，不收缩，固定宽度为 200px */
+    flex: 0 0 200px;
     height: 300px;
-    background: white;
-    border-radius: 12px;
+    background: #fff;
+    border-radius: 16px;   /* 圆角调大一点，显得更柔和现代 */
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-    transition: transform 0.3s;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08); /* 初始阴影更加柔和 */
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); /* 让动画变得极其丝滑 */
     position: relative;
     display: flex;
     flex-direction: column;
+    text-decoration: none; /* 去除 a 标签的下划线 */
 }
 
+/* 悬停时的卡片整体动效 */
 .info-card:hover {
-    transform: translateY(-5px); /* 悬停微动效 */
+    transform: translateY(-8px); /* 向上浮动的幅度稍微加大 */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15); /* 阴影大范围扩散，增强立体感 */
 }
 
 /* 小框里的图片 */
 .info-card img {
     width: 100%;
-    height: 100%;         /* 固定高度 */
+    height: 100%;
     object-fit: cover;
-    position: absolute;    /* 让图片作为底层背景 */
+    position: absolute;
     top: 0;
     left: 0;
+    transition: transform 0.5s ease; /* 增加图片缩放的过渡效果 */
+    z-index: 1;
 }
 
-/* 小框里的文字 */
-.card-desc {
-    position: absolute;    /* 绝对定位 */
-    bottom: 0;             /* 贴在底部 */
-    width: 100%;
-    padding: 15px 10px;
+/* 悬停时：图片微微放大（实现沉浸感） */
+.info-card:hover img {
+    transform: scale(1.08);
+}
 
-    background: rgba(0, 0, 0, 0.5); /* 半透明黑背景，保证文字清晰 */
-    color: white;          /* 文字改白色 */
-    font-size: 0.95rem;
+/* 小框里的底部文字描述 */
+.card-desc {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 10px 15px; /* 顶部多留一点 padding 让渐变更自然 */
+
+    /* 核心美化：使用从下到上的深色渐变，替代原本死板的半透明纯黑背景 */
+    background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 60%, transparent 100%);
+    color: #f8f9fa;
+    font-size: 1rem;
+    font-weight: bold;       /* 字体加粗更醒目 */
     text-align: center;
-    box-sizing: border-box; /* 保证 padding 不撑破框 */
+    box-sizing: border-box;
+    z-index: 2;              /* 确保文字始终压在图片之上 */
+    transition: all 0.3s ease;
+}
+
+/* 悬停时：文字区域微微变亮且稍微上浮 */
+.info-card:hover .card-desc {
+    padding-bottom: 22px;    /* 文字向上微抬，增加互动反馈 */
+    color: #ffffff;
+    background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.5) 60%, transparent 100%);
 }
 
 
@@ -414,8 +532,8 @@ h1 {
 }
 
 .music-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 35px rgba(116, 185, 255, 0.2);
+    transform: none !important; /* 删掉或禁用悬浮时向上升起/放大的效果 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important;
 }
 
 /* 赛季标题样式 */
@@ -433,11 +551,21 @@ h1 {
     margin: 12px 0;
     font-size: 0.95rem;
     color: #444;
+    line-height: 1.7;
+}
+
+.program-box p:last-child {
+    margin-bottom: 0;        /* 最后一项（表演滑）底部不需要额外间距 */
 }
 
 .program-box strong {
     color: #0984e3;
     margin-right: 8px;
+}
+
+/* 仅将曲名部分改为黑色 */
+.song-title {
+    color: #333333 !important;
 }
 
 /* 响应式：手机端自动转为一列 */
@@ -619,6 +747,62 @@ h1 {
 
 
 /* --- 下面是童星页面 --- */
+/* 可爱艺术标题 */
+.cute-title {
+    font-size: 3.5rem;
+    font-weight: bold; /* 加上加粗，弥补默认字体不够厚重的问题 */
+    color: #4a3525;
+    letter-spacing: 4px;
+
+    text-shadow:
+        4px 4px 0px #fff,
+        8px 8px 0px #e8d5c4,
+        10px 10px 15px rgba(0,0,0,0.15);
+
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 30px;
+    padding: 0 10px;
+}
+
+/* 标题左上角的可爱小蘑菇点缀 */
+.cute-title::before {
+    content: '🍄';
+    position: absolute;
+    left: -80px;
+    top: -15px;
+    font-size: 2.5rem;
+    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.15));
+    text-shadow: none;
+    /* 仅给蘑菇添加独立悬浮动画 */
+    animation: iconFloatLeft 3s ease-in-out infinite;
+}
+
+/* 标题右下角的闪亮星星点缀 */
+.cute-title::after {
+    content: '✨';
+    position: absolute;
+    right: -80px;
+    bottom: 5px;
+    font-size: 2.2rem;
+    text-shadow: none;
+    /* 仅给星星添加独立悬浮动画 */
+    animation: iconFloatRight 3s ease-in-out infinite;
+    animation-delay: 1.5s; /* 延迟1.5秒，让星星和蘑菇交替上下浮动（一上一下） */
+}
+
+/* 左侧蘑菇的悬浮动画（必须带着原本的倾斜角度一起动画） */
+@keyframes iconFloatLeft {
+    0%, 100% { transform: translateY(0) rotate(-20deg); }
+    50% { transform: translateY(-10px) rotate(-20deg); }
+}
+
+/* 右侧星星的悬浮动画（必须带着原本的倾斜角度一起动画） */
+@keyframes iconFloatRight {
+    0%, 100% { transform: translateY(0) rotate(15deg); }
+    50% { transform: translateY(-10px) rotate(15deg); }
+}
+
 /* 我们通过这个类名来覆盖 body 的默认居中样式 */
 body.long-bg-page {
     display: block;          /* 取消原来的 flex 布局 */
@@ -662,33 +846,41 @@ body.long-bg-page {
     flex-direction: row-reverse;
 }
 
-/* 1. 蘑菇图案容器 */
+/* 1. 蘑菇图案容器（增加上下浮动动画，赋予时间轴生命力） */
+@keyframes mushroomFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
 .mushroom-box {
-    flex: 0 0 100px; /* 固定宽度 */
+    flex: 0 0 100px;
     text-align: center;
+    animation: mushroomFloat 3.5s ease-in-out infinite; /* 持续轻微上下浮动 */
 }
 
 .mushroom-box img {
     width: 80px;
-    filter: drop-shadow(0 5px 10px rgba(0,0,0,0.1));
+    filter: drop-shadow(0 6px 10px rgba(0,0,0,0.15)); /* 增加投影立体感 */
 }
 
-/* 2. 视频封面容器 */
+/* 2. 视频封面卡片（增加拍立得相框质感与果冻回弹动效） */
 .video-preview {
-    flex: 0 0 300px; /* 固定宽度，你可以根据视频比例调整 */
+    flex: 0 0 300px;
     height: 200px;
     position: relative;
-    border-radius: 15px;
+    border-radius: 16px;
+    border: 4px solid #fff; /* 增加白色粗边框，营造老照片/拍立得感 */
     overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .video-preview img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.5s ease;
+    transition: transform 0.6s ease;
 }
 
 /* 播放图标遮罩 */
@@ -698,69 +890,98 @@ body.long-bg-page {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.15);
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background 0.3s;
+    transition: background 0.4s;
 }
 
+/* 播放按钮 */
 .play-icon {
-    width: 60px;
-    height: 60px;
-    background: rgba(255, 255, 255, 0.8);
+    width: 64px;
+    height: 64px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(6px); /* 背景模糊 */
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
-    color: #0984e3;
-    transition: all 0.3s ease;
+    font-size: 26px;
+    color: #fff;
+    padding-left: 5px; /* 让播放三角在视觉上居中 */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55); /* 带有弹性的 Q 弹动画 */
 }
 
-/* 悬浮效果 */
+/* 悬浮效果：卡片整体上浮发光，微微倾斜 */
+.video-preview:hover {
+    transform: translateY(-8px) rotate(-1.5deg); /* 悬浮时带一点点可爱的倾斜 */
+    box-shadow: 0 15px 30px rgba(153, 204, 51, 0.35); /* 呼应主题的蘑菇绿辉光 */
+}
+
 .video-preview:hover img {
-    transform: scale(1.1);
+    transform: scale(1.1); /* 镜头推进 */
 }
 
 .video-preview:hover .play-overlay {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.35);
 }
 
 .video-preview:hover .play-icon {
-    transform: scale(1.2);
-    background: #fff;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    transform: scale(1.15);
+    background: rgba(255, 255, 255, 0.95);
+    color: #99cc33; /* 悬浮时图标变成绿色 */
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
 }
 
-/* 3. 文字简介（玻璃拟态） */
+/* 3. 文字简介（提升玻璃拟态的通透感和交互） */
 .video-info {
-    width: fit-content; 
-    max-width: 450px;    /* 设置最大宽度，防止长句子太长 */
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(12px);
-    padding: 20px 30px;
-    border-radius: 20px;
-    border-left: 6px solid #99cc33; /* 默认左边装饰线 */
+    width: fit-content;
+    max-width: 450px;
+    background: rgba(255, 255, 255, 0.55); /* 稍微提亮背景，增加文字可读性 */
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    padding: 25px 35px;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.8); /* 增加全包围的高光描边 */
+    border-left: 8px solid #99cc33; /* 加粗彩色标志线 */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s ease;
 }
 
+/* 当鼠标移入这一整行时，文字框也会做出交互反馈 */
+.video-row:hover .video-info {
+    background: rgba(255, 255, 255, 0.85); /* 变亮 */
+    transform: translateY(-3px); /* 微微上浮 */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* 偶数行的右侧对齐逻辑 */
 .video-row:nth-child(even) .video-info {
-    text-align: right;       /* 文字右对齐 */
-    border-left: none;       /* 去掉左边线 */
-    border-right: 6px solid #99cc33; /* 改为右边装饰线 */
+    text-align: right;
+    border-left: 1px solid rgba(255, 255, 255, 0.8); /* 恢复左侧的细描边 */
+    border-right: 8px solid #99cc33; /* 标志线移到右侧 */
 }
 
+/* 标题样式优化 */
 .video-info h3 {
     margin-top: 0;
     color: #2c3e50;
-    border-bottom: 2px solid #99cc33;
+    border-bottom: 2px dashed #99cc33; /* 实线改为可爱的虚线 */
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    font-size: 1.25rem;
 }
 
+/* 年份文字优化 */
 .video-info p {
-    color: #444;
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 600; /* 加粗年份，更有标识感 */
     line-height: 1.6;
     margin: 0;
 }

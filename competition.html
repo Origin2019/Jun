@@ -14,7 +14,7 @@
 
         /* 青年组标题颜色（稍浅的蓝灰色） */
         .season-node.junior .season-title { background: #546e7a; }
-        
+
         /* Novice组标题颜色（更浅的蓝灰色） */
         .season-node.novice .season-title { background: #90a4ae; }
 
@@ -23,6 +23,46 @@
         .event-card { border-left: 3px solid #3498db; margin: 10px 0; background: #fafafa; }
         .event-name { padding: 10px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-weight: 500; }
         .total-score { background: #e1f5fe; color: #0288d1; padding: 2px 8px; border-radius: 4px; font-size: 0.9em; }
+
+        /* 原有：总分的PB和SB的标签样式 */
+        .best-tag { margin-right: 5px; padding-right: 5px; border-right: 1px solid rgba(2, 136, 209, 0.3); }
+        .best-tag.pb { color: #e74c3c; }
+        .best-tag.sb { color: #e67e22; }
+
+        /* 修改：让文字完美居中，标签绝对定位悬挂在左侧 */
+        .project-container {
+            display: inline-flex; /* 宽度由文字内容决定，并配合外部 td 的居中属性 */
+            align-items: center;
+            position: relative;   /* 作为内部标签绝对定位的基准 */
+        }
+        .badge-container {
+            position: absolute;   /* 脱离文档流，不占用文字的排版宽度 */
+            right: 100%;          /* 紧贴文字容器的左边缘 */
+            margin-right: 8px;    /* 控制标签与文字的间距 */
+            display: flex;
+        }
+        .project-label {
+            text-align: left;
+            white-space: nowrap; /* 确保文字不会换行 */
+        }
+
+        /* 单项 (SP/FS) 左侧的 PB/SB 独立小框样式 */
+        .segment-best {
+            display: inline-block;
+            font-size: 0.85em;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: bold;
+            line-height: 1;
+        }
+        .segment-best.pb {
+            color: #e74c3c; /* 红色字体 */
+            background-color: rgba(231, 76, 60, 0.15); /* 红色浅色背景 */
+        }
+        .segment-best.sb {
+            color: #e67e22; /* 橙色字体 */
+            background-color: rgba(230, 126, 34, 0.15); /* 橙色浅色背景 */
+        }
 
         /* 表格样式 */
         .event-details { padding: 15px; border-top: 1px solid #eee; }
@@ -35,7 +75,7 @@
         /* 按钮样式 */
         a { color: #3498db; text-decoration: none; font-weight: bold; }
         a:hover { text-decoration: underline; }
-        .btn-ex { display: inline-block; background: #9b59b6; color: #fff; padding: 8px 15px; border-radius: 20px; font-size: 0.8em; margin-top: 10px; }
+        .btn-ex { display: inline-block; background: #9b59b6; color: #fff; padding: 8px 15px; border-radius: 20px; font-size: 0.8em; margin-top: 10px; margin-left: 80px; }
         .btn-ex:hover { background: #8e44ad; color: #fff; text-decoration: none; }
     </style>
 </head>
@@ -53,7 +93,6 @@
             let html = '';
 
             data.forEach(season => {
-                // --- 1. 逻辑判断：确定组别类名 ---
                 let groupClass = '';
                 if (season.season.includes('青年组')) {
                     groupClass = 'junior';
@@ -61,7 +100,6 @@
                     groupClass = 'novice';
                 }
 
-                // --- 2. 渲染 HTML：将 groupClass 放入 class 属性中 ---
                 html += `
                 <details class="season-node ${groupClass}">
                     <summary class="season-title">${season.season}</summary>
@@ -70,7 +108,11 @@
                             <details class="event-card">
                                 <summary class="event-name">
                                     <span>${event.name}</span>
-                                    <span class="total-score">${event.total_score}</span>
+                                        <span class="total-score">
+                                        ${(event.best && event.best.includes('PB')) ? '<span class="best-tag pb">个人最佳(PB)</span>' : ''}
+                                        ${(event.best && event.best.includes('SB')) ? '<span class="best-tag sb">赛季最佳(SB)</span>' : ''}
+                                        ${event.total_score}
+                                    </span>
                                 </summary>
                                 <div class="event-details">
                                     <table class="score-table">
@@ -93,23 +135,37 @@
         });
 
     function renderRow(label, segment) {
-        const scoreDisplay = segment.protocol_url
-            ? `<a href="${segment.protocol_url}" target="_blank" style="text-decoration: underline; color: inherit;">${segment.score}</a>`
-            : segment.score;
-        const videoDisplay = segment.video_url
-            ? `<a href="${segment.video_url}" target="_blank">▶️</a>`
-            : `<span style="color: #ccc;">暂无视频</span>`;
+    // 检查该项目是否包含best数据，渲染左侧小框
+    let bestBadge = '';
+    if (segment.best) {
+        if (segment.best.includes('PB')) {
+            bestBadge = `<span class="segment-best pb">PB</span>`;
+        } else if (segment.best.includes('SB')) {
+            bestBadge = `<span class="segment-best sb">SB</span>`;
+        }
+    }
 
-        return `
-            <tr>
-                <td>${label}</td>
-                <td>${segment.rank || '-'}</td>
-                <td>${scoreDisplay}</td>
-                <td>${videoDisplay}</td>
-            </tr>`;
+    const scoreDisplay = segment.protocol_id
+        ? `<a href="protocol.html?id=${segment.protocol_id}" target="_blank" style="text-decoration: underline; color: inherit;">${segment.score}</a>`
+        : segment.score;
+    const videoDisplay = segment.video_url
+        ? `<a href="${segment.video_url}" target="_blank">▶️</a>`
+        : `<span style="color: #ccc;">暂无视频</span>`;
+
+    return `
+        <tr>
+            <!-- 【核心修改】套入你写好的定宽对齐容器 -->
+            <td>
+                <div class="project-container">
+                    <div class="badge-container">${bestBadge}</div>
+                    <span class="project-label">${label}</span>
+                </div>
+            </td>
+            <td>${segment.rank || '-'}</td>
+            <td>${scoreDisplay}</td>
+            <td>${videoDisplay}</td>
+        </tr>`;
     }
 </script>
 </body>
-
 </html>
-

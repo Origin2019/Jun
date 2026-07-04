@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小分表详情</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* 针对小分表特制一些样式 */
+        .protocol-container { max-width: 900px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .element-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        .element-table th, .element-table td { border: 1px solid #eee; padding: 10px; text-align: center; }
+        .element-table th { background: #f8f9fa; color: #333; }
+        .highlight-goe { color: #e74c3c; font-weight: bold; } /* 给高 GOE 上色 */
+    </style>
+</head>
+<body class="about-page">
+
+<div class="protocol-container">
+    <h1 id="event-title">加载中...</h1>
+    <div style="display: flex; gap: 20px; margin-bottom: 20px;">
+        <h3 style="color: #3498db;">总分: <span id="total-score"></span></h3>
+        <h3>TES: <span id="tes-score"></span></h3>
+        <h3>PCS: <span id="pcs-score"></span></h3>
+    </div>
+
+    <table class="element-table">
+        <thead>
+            <tr>
+                <th>#</th><th>动作名称</th><th>基础分</th><th>GOE</th>
+                <th>J1</th><th>J2</th><th>J3</th><th>J4</th><th>J5</th><th>J6</th><th>J7</th><th>J8</th><th>J9</th>
+                <th>得分</th>
+            </tr>
+        </thead>
+        <tbody id="element-body">
+            </tbody>
+    </table>
+</div>
+
+<script>
+    // 1. 获取 URL 中的 id 参数 (例如 protocol.html?id=2026_owg_sp)
+    const urlParams = new URLSearchParams(window.location.search);
+    const protocolId = urlParams.get('id');
+
+    // 2. 获取 JSON 数据并渲染
+    fetch('detailed_scores.json')
+        .then(response => response.json())
+        .then(data => {
+            const protocol = data[protocolId];
+            if (!protocol) {
+                document.getElementById('event-title').innerText = "未找到该比赛数据";
+                return;
+            }
+
+            // 填充标题和总分
+            document.getElementById('event-title').innerText = protocol.event_name;
+            document.getElementById('total-score').innerText = protocol.total_score;
+            document.getElementById('tes-score').innerText = protocol.tes;
+            document.getElementById('pcs-score').innerText = protocol.pcs;
+
+            // 循环填充表格
+            const tbody = document.getElementById('element-body');
+            let html = '';
+            protocol.elements.forEach(el => {
+                const judgesHtml = el.judges.map(j => `<td>${j}</td>`).join('');
+                html += `
+                    <tr>
+                        <td>${el.no}</td>
+                        <td style="font-weight:bold; text-align:left;">${el.name}</td>
+                        <td>${el.base_value}</td>
+                        <td class="highlight-goe">+${el.goe}</td>
+                        ${judgesHtml}
+                        <td style="font-weight:bold;">${el.panel_score}</td>
+                    </tr>
+                `;
+            });
+            tbody.innerHTML = html;
+        });
+</script>
+</body>
+</html>
