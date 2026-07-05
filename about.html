@@ -15,13 +15,14 @@
     </div>
 
     <!-- 新增：用 hero-section 容器将菜单和轮播图包起来 -->
-    <div class="hero-section">
+    <div class="hero-section fade-up">
         <!-- 新增：左侧菜单栏 -->
         <div class="side-menu">
             <h2 class="menu-title">更多</h2>
             <ul>
                 <li><a href="#">数据统计</a></li>
                 <li><a href="#">推荐节目</a></li>
+                <li><a href="#">毛老师的网站</a></li>
             </ul>
         </div>
 
@@ -53,35 +54,35 @@
     </div>
 
     <!-- 修改：在原有的 scroll-wrapper 上额外加了一个 big-box 类，并在内部加上 AAA 标题 -->
-    <div class="scroll-wrapper big-box">
+    <div class="scroll-wrapper big-box fade-up">
         <h2 class="box-title">主要信息</h2>
         <div class="scroll-container">
-            <a href="introduction.html" class="info-card">
+            <a href="introduction.html" class="info-card fade-up" style="--anim-delay: 1;">
                 <img src="static/card1.webp" alt="1" loading="lazy">
                 <div class="card-desc">个人简介</div>
             </a>
-            <a href="competition.html" class="info-card">
+            <a href="competition.html" class="info-card fade-up" style="--anim-delay: 2;">
                 <img src="static/card2.webp" alt="2" loading="lazy">
                 <div class="card-desc">比赛</div>
             </a>
-            <a href="https://weibo.com/p/100808cdcc2059c709e828d8921caf7ac1683a/super_index?from=page_100808&mod=TAB#place" class="info-card" target="_blank">
+            <a href="https://weibo.com/p/100808cdcc2059c709e828d8921caf7ac1683a/super_index?from=page_100808&mod=TAB#place" class="info-card fade-up" style="--anim-delay: 3;" target="_blank">
                 <img src="static/card3.webp" alt="3" loading="lazy">
                 <div class="card-desc">微博超话</div>
             </a>
-            <a href="music.html" class="info-card">
+            <a href="music.html" class="info-card fade-up" style="--anim-delay: 4;">
                 <img src="static/card4.webp" alt="4" loading="lazy">
                 <div class="card-desc">各赛季选曲</div>
             </a>
-            <div class="info-card">
-                <img src="static/card5.webp" alt="5" loading="lazy">
+            <div class="info-card fade-up">
+                <img src="static/card5.webp" alt="5" style="--anim-delay: 5;">
                 <div class="card-desc">未来赛程</div>
             </div>
-            <div class="info-card">
-                <img src="static/card6.webp" alt="6" loading="lazy">
+            <div class="info-card fade-up">
+                <img src="static/card6.webp" alt="6" style="--anim-delay: 6;">
                 <div class="card-desc">赛场之外</div>
             </div>
-            <a href="child_star.html" class="info-card">
-                <img src="static/card7.webp" alt="7" loading="lazy">
+            <a href="child_star.html" class="info-card fade-up" style="--anim-delay: 7;">
+                <img src="static/card7.webp" alt="7">
                 <div class="card-desc">童星时期</div>
             </a>
         </div>
@@ -118,6 +119,30 @@
             clearInterval(timer);
             timer = setInterval(nextSlide, 5000);
         }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            // 设置观察器选项：当元素有 15% 进入屏幕时触发
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.15
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // 元素进入屏幕，添加 visible 类以播放动画
+                        entry.target.classList.add('visible');
+                        // 动画播放一次后取消观察，防止反复触发
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            // 获取所有带有 fade-up 类的元素并开始观察
+            const fadeElements = document.querySelectorAll('.fade-up');
+            fadeElements.forEach(el => observer.observe(el));
+        });
     </script>
 </body>
 </html>

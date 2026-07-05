@@ -987,11 +987,50 @@ body.long-bg-page {
 }
 
 
+/* =========================================
+   全局微动画样式 (Fade-up)
+   ========================================= */
+/* 初始状态：透明且向下偏移 40px */
+.fade-up {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s cubic-bezier(0.25, 0.8, 0.25, 1),
+                transform 0.8s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* 触发状态：恢复完全不透明和原本位置 */
+.fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 配合 about.html 中的小卡片实现阶梯式出现 (Staggered Animation) */
+.scroll-container .fade-up {
+    transition-delay: calc(var(--anim-delay, 0) * 100ms);
+}
+
+/* 针对 index.html 的入场动画（页面加载即触发，无需 JS） */
+.home-page .card {
+    animation: indexCardFadeIn 1.2s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+}
+
+@keyframes indexCardFadeIn {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
 
 
-
-
-
-
-
-
+@media (max-width: 768px) {
+    .top-banner {
+        height: auto; /* 取消 100vh 的全屏高度限制 */
+    }
+    .top-banner img {
+        height: auto; /* 高度自适应图片原本的比例 */
+        object-fit: contain; /* 保证图片完整显示 */
+    }
+    /* 调整右上角艺术字在手机端的位置，避免遮挡 */
+    .top-right-text {
+        top: 20px;
+        right: 20px;
+        font-size: 1.2rem;
+    }
+}
