@@ -1017,6 +1017,7 @@ body.long-bg-page {
 @keyframes indexCardFadeIn {
     from { opacity: 0; transform: translateY(50px); }
     to { opacity: 1; transform: translateY(0); }
+}
 
 
 @media (max-width: 768px) {
@@ -1033,4 +1034,170 @@ body.long-bg-page {
         right: 20px;
         font-size: 1.2rem;
     }
+}
+
+
+/* =========================================================
+   --- 下面是小分表 (Protocol) 页面样式（1:1 还原前端效果调整） ---
+   ========================================================= */
+
+/* 外层包裹器，还原 min-h-screen 与 bg-[#f4f4f2] 灰底 */
+body.protocol-page {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f2;
+}
+
+.protocol-wrapper {
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: auto;
+    background-color: #f4f4f2;
+    padding: 12px 16px;
+    color: #000;
+    box-sizing: border-box;
+}
+
+@media (min-width: 640px) {
+    .protocol-wrapper {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+/* 主体容器：对齐 Tailwind 的 min-w-[1180px] max-w-[1420px] bg-white */
+.isu-protocol {
+    margin: 0 auto;
+    min-width: 1180px;
+    max-width: 1420px;
+    background-color: #fff;
+    padding: 0 4px;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.05;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    color: #000;
+    box-sizing: border-box;
+}
+
+/* 表格全局基础 */
+.isu-protocol table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.isu-protocol th,
+.isu-protocol td {
+    padding: 0;
+}
+
+/* 文本对齐辅助类 */
+.align-left { text-align: left; }
+.align-center { text-align: center; }
+.align-right { text-align: right; }
+
+/* 1. 顶部：选手信息与总分概览 (对应 border-2 border-black) */
+.top-info-table {
+    margin-bottom: 6px;
+    border: 2px solid #000;
+}
+.top-info-table thead tr,
+.top-info-table tbody tr {
+    font-weight: bold;
+}
+.top-info-table th {
+    padding-top: 16px;
+    padding-bottom: 28px;
+    padding-left: 8px;
+    padding-right: 8px;
+    vertical-align: top;
+}
+.top-info-table td {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+/* 对应 Rank 列底部的 px-8 (32px) */
+.top-info-table td.rank-cell {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+/* 顶部表格精准百分比列宽 */
+.top-info-table th:nth-child(1) { width: 5%; }
+.top-info-table th:nth-child(2) { width: 31%; }
+.top-info-table th:nth-child(3) { width: 9%; }
+.top-info-table th:nth-child(4) { width: 9%; }
+.top-info-table th:nth-child(5) { width: 10%; }
+.top-info-table th:nth-child(6) { width: 9%; }
+.top-info-table th:nth-child(7) { width: 17%; }
+.top-info-table th:nth-child(8) { width: 10%; }
+
+/* 2. 中间：详细打分边框区域 (对应 border-2 border-black px-7 pt-1) */
+.main-score-box {
+    border: 2px solid #000;
+    padding: 4px 28px 0 28px;
+}
+.main-score-box th {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+/* 对齐 Tailwind 的 h-5 (20px) */
+.main-score-box td {
+    height: 20px;
+}
+/* 技术动作小计行对齐 Tailwind 的 h-6 (24px) */
+.elements-table tr.score-total-row td {
+    height: 24px;
+}
+
+/* 技术动作明细表 (Elements) */
+.elements-table thead tr {
+    font-weight: bold;
+}
+/* 还原垂直文字 Info */
+.elements-table th.info-th {
+    writing-mode: vertical-rl;
+}
+.elements-table th:nth-child(1) { width: 2%; }
+.elements-table th:nth-child(2) { width: 15%; }
+.elements-table th:nth-child(3) { width: 11%; }
+.elements-table th:nth-child(4) { width: 5%; }
+.elements-table th:nth-child(5) { width: 5%; }
+.elements-table th:nth-child(6),
+.elements-table th:nth-child(7),
+.elements-table th:nth-child(8),
+.elements-table th:nth-child(9),
+.elements-table th:nth-child(10),
+.elements-table th:nth-child(11),
+.elements-table th:nth-child(12),
+.elements-table th:nth-child(13),
+.elements-table th:nth-child(14) { width: 4.8%; }
+.elements-table th:nth-child(15) { width: 5%; }
+.elements-table th:nth-child(16) { width: 7%; }
+
+/* 节目内容分 (Program Components) */
+.components-table thead tr,
+.components-table tbody tr.score-total-row {
+    font-weight: bold;
+}
+.components-table th:nth-child(1) { width: 36%; }
+.components-table th:nth-child(2) { width: 7%; }
+.components-table th:nth-child(4) { width: 7%; }
+
+/* 3. 底部：扣分明细区 (对应 mt-[5px] h-[23px] border-2 border-black px-16) */
+.deductions-box {
+    margin-top: 5px;
+    display: flex;
+    height: 23px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #000;
+    padding: 0 64px;
+    font-weight: bold;
+}
+/* 对应 ml-16 font-normal */
+.deductions-box .deductions-value {
+    margin-left: 64px;
+    font-weight: normal;
 }

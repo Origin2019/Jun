@@ -1,80 +1,423 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title>小分表详情</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        /* 针对小分表特制一些样式 */
-        .protocol-container { max-width: 900px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
-        .element-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        .element-table th, .element-table td { border: 1px solid #eee; padding: 10px; text-align: center; }
-        .element-table th { background: #f8f9fa; color: #333; }
-        .highlight-goe { color: #e74c3c; font-weight: bold; } /* 给高 GOE 上色 */
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Protocol</title>
+<link rel="stylesheet" href="style.css">
 </head>
-<body class="about-page">
+<body class="protocol-page">
 
-<div class="protocol-container">
-    <h1 id="event-title">加载中...</h1>
-    <div style="display: flex; gap: 20px; margin-bottom: 20px;">
-        <h3 style="color: #3498db;">总分: <span id="total-score"></span></h3>
-        <h3>TES: <span id="tes-score"></span></h3>
-        <h3>PCS: <span id="pcs-score"></span></h3>
-    </div>
+<div class="protocol-wrapper">
+    <div class="isu-protocol">
 
-    <table class="element-table">
-        <thead>
-            <tr>
-                <th>#</th><th>动作名称</th><th>基础分</th><th>GOE</th>
-                <th>J1</th><th>J2</th><th>J3</th><th>J4</th><th>J5</th><th>J6</th><th>J7</th><th>J8</th><th>J9</th>
-                <th>得分</th>
-            </tr>
-        </thead>
-        <tbody id="element-body">
+        <table class="top-info-table">
+            <thead>
+                <tr>
+                    <th class="align-left">Rank</th>
+                    <th class="align-left">Name</th>
+                    <th class="align-center">Nation</th>
+                    <th class="align-center">Starting<br>Number</th>
+                    <th class="align-right">Total Segment<br>Score</th>
+                    <th class="align-right">Total Element<br>Score</th>
+                    <th class="align-right">Total Program Component<br>Score (factored)</th>
+                    <th class="align-right">Total<br>Deductions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="align-left rank-cell">&nbsp;</td>
+                    <td class="align-left">&nbsp;</td>
+                    <td class="align-center">&nbsp;</td>
+                    <td class="align-center">&nbsp;</td>
+                    <td class="align-right">&nbsp;</td>
+                    <td class="align-right">&nbsp;</td>
+                    <td class="align-right">&nbsp;</td>
+                    <td class="align-right">&nbsp;</td>
+                </tr>
             </tbody>
-    </table>
+        </table>
+
+        <div class="main-score-box">
+
+            <table class="elements-table">
+                <thead>
+                    <tr>
+                        <th class="align-left">#</th>
+                        <th class="align-left">Executed Elements</th>
+                        <th class="align-center info-th">Info</th>
+                        <th class="align-right" style="padding-right: 14px;">Base<br>Value</th>
+                        <th class="align-right">GOE</th>
+                        <th class="align-center">J1</th>
+                        <th class="align-center">J2</th>
+                        <th class="align-center">J3</th>
+                        <th class="align-center">J4</th>
+                        <th class="align-center">J5</th>
+                        <th class="align-center">J6</th>
+                        <th class="align-center">J7</th>
+                        <th class="align-center">J8</th>
+                        <th class="align-center">J9</th>
+                        <th class="align-center">Ref.</th>
+                        <th class="align-right">Scores of<br>Panel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="align-left">1</td>
+                        <td class="align-left">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="align-left">2</td>
+                        <td class="align-left">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="align-left">3</td>
+                        <td class="align-left">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="align-left">4</td>
+                        <td class="align-left">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="align-left">5</td>
+                        <td class="align-left">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="align-left">6</td>
+                        <td class="align-left">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="align-left">7</td>
+                        <td class="align-left">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                    </tr>
+                    <tr class="score-total-row">
+                        <td colspan="3">&nbsp;</td>
+                        <td class="align-right" style="padding-right: 14px;">&nbsp;</td>
+                        <td colspan="11">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div style="height: 20px;"></div>
+
+            <table class="components-table">
+                <thead>
+                    <tr>
+                        <th colspan="2" class="align-left">Program Components</th>
+                        <th class="align-right">Factor</th>
+                        <th colspan="12">&nbsp;</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2" class="align-left">Composition</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td colspan="3">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="align-left">Presentation</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td colspan="3">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="align-left">Skating Skills</td>
+                        <td class="align-right">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td class="align-center">&nbsp;</td>
+                        <td colspan="3">&nbsp;</td>
+                        <td class="align-right">&nbsp;</td>
+                    </tr>
+                    <tr class="score-total-row">
+                        <td colspan="15" class="align-left">Judges Total Program Component Score (factored)</td>
+                        <td class="align-right">&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="deductions-box">
+            <div>
+                <span class="deductions-title">Deductions:</span>
+                <span class="deductions-value">&nbsp;</span>
+            </div>
+            <div>&nbsp;</div>
+        </div>
+
+    </div>
 </div>
 
 <script>
-    // 1. 获取 URL 中的 id 参数 (例如 protocol.html?id=2026_owg_sp)
+  document.addEventListener("DOMContentLoaded", async () => {
+    // 1. 获取 URL 中的比赛 ID 参数，例如 ?id=2026_owg_sp
     const urlParams = new URLSearchParams(window.location.search);
-    const protocolId = urlParams.get('id');
+    let eventId = urlParams.get("id") || urlParams.get("event");
 
-    // 2. 获取 JSON 数据并渲染
-    fetch('detailed_scores.json')
-        .then(response => response.json())
-        .then(data => {
-            const protocol = data[protocolId];
-            if (!protocol) {
-                document.getElementById('event-title').innerText = "未找到该比赛数据";
-                return;
-            }
+    try {
+      // 💡 加上时间戳绕过缓存，确保拿到最新的 JSON
+      const response = await fetch(`detailed_scores.json?t=${new Date().getTime()}`);
+      if (!response.ok)
+        throw new Error("无法加载 detailed_scores.json 数据文件");
+      const data = await response.json();
 
-            // 填充标题和总分
-            document.getElementById('event-title').innerText = protocol.event_name;
-            document.getElementById('total-score').innerText = protocol.total_score;
-            document.getElementById('tes-score').innerText = protocol.tes;
-            document.getElementById('pcs-score').innerText = protocol.pcs;
+      // 如果没有传 ID，或者传的 ID 不在 JSON 里，默认加载第一个可用的比赛数据
+      if (!eventId || !data[eventId]) {
+        eventId = Object.keys(data)[0];
+        console.warn(`未指定有效比赛ID，默认展示: ${eventId}`);
+      }
 
-            // 循环填充表格
-            const tbody = document.getElementById('element-body');
-            let html = '';
-            protocol.elements.forEach(el => {
-                const judgesHtml = el.judges.map(j => `<td>${j}</td>`).join('');
-                html += `
-                    <tr>
-                        <td>${el.no}</td>
-                        <td style="font-weight:bold; text-align:left;">${el.name}</td>
-                        <td>${el.base_value}</td>
-                        <td class="highlight-goe">+${el.goe}</td>
-                        ${judgesHtml}
-                        <td style="font-weight:bold;">${el.panel_score}</td>
-                    </tr>
+      const protocol = data[eventId];
+      if (!protocol) return;
+
+      // 更新网页标题
+      if (protocol.event_name) {
+        document.title = `${protocol.event_name} - Protocol`;
+      }
+
+      // --- 3. 填充顶部概览表格 (Top Info Table) ---
+      const topRowCells = document.querySelectorAll(".top-info-table tbody tr td");
+      if (topRowCells.length >= 8) {
+        topRowCells[0].textContent = protocol.rank || "-";
+        topRowCells[1].textContent = protocol.name || "Junhwan CHA";
+        topRowCells[2].textContent = protocol.nation || "KOR";
+        topRowCells[3].textContent = protocol.starting_number || "-";
+        topRowCells[4].textContent = protocol.total_segment_score || "-";
+        topRowCells[5].textContent = protocol.total_element_score || "-";
+        topRowCells[6].textContent = protocol.total_component_score || "-";
+        topRowCells[7].textContent = protocol.total_deductions || "0.00";
+      }
+
+      // --- 4. 填充技术动作表格 (Elements Table) ---
+      const elementsTbody = document.querySelector(".elements-table tbody");
+      // 保留表格底部的总计行 (.score-total-row)
+      const totalRow = elementsTbody.querySelector(".score-total-row");
+      elementsTbody.innerHTML = ""; // 清空原有的占位行
+
+      let totalBaseValue = 0;
+
+      if (protocol.elements && protocol.elements.length > 0) {
+        protocol.elements.forEach((elem) => {
+          const tr = document.createElement("tr");
+
+          const bvNum = parseFloat(elem.base_value);
+          if (!isNaN(bvNum)) totalBaseValue += bvNum;
+
+          let judgesCells = "";
+          for (let i = 0; i < 9; i++) {
+            const jScore = elem.judges && elem.judges[i] ? elem.judges[i] : "-";
+            judgesCells += `<td class="align-center">${jScore}</td>`;
+          }
+
+          // 💡 修复：利用 CSS 绝对定位，让 x 悬浮在数字右侧，确保 Base Value 的数字完美右对齐
+          const xMarker = elem.has_x ? `<span style="position: absolute; right: 2px;">x</span>` : "";
+
+          tr.innerHTML = `
+                    <td class="align-left">${elem.no}</td>
+                    <td class="align-left">${elem.name}</td>
+                    <td class="align-center info-th">${elem.info || ""}</td>
+                    <!--  边距改为 14px，与表头和底部总计行完全一致 -->
+                    <td class="align-right" style="position: relative; padding-right: 14px;">${elem.base_value}${xMarker}</td>
+                    <td class="align-right">${elem.goe}</td>
+                    ${judgesCells}
+                    <td class="align-center">${elem.ref || ""}</td>
+                    <td class="align-right">${elem.panel_score}</td>
                 `;
-            });
-            tbody.innerHTML = html;
+          elementsTbody.appendChild(tr);
         });
+      }
+
+      // 💡 修复：将底部合计行的 Base Value 和 TES 强行加粗
+      if (totalRow) {
+        const bvCell = totalRow.querySelector("td:nth-child(2)");
+        const tesCell = totalRow.querySelector("td:nth-child(4)");
+
+        // 使用 innerHTML 写入 <strong> 标签
+        if (bvCell) bvCell.innerHTML = `<strong>${totalBaseValue.toFixed(2)}</strong>`;
+        if (tesCell) tesCell.innerHTML = `<strong>${protocol.total_element_score || "-"}</strong>`;
+
+        elementsTbody.appendChild(totalRow);
+      }
+
+      // --- 5. 填充节目内容分表格 (Components Table) ---
+      const componentsTbody = document.querySelector(".components-table tbody");
+      const compTotalRow = componentsTbody.querySelector(".score-total-row");
+      componentsTbody.innerHTML = ""; // 清空原有占位行
+
+      if (protocol.components && protocol.components.length > 0) {
+        protocol.components.forEach((comp) => {
+          const tr = document.createElement("tr");
+
+          // 生成 9 位裁判 P 分打分 (J1 - J9)
+          let judgesCells = "";
+          for (let i = 0; i < 9; i++) {
+            const jScore = comp.judges && comp.judges[i] ? comp.judges[i] : "-";
+            judgesCells += `<td class="align-center">${jScore}</td>`;
+          }
+
+          tr.innerHTML = `
+                    <td colspan="2" class="align-left">${comp.name}</td>
+                    <td class="align-right">${comp.factor}</td>
+                    ${judgesCells}
+                    <td colspan="3">&nbsp;</td>
+                    <td class="align-right">${comp.panel_score}</td>
+                `;
+          componentsTbody.appendChild(tr);
+        });
+      }
+
+      // 添回内容分总计行
+      if (compTotalRow) {
+        const pcsTotalCell = compTotalRow.querySelector("td:last-child");
+        if (pcsTotalCell)
+          pcsTotalCell.textContent = protocol.total_component_score || "-";
+        componentsTbody.appendChild(compTotalRow);
+      }
+
+      // --- 6. 填充扣分项 (Deductions Box) ---
+      const deductionsValSpan = document.querySelector(".deductions-value");
+      if (deductionsValSpan) {
+        let dedText = protocol.total_deductions || "0.00";
+        if (
+          protocol.deductions_detail &&
+          protocol.deductions_detail.trim() !== ""
+        ) {
+          dedText += ` (${protocol.deductions_detail})`;
+        }
+        deductionsValSpan.textContent = dedText;
+      }
+    } catch (error) {
+      console.error("渲染小分表时出错:", error);
+      alert("加载成绩数据失败，请检查 detailed_scores.json 是否存在及格式正确。");
+    }
+  });
 </script>
+
 </body>
 </html>
