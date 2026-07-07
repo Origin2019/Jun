@@ -145,10 +145,10 @@
             }
         }
 
-        // 【修改点】：无论是否存在 protocol_id，统一使用 <a> 标签包裹分数
-        // 如果有 protocol_id 就在 URL 后带上 ?id=xxx，没有就直接跳转到 protocol.html（或者你定义的默认参数）
-        const targetUrl = segment.protocol_id ? `protocol.html?id=${segment.protocol_id}` : `protocol.html`;
-        const scoreDisplay = `<a href="${targetUrl}" style="text-decoration: underline; color: inherit;" target="_blank">${segment.score}</a>`;
+        // 恢复原有逻辑：有 protocol_id 才生成点击跳转链接，否则只显示纯文本分数
+        const scoreDisplay = segment.protocol_id
+            ? `<a href="protocol.html?id=${segment.protocol_id}" style="text-decoration: underline; color: inherit;" target="_blank">${segment.score}</a>`
+            : segment.score;
 
         const videoDisplay = segment.video_url
             ? `<a href="${segment.video_url}" target="_blank">▶️</a>`

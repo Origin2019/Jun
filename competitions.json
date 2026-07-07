@@ -13,7 +13,7 @@
                         "rank": "6",
                         "protocol_url": "https://results.isu.org/results/season2526/owg2026/FSKMSINGLES-----------QUAL000100--_JudgesDetailsperSkater.pdf",
                         "video_url": "https://b23.tv/100jy5N",
-                        "protocol_id": "2025_owg2026_sp"
+                        "protocol_id": "2025_owg2026_ind_sp"
                     },
                     "FS": {
                         "score": "181.20",
@@ -75,13 +75,15 @@
                         "score": "97.50",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7432884413/QlqEEB25R",
-                        "video_url": "https://www.bilibili.com/video/BV1WUiYBxEME?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": "https://www.bilibili.com/video/BV1WUiYBxEME?vd_source=ee061c1404f1440009c2080352c0d3a5",
+                        "protocol_id": "2025_krnat2026_sp"
                     },
                     "FS": {
                         "score": "180.34",
                         "rank": "1",
                         "protocol_url": "http://xhslink.com/o/3cULCWWgf0m",
-                        "video_url": "https://weibo.com/tv/show/1034:5251443691814946?from=old_pc_videoshow"
+                        "video_url": "https://weibo.com/tv/show/1034:5251443691814946?from=old_pc_videoshow",
+                        "protocol_id": "2025_krnat2026_fs"
                     }
                 },
                 "exhibition_video": ""
@@ -94,13 +96,15 @@
                         "score": "82.91",
                         "rank": "3",
                         "protocol_url": "https://weibo.com/7432884413/Qg9bGh2tW",
-                        "video_url": "https://weibo.com/tv/show/1034:5238484160413775?from=old_pc_videoshow"
+                        "video_url": "https://weibo.com/tv/show/1034:5238484160413775?from=old_pc_videoshow",
+                        "protocol_id": "2025_krrk_sp"
                     },
                     "FS": {
                         "score": "172.81",
                         "rank": "2",
                         "protocol_url": "http://xhslink.com/o/9IYsyDokU3j",
-                        "video_url": "https://weibo.com/tv/show/1034:5238669695713317?from=old_pc_videoshow"
+                        "video_url": "https://weibo.com/tv/show/1034:5238669695713317?from=old_pc_videoshow",
+                        "protocol_id": "2025_krrk_fs"
                     }
                 },
                 "exhibition_video": ""
@@ -245,13 +249,15 @@
                         "score": "94.09",
                         "rank": "2",
                         "protocol_url": "https://weibo.com/7432884413/PdP8axOX4",
-                        "video_url": "https://www.bilibili.com/video/BV1D8exztEPY?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": "https://www.bilibili.com/video/BV1D8exztEPY?vd_source=ee061c1404f1440009c2080352c0d3a5",
+                        "protocol_id": "2024_awg2025_sp"
                     },
                     "FS": {
                         "score": "187.60",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7869787499/Pe8LkAYnP",
-                        "video_url": "https://www.bilibili.com/video/BV1XbXmBpE7K?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": "https://www.bilibili.com/video/BV1XbXmBpE7K?vd_source=ee061c1404f1440009c2080352c0d3a5",
+                        "protocol_id": "2024_awg2025_fs"
                     }
                 },
                 "exhibition_video": ""
@@ -285,13 +291,15 @@
                         "score": "90.53",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7432884413/P897woPjq",
-                        "video_url": "https://www.bilibili.com/video/BV1WSrHY5EjS?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": "https://www.bilibili.com/video/BV1WSrHY5EjS?vd_source=ee061c1404f1440009c2080352c0d3a5",
+                        "protocol_id": "2024_krnat2025_sp"
                     },
                     "FS": {
                         "score": "190.49",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7432884413/P8dNAE3uV",
-                        "video_url": "https://weibo.com/tv/show/1034:5119593677783101?from=old_pc_videoshow"
+                        "video_url": "https://weibo.com/tv/show/1034:5119593677783101?from=old_pc_videoshow",
+                        "protocol_id": "2024_krnat2025_fs"
                     }
                 },
                 "exhibition_video": ""
@@ -304,17 +312,20 @@
                         "score": "93.30",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/6106584446/P2J0je5cm",
-                        "video_url": "https://www.bilibili.com/video/BV112znYzEES?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": "https://www.bilibili.com/video/BV112znYzEES?vd_source=ee061c1404f1440009c2080352c0d3a5",
+                        "protocol_id": "2024_krrk_sp"
                     },
                     "FS": {
                         "score": "171.29",
                         "rank": "1",
                         "protocol_url": "http://xhslink.com/o/A5ZpX1uaodG",
-                        "video_url": "https://www.bilibili.com/video/BV1Tn6AYbEau?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": "https://www.bilibili.com/video/BV1Tn6AYbEau?vd_source=ee061c1404f1440009c2080352c0d3a5",
+                        "protocol_id": "2024_krrk_fs"
                     }
                 },
                 "exhibition_video": ""
             },
+
             {
                 "name": "2024 大奖赛芬兰站",
                 "total_score": "退赛(WD)",
@@ -365,16 +376,18 @@
                         "score": "83.95",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7650850901/OAXwawP8T",
-                        "video_url": "https://weibo.com/tv/show/1034:5087916901466129?from=old_pc_videoshow"
+                        "video_url": "https://weibo.com/tv/show/1034:5087916901466129?from=old_pc_videoshow",
+                        "protocol_id": "2024_awgq2025_sp"
                     },
                     "FS": {
                         "score": "174.98",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7650850901/OBaIh4kz2",
-                        "video_url": "https://weibo.com/tv/show/1034:5088346909638682?from=old_pc_videoshow"
+                        "video_url": "https://weibo.com/tv/show/1034:5088346909638682?from=old_pc_videoshow",
+                        "protocol_id": "2024_awgq2025_fs"
                     }
                 },
-                "exhibition_video": "https://www.bilibili.com/video/BV1QK1RY4E68?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                "exhibition_video": ""
             },
             {
                 "name": "2024 上海超级杯",
@@ -476,13 +489,15 @@
                         "score": "96.51",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7432884413/NABmEF1bG",
-                        "video_url": "https://www.bilibili.com/video/BV1Aa4y1B7Ks?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": "https://www.bilibili.com/video/BV1Aa4y1B7Ks?vd_source=ee061c1404f1440009c2080352c0d3a5",
+                        "protocol_id": "2023_krnat2024_sp"
                     },
                     "FS": {
                         "score": "179.43",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7432884413/NAKGYeNfJ",
-                        "video_url": "https://weibo.com/tv/show/1034:4987591808974893?from=old_pc_videoshow"
+                        "video_url": "https://weibo.com/tv/show/1034:4987591808974893?from=old_pc_videoshow",
+                        "protocol_id": "2023_krnat2024_fs"
                     }
                 },
                 "exhibition_video": ""
@@ -495,7 +510,8 @@
                         "score": "86.28",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7432884413/NvgAfce66",
-                        "video_url": "https://www.bilibili.com/video/BV1vM411R7qc?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": "https://www.bilibili.com/video/BV1vM411R7qc?vd_source=ee061c1404f1440009c2080352c0d3a5",
+                        "protocol_id": "2023_krrk_sp"
                     },
                     "FS": {
                         "score": "174.25",
@@ -667,13 +683,15 @@
                         "score": "101.04",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7432884413/Mndm44MLf",
-                        "video_url": "https://www.bilibili.com/video/BV1tP411F7wy?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": "https://www.bilibili.com/video/BV1tP411F7wy?vd_source=ee061c1404f1440009c2080352c0d3a5",
+                        "protocol_id": "2022_krnat2023_sp"
                     },
                     "FS": {
                         "score": "170.17",
                         "rank": "1",
                         "protocol_url": "",
-                        "video_url": "https://www.bilibili.com/video/BV1GY41127N7?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": "https://www.bilibili.com/video/BV1GY41127N7?vd_source=ee061c1404f1440009c2080352c0d3a5",
+                        "protocol_id": "2022_krnat2023_fs"
                     }
                 },
                 "exhibition_video": "https://weibo.com/tv/show/1034:5016229996593181?from=old_pc_videoshow"
@@ -686,13 +704,15 @@
                         "score": "101.36",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7432884413/MhSTbhXNU",
-                        "video_url": "https://www.bilibili.com/video/BV1pR4y117Lf?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": "https://www.bilibili.com/video/BV1pR4y117Lf?vd_source=ee061c1404f1440009c2080352c0d3a5",
+                        "protocol_id": "2022_krrk_sp"
                     },
                     "FS": {
                         "score": "185.19",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7432884413/Mi2SNj0h2",
-                        "video_url": "https://www.bilibili.com/video/BV1214y1E7D4?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": "https://www.bilibili.com/video/BV1214y1E7D4?vd_source=ee061c1404f1440009c2080352c0d3a5",
+                        "protocol_id": "2022_krrk_fs"
                     }
                 },
                 "exhibition_video": "https://weibo.com/tv/show/1034:4843013386731627?from=old_pc_videoshow"
@@ -859,13 +879,15 @@
                         "score": "98.31",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7432884413/L9QALwbLJ",
-                        "video_url": "https://www.bilibili.com/video/BV1qr4y1r7n5?p=11&vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": "https://www.bilibili.com/video/BV1qr4y1r7n5?p=11&vd_source=ee061c1404f1440009c2080352c0d3a5",
+                        "protocol_id": "2021_krnat2022_sp"
                     },
                     "FS": {
                         "score": "185.00",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7432884413/L9QALwbLJ",
-                        "video_url": "https://www.bilibili.com/video/BV1qr4y1r7n5?p=12&vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": "https://www.bilibili.com/video/BV1qr4y1r7n5?p=12&vd_source=ee061c1404f1440009c2080352c0d3a5",
+                        "protocol_id": "2021_krnat2022_fs"
                     }
                 },
                 "exhibition_video": ""
@@ -989,13 +1011,15 @@
                         "score": "77.95",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7432884413/K61eGfEwi",
-                        "video_url": "https://weibo.com/tv/show/1034:4614278033113092?from=old_pc_videoshow"
+                        "video_url": "https://weibo.com/tv/show/1034:4614278033113092?from=old_pc_videoshow",
+                        "protocol_id": "2020_krrk_sp"
                     },
                     "FS": {
                         "score": "147.25",
                         "rank": "2",
                         "protocol_url": "https://weibo.com/7432884413/K6hsVsDRr",
-                        "video_url": "https://weibo.com/tv/show/1034:4614703553642577?from=old_pc_videoshow"
+                        "video_url": "https://weibo.com/tv/show/1034:4614703553642577?from=old_pc_videoshow",
+                        "protocol_id": "2020_krrk_fs"
                     }
                 },
                 "exhibition_video": ""
@@ -1008,13 +1032,15 @@
                         "score": "90.36",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7432884413/K3zg62WbB",
-                        "video_url": "https://weibo.com/7432884413/K3zjIDj1G"
+                        "video_url": "https://weibo.com/7432884413/K3zjIDj1G",
+                        "protocol_id": "2020_krnat2021_sp"
                     },
                     "FS": {
                         "score": "166.76",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/7432884413/K3JmgDsE0",
-                        "video_url": "https://weibo.com/tv/show/1034:4608894693998631?from=old_pc_videoshow"
+                        "video_url": "https://weibo.com/tv/show/1034:4608894693998631?from=old_pc_videoshow",
+                        "protocol_id": "2020_krnat2021_fs"
                     }
                 },
                 "exhibition_video": ""
@@ -1056,13 +1082,15 @@
                         "score": "93.45",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/6505562831/InY2cmBOQ",
-                        "video_url": "https://weibo.com/tv/show/1034:4457077649637405?from=old_pc_videoshow"
+                        "video_url": "https://weibo.com/tv/show/1034:4457077649637405?from=old_pc_videoshow",
+                        "protocol_id": "2019_krnat2020_sp"
                     },
                     "FS": {
                         "score": "185.09",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/6505562831/IoerNqlFr",
-                        "video_url": "https://weibo.com/tv/show/1034:4457480021803039?from=old_pc_videoshow"
+                        "video_url": "https://weibo.com/tv/show/1034:4457480021803039?from=old_pc_videoshow",
+                        "protocol_id": "2019_krnat2020_fs"
                     }
                 },
                 "exhibition_video": ""
@@ -1075,13 +1103,15 @@
                         "score": "89.61",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/6505562831/IkCOgzrt0",
-                        "video_url": "https://weibo.com/tv/show/1034:4449111261511688?from=old_pc_videoshow"
+                        "video_url": "https://weibo.com/tv/show/1034:4449111261511688?from=old_pc_videoshow",
+                        "protocol_id": "2019_krrk_sp"
                     },
                     "FS": {
                         "score": "164.83",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/6505562831/Il9HN39UG",
-                        "video_url": "https://weibo.com/tv/show/1034:4449785021661197?from=old_pc_videoshow"
+                        "video_url": "https://weibo.com/tv/show/1034:4449785021661197?from=old_pc_videoshow",
+                        "protocol_id": "2019_krrk_fs"
                     }
                 },
                 "exhibition_video": ""
@@ -1224,13 +1254,15 @@
                         "score": "89.12",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/6505562831/HbEdGu4eN",
-                        "video_url": "https://weibo.com/tv/show/1034:4327665377709537?from=old_pc_videoshow"
+                        "video_url": "https://weibo.com/tv/show/1034:4327665377709537?from=old_pc_videoshow",
+                        "protocol_id": "2018_krnat2019_sp"
                     },
                     "FS": {
                         "score": "156.40",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/6505562831/HbN7qCTzF",
-                        "video_url": "https://www.bilibili.com/video/BV1wu411R7Av?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": "https://www.bilibili.com/video/BV1wu411R7Av?vd_source=ee061c1404f1440009c2080352c0d3a5",
+                        "protocol_id": "2018_krnat2019_fs"
                     }
                 },
                 "exhibition_video": "https://www.bilibili.com/video/BV13a41117UQ?vd_source=ee061c1404f1440009c2080352c0d3a5"
@@ -1243,13 +1275,15 @@
                         "score": "77.28",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/6505562831/H8uAPl2ce",
-                        "video_url": "https://www.bilibili.com/video/BV1CP4y1w7ut?vd_source=ee061c1404f1440009c2080352c0d3a5"
+                        "video_url": "https://www.bilibili.com/video/BV1CP4y1w7ut?vd_source=ee061c1404f1440009c2080352c0d3a5",
+                        "protocol_id": "2018_krrk_sp"
                     },
                     "FS": {
                         "score": "179.73",
                         "rank": "1",
                         "protocol_url": "https://weibo.com/6505562831/H8AtKfMUa",
-                        "video_url": "https://weibo.com/tv/show/1034:4320639482577326?from=old_pc_videoshow"
+                        "video_url": "https://weibo.com/tv/show/1034:4320639482577326?from=old_pc_videoshow",
+                        "protocol_id": "2018_krrk_fs"
                     }
                 },
                 "exhibition_video": "https://www.bilibili.com/video/BV1Aa411C7Ku?vd_source=ee061c1404f1440009c2080352c0d3a5"
@@ -1399,7 +1433,7 @@
                         "rank": "6",
                         "protocol_url": "https://www.isuresults.com/results/season1718/owg2018/OWG2018_TeamMen_SP_M_Scores.pdf",
                         "video_url": "",
-                        "protocol_id": "2017_owg2018_sp"
+                        "protocol_id": "2017_owg2018_team_sp"
                     },
                     "FS": {
                         "score": "-",
@@ -1702,7 +1736,7 @@
                         "rank": "3",
                         "protocol_url": "https://www.isuresults.com/results/season1516/yog2016/YOG2016_MixedNOCTeam_FS_M_Scores.pdf",
                         "video_url": "",
-                        "protocol_id": "2015_yog2016_fs"
+                        "protocol_id": "2015_yog2016_team_fs"
                     }
                 },
                 "exhibition_video": ""
