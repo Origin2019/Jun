@@ -7813,6 +7813,403 @@
         ],
         "deductions_detail": ""
     },
+    "2022_krnat2023_sp": {
+        "event_name": "2022-23 赛季 2023 韩国锦标赛 - SP",
+        "rank": "1",
+        "name": "Junhwan CHA",
+        "nation": "KOR",
+        "starting_number": "10",
+        "total_segment_score": "101.04",
+        "total_element_score": "53.87",
+        "total_component_score": "47.17",
+        "total_deductions": "0.00",
+        "elements": [
+            {
+                "no": "1",
+                "name": "4S",
+                "info": "",
+                "base_value": "9.70",
+                "has_x": false,
+                "goe": "3.10",
+                "judges": [ "3", "4", "4", "3", "3", "3", "2" ],
+                "ref": "",
+                "panel_score": "12.80"
+            },
+            {
+                "no": "2",
+                "name": "3Lz+3Lo",
+                "info": "",
+                "base_value": "10.80",
+                "has_x": false,
+                "goe": "1.18",
+                "judges": [ "2", "3", "2", "2", "2", "2", "2" ],
+                "ref": "",
+                "panel_score": "11.98"
+            },
+            {
+                "no": "3",
+                "name": "FCSp4",
+                "info": "",
+                "base_value": "3.20",
+                "has_x": false,
+                "goe": "0.83",
+                "judges": [ "4", "3", "3", "2", "2", "2", "3" ],
+                "ref": "",
+                "panel_score": "4.03"
+            },
+            {
+                "no": "4",
+                "name": "3A",
+                "info": "",
+                "base_value": "8.80",
+                "has_x": true,
+                "goe": "2.08",
+                "judges": [ "3", "3", "4", "3", "2", "2", "2" ],
+                "ref": "",
+                "panel_score": "10.88"
+            },
+            {
+                "no": "5",
+                "name": "CSSp4",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "1.02",
+                "judges": [ "3", "4", "3", "2", "4", "3", "4" ],
+                "ref": "",
+                "panel_score": "4.02"
+            },
+            {
+                "no": "6",
+                "name": "StSq4",
+                "info": "",
+                "base_value": "3.90",
+                "has_x": false,
+                "goe": "1.64",
+                "judges": [ "5", "5", "4", "4", "4", "4", "4" ],
+                "ref": "",
+                "panel_score": "5.54"
+            },
+            {
+                "no": "7",
+                "name": "CCoSp4",
+                "info": "",
+                "base_value": "3.50",
+                "has_x": false,
+                "goe": "1.12",
+                "judges": [ "4", "3", "3", "3", "3", "3", "4" ],
+                "ref": "",
+                "panel_score": "4.62"
+            }
+        ],
+        "components": [
+            {
+                "name": "Composition",
+                "factor": "1.67",
+                "judges": [ "9.25", "9.50", "9.75", "9.25", "9.25", "9.25", "9.50" ],
+                "ref": "",
+                "panel_score": "9.35"
+            },
+            {
+                "name": "Presentation",
+                "factor": "1.67",
+                "judges": [ "9.50", "9.75", "9.75", "9.50", "9.50", "9.50", "9.50" ],
+                "ref": "",
+                "panel_score": "9.55"
+            },
+            {
+                "name": "Skating Skills",
+                "factor": "1.67",
+                "judges": [ "9.50", "9.50", "9.50", "9.25", "9.25", "9.25", "9.25" ],
+                "ref": "",
+                "panel_score": "9.35"
+            }
+        ],
+        "deductions_detail": ""
+    },
+    "2022_krrk_sp": {
+        "event_name": "2022-23 赛季 2022 韩国会长杯排名赛 - SP",
+        "rank": "1",
+        "name": "Junhwan CHA",
+        "nation": "KOR",
+        "starting_number": "10",
+        "total_segment_score": "101.36",
+        "total_element_score": "54.85",
+        "total_component_score": "46.51",
+        "total_deductions": "0.00",
+        "elements": [
+            {
+                "no": "1",
+                "name": "4S",
+                "info": "",
+                "base_value": "9.70",
+                "has_x": false,
+                "goe": "3.49",
+                "judges": [ "3", "3", "3", "4", "4", "4", "4" ],
+                "ref": "",
+                "panel_score": "13.19"
+            },
+            {
+                "no": "2",
+                "name": "3Lz+3Lo",
+                "info": "",
+                "base_value": "10.80",
+                "has_x": false,
+                "goe": "1.65",
+                "judges": [ "3", "2", "3", "3", "2", "3", "3" ],
+                "ref": "",
+                "panel_score": "12.45"
+            },
+            {
+                "no": "3",
+                "name": "FCSp4",
+                "info": "",
+                "base_value": "3.20",
+                "has_x": false,
+                "goe": "0.96",
+                "judges": [ "3", "1", "3", "3", "3", "3", "3" ],
+                "ref": "",
+                "panel_score": "4.16"
+            },
+            {
+                "no": "4",
+                "name": "3A",
+                "info": "",
+                "base_value": "8.80",
+                "has_x": true,
+                "goe": "2.24",
+                "judges": [ "3", "2", "3", "2", "3", "3", "3" ],
+                "ref": "",
+                "panel_score": "11.04"
+            },
+            {
+                "no": "5",
+                "name": "CSSp4",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "0.84",
+                "judges": [ "4", "2", "3", "3", "2", "3", "3" ],
+                "ref": "",
+                "panel_score": "3.84"
+            },
+            {
+                "no": "6",
+                "name": "StSq4",
+                "info": "",
+                "base_value": "3.90",
+                "has_x": false,
+                "goe": "1.72",
+                "judges": [ "5", "3", "4", "5", "4", "4", "5" ],
+                "ref": "",
+                "panel_score": "5.62"
+            },
+            {
+                "no": "7",
+                "name": "CCoSp4",
+                "info": "",
+                "base_value": "3.50",
+                "has_x": false,
+                "goe": "1.05",
+                "judges": [ "3", "2", "4", "3", "3", "3", "3" ],
+                "ref": "",
+                "panel_score": "4.55"
+            }
+        ],
+        "components": [
+            {
+                "name": "Composition",
+                "factor": "1.67",
+                "judges": [ "9.50", "9.25", "8.75", "9.50", "9.50", "8.50", "9.25" ],
+                "ref": "",
+                "panel_score": "9.25"
+            },
+            {
+                "name": "Presentation",
+                "factor": "1.67",
+                "judges": [ "9.50", "9.50", "9.00", "9.75", "9.50", "8.75", "9.50" ],
+                "ref": "",
+                "panel_score": "9.40"
+            },
+            {
+                "name": "Skating Skills",
+                "factor": "1.67",
+                "judges": [ "9.25", "9.25", "9.00", "9.50", "9.50", "8.50", "9.00" ],
+                "ref": "",
+                "panel_score": "9.20"
+            }
+        ],
+        "deductions_detail": ""
+    },
+    "2022_krrk_fs": {
+        "event_name": "2022-23 赛季 2022 韩国会长杯排名赛 - FS",
+        "rank": "1",
+        "name": "Junhwan CHA",
+        "nation": "KOR",
+        "starting_number": "10",
+        "total_segment_score": "185.19",
+        "total_element_score": "94.11",
+        "total_component_score": "92.08",
+        "total_deductions": "-1.00",
+        "elements": [
+            {
+                "no": "1",
+                "name": "4S",
+                "info": "",
+                "base_value": "9.70",
+                "has_x": false,
+                "goe": "3.88",
+                "judges": [ "4", "4", "4", "5", "3", "4", "4" ],
+                "ref": "",
+                "panel_score": "13.58"
+            },
+            {
+                "no": "2",
+                "name": "4T",
+                "info": "",
+                "base_value": "9.50",
+                "has_x": false,
+                "goe": "2.85",
+                "judges": [ "3", "3", "3", "4", "3", "3", "3" ],
+                "ref": "",
+                "panel_score": "12.35"
+            },
+            {
+                "no": "3",
+                "name": "3Lz+3Lo",
+                "info": "",
+                "base_value": "10.80",
+                "has_x": false,
+                "goe": "1.18",
+                "judges": [ "1", "2", "1", "3", "2", "2", "3" ],
+                "ref": "",
+                "panel_score": "11.98"
+            },
+            {
+                "no": "4",
+                "name": "3F",
+                "info": "",
+                "base_value": "5.30",
+                "has_x": false,
+                "goe": "1.59",
+                "judges": [ "3", "3", "3", "3", "2", "3", "3" ],
+                "ref": "",
+                "panel_score": "6.89"
+            },
+            {
+                "no": "5",
+                "name": "FCSp4",
+                "info": "",
+                "base_value": "3.20",
+                "has_x": false,
+                "goe": "0.70",
+                "judges": [ "2", "2", "2", "2", "2", "3", "2" ],
+                "ref": "",
+                "panel_score": "3.90"
+            },
+            {
+                "no": "6",
+                "name": "CCoSp4",
+                "info": "",
+                "base_value": "3.50",
+                "has_x": false,
+                "goe": "1.12",
+                "judges": [ "3", "3", "2", "4", "3", "4", "3" ],
+                "ref": "",
+                "panel_score": "4.62"
+            },
+            {
+                "no": "7",
+                "name": "StSq4",
+                "info": "",
+                "base_value": "3.90",
+                "has_x": false,
+                "goe": "1.48",
+                "judges": [ "4", "4", "3", "3", "4", "4", "4" ],
+                "ref": "",
+                "panel_score": "5.38"
+            },
+            {
+                "no": "8",
+                "name": "3Aq",
+                "info": "F",
+                "base_value": "8.80",
+                "has_x": true,
+                "goe": "-4.00",
+                "judges": [ "-5", "-5", "-5", "-5", "-5", "-5", "-5" ],
+                "ref": "",
+                "panel_score": "4.80"
+            },
+            {
+                "no": "9",
+                "name": "3A+2A+SEQ",
+                "info": "",
+                "base_value": "12.43",
+                "has_x": true,
+                "goe": "0.96",
+                "judges": [ "1", "2", "0", "2", "0", "2", "1" ],
+                "ref": "",
+                "panel_score": "13.39"
+            },
+            {
+                "no": "10",
+                "name": "3Lz+1Eu+1S",
+                "info": "",
+                "base_value": "7.48",
+                "has_x": true,
+                "goe": "0.12",
+                "judges": [ "0", "0", "0", "1", "-1", "0", "1" ],
+                "ref": "",
+                "panel_score": "7.60"
+            },
+            {
+                "no": "11",
+                "name": "FCCoSp4",
+                "info": "",
+                "base_value": "3.50",
+                "has_x": false,
+                "goe": "1.12",
+                "judges": [ "4", "2", "2", "4", "3", "4", "3" ],
+                "ref": "",
+                "panel_score": "4.62"
+            },
+            {
+                "no": "12",
+                "name": "ChSq1",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "2.00",
+                "judges": [ "4", "4", "4", "4", "5", "4", "4" ],
+                "ref": "",
+                "panel_score": "5.00"
+            }
+        ],
+        "components": [
+            {
+                "name": "Composition",
+                "factor": "3.33",
+                "judges": [ "9.50", "9.25", "9.25", "9.00", "9.00", "9.50", "9.00" ],
+                "ref": "",
+                "panel_score": "9.20"
+            },
+            {
+                "name": "Presentation",
+                "factor": "3.33",
+                "judges": [ "9.00", "9.25", "9.25", "9.00", "9.25", "9.25", "9.25" ],
+                "ref": "",
+                "panel_score": "9.20"
+            },
+            {
+                "name": "Skating Skills",
+                "factor": "3.33",
+                "judges": [ "9.25", "9.25", "9.25", "9.25", "9.25", "9.25", "9.00" ],
+                "ref": "",
+                "panel_score": "9.25"
+            }
+        ],
+        "deductions_detail": "Falls -1.00 (1)"
+    },
     "2022_gpjpn2022_sp": {
         "event_name": "2022-23 赛季 2022 大奖赛NHK杯 - SP",
         "rank": "6",
@@ -9695,6 +10092,317 @@
         ],
         "deductions_detail": ""
     },
+    "2021_krnat2022_sp": {
+        "event_name": "2021-22 赛季 2022 韩国锦标赛 - SP",
+        "rank": "1",
+        "name": "Junhwan CHA",
+        "nation": "KOR",
+        "starting_number": "10",
+        "total_segment_score": "98.31",
+        "total_element_score": "53.46",
+        "total_component_score": "44.85",
+        "total_deductions": "0.00",
+        "elements": [
+            {
+                "no": "1",
+                "name": "4S",
+                "info": "",
+                "base_value": "9.70",
+                "has_x": false,
+                "goe": "2.91",
+                "judges": [ "3", "4", "4", "3", "3", "2", "2" ],
+                "ref": "",
+                "panel_score": "12.61"
+            },
+            {
+                "no": "2",
+                "name": "3Lz+3Lo",
+                "info": "",
+                "base_value": "10.80",
+                "has_x": false,
+                "goe": "0.83",
+                "judges": [ "1", "2", "3", "1", "1", "1", "2" ],
+                "ref": "",
+                "panel_score": "11.63"
+            },
+            {
+                "no": "3",
+                "name": "FCSp4",
+                "info": "",
+                "base_value": "3.20",
+                "has_x": false,
+                "goe": "0.96",
+                "judges": [ "3", "3", "3", "3", "3", "2", "3" ],
+                "ref": "",
+                "panel_score": "4.16"
+            },
+            {
+                "no": "4",
+                "name": "3A",
+                "info": "",
+                "base_value": "8.80",
+                "has_x": true,
+                "goe": "1.76",
+                "judges": [ "2", "3", "3", "2", "1", "2", "2" ],
+                "ref": "",
+                "panel_score": "10.56"
+            },
+            {
+                "no": "5",
+                "name": "CSSp4",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "1.14",
+                "judges": [ "4", "3", "4", "4", "4", "3", "4" ],
+                "ref": "",
+                "panel_score": "4.14"
+            },
+            {
+                "no": "6",
+                "name": "StSq4",
+                "info": "",
+                "base_value": "3.90",
+                "has_x": false,
+                "goe": "1.56",
+                "judges": [ "4", "4", "4", "4", "3", "4", "4" ],
+                "ref": "",
+                "panel_score": "5.46"
+            },
+            {
+                "no": "7",
+                "name": "CCoSp4",
+                "info": "",
+                "base_value": "3.50",
+                "has_x": false,
+                "goe": "1.40",
+                "judges": [ "4", "3", "4", "4", "4", "4", "4" ],
+                "ref": "",
+                "panel_score": "4.90"
+            }
+        ],
+        "components": [
+            {
+                "name": "Skating Skills",
+                "factor": "1.00",
+                "judges": [ "9.00", "9.25", "9.25", "9.25", "8.75", "8.00", "8.75" ],
+                "ref": "",
+                "panel_score": "9.00"
+            },
+            {
+                "name": "Transitions",
+                "factor": "1.00",
+                "judges": [ "8.75", "9.00", "9.00", "9.25", "8.50", "8.00", "8.50" ],
+                "ref": "",
+                "panel_score": "8.75"
+            },
+            {
+                "name": "Performance",
+                "factor": "1.00",
+                "judges": [ "9.00", "9.25", "9.25", "9.50", "8.75", "8.25", "9.00" ],
+                "ref": "",
+                "panel_score": "9.05"
+            },
+            {
+                "name": "Composition",
+                "factor": "1.00",
+                "judges": [ "9.00", "9.00", "9.25", "9.50", "8.75", "8.25", "9.00" ],
+                "ref": "",
+                "panel_score": "9.00"
+            },
+            {
+                "name": "Interpretation of the Music",
+                "factor": "1.00",
+                "judges": [ "9.00", "9.25", "9.25", "9.50", "9.00", "8.50", "8.75" ],
+                "ref": "",
+                "panel_score": "9.05"
+            }
+        ],
+        "deductions_detail": ""
+    },
+    "2021_krnat2022_fs": {
+        "event_name": "2021-22 赛季 2022 韩国锦标赛 - FS",
+        "rank": "1",
+        "name": "Junhwan CHA",
+        "nation": "KOR",
+        "starting_number": "10",
+        "total_segment_score": "185.00",
+        "total_element_score": "94.80",
+        "total_component_score": "90.20",
+        "total_deductions": "0.00",
+        "elements": [
+            {
+                "no": "1",
+                "name": "4T",
+                "info": "",
+                "base_value": "9.50",
+                "has_x": false,
+                "goe": "2.66",
+                "judges": [ "2", "2", "3", "3", "3", "3", "3" ],
+                "ref": "",
+                "panel_score": "12.16"
+            },
+            {
+                "no": "2",
+                "name": "4S",
+                "info": "",
+                "base_value": "9.70",
+                "has_x": false,
+                "goe": "3.10",
+                "judges": [ "3", "3", "3", "4", "2", "3", "4" ],
+                "ref": "",
+                "panel_score": "12.80"
+            },
+            {
+                "no": "3",
+                "name": "3Lz",
+                "info": "",
+                "base_value": "5.90",
+                "has_x": false,
+                "goe": "1.18",
+                "judges": [ "2", "0", "2", "2", "2", "2", "2" ],
+                "ref": "",
+                "panel_score": "7.08"
+            },
+            {
+                "no": "4",
+                "name": "FCSp4",
+                "info": "",
+                "base_value": "3.20",
+                "has_x": false,
+                "goe": "0.83",
+                "judges": [ "2", "3", "3", "3", "2", "2", "3" ],
+                "ref": "",
+                "panel_score": "4.03"
+            },
+            {
+                "no": "5",
+                "name": "StSq4",
+                "info": "",
+                "base_value": "3.90",
+                "has_x": false,
+                "goe": "1.48",
+                "judges": [ "4", "4", "4", "4", "3", "3", "4" ],
+                "ref": "",
+                "panel_score": "5.38"
+            },
+            {
+                "no": "6",
+                "name": "3A+2T",
+                "info": "",
+                "base_value": "9.30",
+                "has_x": false,
+                "goe": "1.76",
+                "judges": [ "2", "2", "2", "3", "1", "3", "2" ],
+                "ref": "",
+                "panel_score": "11.06"
+            },
+            {
+                "no": "7",
+                "name": "3A",
+                "info": "",
+                "base_value": "8.80",
+                "has_x": true,
+                "goe": "2.24",
+                "judges": [ "2", "3", "3", "3", "2", "3", "3" ],
+                "ref": "",
+                "panel_score": "11.04"
+            },
+            {
+                "no": "8",
+                "name": "3Lz+3Lo<",
+                "info": "<",
+                "base_value": "10.80",
+                "has_x": true,
+                "goe": "-1.89",
+                "judges": [ "-4", "-3", "-3", "-3", "-5", "-1", "-3" ],
+                "ref": "",
+                "panel_score": "8.91"
+            },
+            {
+                "no": "9",
+                "name": "3F+1Eu+3S<",
+                "info": "<",
+                "base_value": "10.16",
+                "has_x": true,
+                "goe": "-1.27",
+                "judges": [ "-3", "-2", "-3", "-3", "-2", "-1", "-2" ],
+                "ref": "",
+                "panel_score": "8.89"
+            },
+            {
+                "no": "10",
+                "name": "ChSq1",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "2.00",
+                "judges": [ "4", "4", "4", "5", "4", "4", "4" ],
+                "ref": "",
+                "panel_score": "5.00"
+            },
+            {
+                "no": "11",
+                "name": "CSSp4",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "0.90",
+                "judges": [ "3", "3", "3", "3", "3", "3", "3" ],
+                "ref": "",
+                "panel_score": "3.90"
+            },
+            {
+                "no": "12",
+                "name": "CCoSp4",
+                "info": "",
+                "base_value": "3.50",
+                "has_x": false,
+                "goe": "1.05",
+                "judges": [ "3", "3", "3", "4", "3", "3", "4" ],
+                "ref": "",
+                "panel_score": "4.55"
+            }
+        ],
+        "components": [
+            {
+                "name": "Skating Skills",
+                "factor": "2.00",
+                "judges": [ "9.25", "9.25", "9.25", "9.25", "9.00", "9.25", "8.75" ],
+                "ref": "",
+                "panel_score": "9.20"
+            },
+            {
+                "name": "Transitions",
+                "factor": "2.00",
+                "judges": [ "9.00", "9.25", "8.75", "9.00", "8.75", "9.25", "8.75" ],
+                "ref": "",
+                "panel_score": "8.95"
+            },
+            {
+                "name": "Performance",
+                "factor": "2.00",
+                "judges": [ "9.25", "9.00", "8.75", "9.00", "8.75", "8.75", "8.75" ],
+                "ref": "",
+                "panel_score": "8.85"
+            },
+            {
+                "name": "Composition",
+                "factor": "2.00",
+                "judges": [ "9.25", "9.50", "9.00", "9.00", "9.00", "9.25", "9.00" ],
+                "ref": "",
+                "panel_score": "9.10"
+            },
+            {
+                "name": "Interpretation of the Music",
+                "factor": "2.00",
+                "judges": [ "9.25", "9.25", "9.00", "9.25", "8.75", "8.75", "8.75" ],
+                "ref": "",
+                "panel_score": "9.00"
+            }
+        ],
+        "deductions_detail": ""
+    },
     "2021_gpjpn2021_sp": {
         "event_name": "2021-22 赛季 2021 大奖赛NHK杯 - SP",
         "rank": "3",
@@ -10939,6 +11647,628 @@
         ],
         "deductions_detail": ""
     },
+    "2020_krrk_sp": {
+        "event_name": "2020-21 赛季 2020 韩国会长杯排名赛 - SP",
+        "rank": "1",
+        "name": "Junhwan CHA",
+        "nation": "KOR",
+        "starting_number": "6",
+        "total_segment_score": "77.95",
+        "total_element_score": "37.40",
+        "total_component_score": "40.55",
+        "total_deductions": "0.00",
+        "elements": [
+            {
+                "no": "1",
+                "name": "4S",
+                "info": "",
+                "base_value": "9.70",
+                "has_x": false,
+                "goe": "1.75",
+                "judges": [ "2", "2", "2", "3", "1", "1", "2" ],
+                "ref": "",
+                "panel_score": "11.45"
+            },
+            {
+                "no": "2",
+                "name": "3Lz+1Lo*",
+                "info": "*",
+                "base_value": "5.90",
+                "has_x": false,
+                "goe": "-2.95",
+                "judges": [ "-5", "-5", "-5", "-5", "-5", "-5", "-5" ],
+                "ref": "",
+                "panel_score": "2.95"
+            },
+            {
+                "no": "3",
+                "name": "FCSp4",
+                "info": "",
+                "base_value": "3.20",
+                "has_x": false,
+                "goe": "0.64",
+                "judges": [ "2", "2", "2", "2", "2", "1", "2" ],
+                "ref": "",
+                "panel_score": "3.84"
+            },
+            {
+                "no": "4",
+                "name": "3Aq",
+                "info": "q",
+                "base_value": "8.80",
+                "has_x": true,
+                "goe": "-1.60",
+                "judges": [ "-2", "-2", "-2", "-1", "-2", "-2", "-2" ],
+                "ref": "",
+                "panel_score": "7.20"
+            },
+            {
+                "no": "5",
+                "name": "CSSp4",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "0.84",
+                "judges": [ "3", "3", "3", "3", "2", "2", "3" ],
+                "ref": "",
+                "panel_score": "3.84"
+            },
+            {
+                "no": "6",
+                "name": "StSq3",
+                "info": "",
+                "base_value": "3.30",
+                "has_x": false,
+                "goe": "0.92",
+                "judges": [ "3", "3", "3", "3", "3", "2", "2" ],
+                "ref": "",
+                "panel_score": "4.22"
+            },
+            {
+                "no": "7",
+                "name": "CCoSp3",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "0.90",
+                "judges": [ "3", "3", "4", "3", "3", "3", "3" ],
+                "ref": "",
+                "panel_score": "3.90"
+            }
+        ],
+        "components": [
+            {
+                "name": "Skating Skills",
+                "factor": "1.00",
+                "judges": [ "7.50", "7.50", "8.25", "8.75", "8.50", "8.25", "8.50" ],
+                "ref": "",
+                "panel_score": "8.20"
+            },
+            {
+                "name": "Transitions",
+                "factor": "1.00",
+                "judges": [ "7.50", "7.25", "7.50", "8.50", "8.00", "8.00", "8.00" ],
+                "ref": "",
+                "panel_score": "7.80"
+            },
+            {
+                "name": "Performance",
+                "factor": "1.00",
+                "judges": [ "7.75", "7.25", "8.25", "8.50", "8.50", "8.25", "8.00" ],
+                "ref": "",
+                "panel_score": "8.15"
+            },
+            {
+                "name": "Composition",
+                "factor": "1.00",
+                "judges": [ "7.75", "7.50", "8.00", "8.50", "8.50", "8.25", "8.25" ],
+                "ref": "",
+                "panel_score": "8.15"
+            },
+            {
+                "name": "Interpretation of the Music",
+                "factor": "1.00",
+                "judges": [ "7.50", "7.75", "8.25", "8.50", "8.75", "8.25", "8.50" ],
+                "ref": "",
+                "panel_score": "8.25"
+            }
+        ],
+        "deductions_detail": ""
+    },
+    "2020_krrk_fs": {
+        "event_name": "2020-21 赛季 2020 韩国会长杯排名赛 - FS",
+        "rank": "2",
+        "name": "Junhwan CHA",
+        "nation": "KOR",
+        "starting_number": "9",
+        "total_segment_score": "147.25",
+        "total_element_score": "71.05",
+        "total_component_score": "79.20",
+        "total_deductions": "-3.00",
+        "elements": [
+            {
+                "no": "1",
+                "name": "4Tq",
+                "info": "q",
+                "base_value": "9.50",
+                "has_x": false,
+                "goe": "-4.75",
+                "judges": [ "-5", "-5", "-5", "-5", "-5", "-5", "-5" ],
+                "ref": "",
+                "panel_score": "4.75"
+            },
+            {
+                "no": "2",
+                "name": "4S",
+                "info": "",
+                "base_value": "9.70",
+                "has_x": false,
+                "goe": "-4.85",
+                "judges": [ "-5", "-5", "-5", "-5", "-5", "-5", "-5" ],
+                "ref": "",
+                "panel_score": "4.85"
+            },
+            {
+                "no": "3",
+                "name": "3Lz+3Lo",
+                "info": "",
+                "base_value": "10.80",
+                "has_x": false,
+                "goe": "-1.42",
+                "judges": [ "-2", "-1", "-3", "-1", "-3", "-3", "-3" ],
+                "ref": "",
+                "panel_score": "9.38"
+            },
+            {
+                "no": "4",
+                "name": "FCSp4",
+                "info": "",
+                "base_value": "3.20",
+                "has_x": false,
+                "goe": "0.64",
+                "judges": [ "2", "2", "2", "1", "2", "2", "2" ],
+                "ref": "",
+                "panel_score": "3.84"
+            },
+            {
+                "no": "5",
+                "name": "StSq3",
+                "info": "",
+                "base_value": "3.30",
+                "has_x": false,
+                "goe": "0.86",
+                "judges": [ "3", "2", "3", "2", "3", "2", "3" ],
+                "ref": "",
+                "panel_score": "4.16"
+            },
+            {
+                "no": "6",
+                "name": "3A",
+                "info": "",
+                "base_value": "8.00",
+                "has_x": false,
+                "goe": "-0.80",
+                "judges": [ "-1", "0", "-1", "-1", "-1", "-1", "-2" ],
+                "ref": "",
+                "panel_score": "7.20"
+            },
+            {
+                "no": "7",
+                "name": "3A+2T",
+                "info": "",
+                "base_value": "10.23",
+                "has_x": true,
+                "goe": "0.64",
+                "judges": [ "1", "1", "0", "1", "1", "1", "0" ],
+                "ref": "",
+                "panel_score": "10.87"
+            },
+            {
+                "no": "8",
+                "name": "3F+1Eu+3Sq",
+                "info": "q",
+                "base_value": "11.11",
+                "has_x": true,
+                "goe": "-1.70",
+                "judges": [ "-2", "-3", "-2", "-3", "-4", "-4", "-4" ],
+                "ref": "",
+                "panel_score": "9.41"
+            },
+            {
+                "no": "9",
+                "name": "ChSq1",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "1.00",
+                "judges": [ "2", "2", "2", "2", "2", "3", "2" ],
+                "ref": "",
+                "panel_score": "4.00"
+            },
+            {
+                "no": "10",
+                "name": "3Lo",
+                "info": "",
+                "base_value": "5.39",
+                "has_x": true,
+                "goe": "0.59",
+                "judges": [ "2", "2", "1", "1", "1", "1", "1" ],
+                "ref": "",
+                "panel_score": "5.98"
+            },
+            {
+                "no": "11",
+                "name": "CSSp3",
+                "info": "",
+                "base_value": "2.60",
+                "has_x": false,
+                "goe": "0.47",
+                "judges": [ "2", "2", "1", "2", "2", "1", "2" ],
+                "ref": "",
+                "panel_score": "3.07"
+            },
+            {
+                "no": "12",
+                "name": "CCoSp3",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "0.54",
+                "judges": [ "2", "2", "2", "2", "2", "1", "1" ],
+                "ref": "",
+                "panel_score": "3.54"
+            }
+        ],
+        "components": [
+            {
+                "name": "Skating Skills",
+                "factor": "2.00",
+                "judges": [ "8.25", "8.25", "8.00", "8.00", "8.75", "7.75", "7.75" ],
+                "ref": "",
+                "panel_score": "8.05"
+            },
+            {
+                "name": "Transitions",
+                "factor": "2.00",
+                "judges": [ "8.00", "8.00", "7.75", "7.50", "8.00", "7.50", "7.50" ],
+                "ref": "",
+                "panel_score": "7.75"
+            },
+            {
+                "name": "Performance",
+                "factor": "2.00",
+                "judges": [ "8.00", "8.00", "7.50", "8.00", "8.25", "7.50", "7.50" ],
+                "ref": "",
+                "panel_score": "7.80"
+            },
+            {
+                "name": "Composition",
+                "factor": "2.00",
+                "judges": [ "8.00", "8.50", "8.25", "7.75", "8.50", "7.75", "7.75" ],
+                "ref": "",
+                "panel_score": "8.05"
+            },
+            {
+                "name": "Interpretation of the Music",
+                "factor": "2.00",
+                "judges": [ "7.75", "8.25", "8.00", "7.75", "8.50", "7.75", "8.00" ],
+                "ref": "",
+                "panel_score": "7.95"
+            }
+        ],
+        "deductions_detail": "Time violation: -1.00, Falls: -2.00(2)"
+    },
+    "2020_krnat2021_sp": {
+        "event_name": "2020-21 赛季 2021 韩国锦标赛 - SP",
+        "rank": "1",
+        "name": "Junhwan CHA",
+        "nation": "KOR",
+        "starting_number": "10",
+        "total_segment_score": "90.36",
+        "total_element_score": "49.11",
+        "total_component_score": "41.25",
+        "total_deductions": "0.00",
+        "elements": [
+            {
+                "no": "1",
+                "name": "4S",
+                "info": "",
+                "base_value": "9.70",
+                "has_x": false,
+                "goe": "2.33",
+                "judges": [ "2", "3", "3", "2", "1", "2", "3" ],
+                "ref": "",
+                "panel_score": "12.03"
+            },
+            {
+                "no": "2",
+                "name": "3Lz+3Lo",
+                "info": "",
+                "base_value": "10.80",
+                "has_x": false,
+                "goe": "1.18",
+                "judges": [ "2", "2", "3", "1", "1", "2", "3" ],
+                "ref": "",
+                "panel_score": "11.98"
+            },
+            {
+                "no": "3",
+                "name": "FCSp3",
+                "info": "",
+                "base_value": "2.80",
+                "has_x": false,
+                "goe": "0.62",
+                "judges": [ "2", "4", "2", "2", "2", "3", "2" ],
+                "ref": "",
+                "panel_score": "3.42"
+            },
+            {
+                "no": "4",
+                "name": "3A",
+                "info": "",
+                "base_value": "8.80",
+                "has_x": true,
+                "goe": "-0.64",
+                "judges": [ "-1", "0", "-1", "-1", "-1", "-1", "0" ],
+                "ref": "",
+                "panel_score": "8.16"
+            },
+            {
+                "no": "5",
+                "name": "CSSp4",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "0.90",
+                "judges": [ "3", "4", "3", "3", "1", "3", "3" ],
+                "ref": "",
+                "panel_score": "3.90"
+            },
+            {
+                "no": "6",
+                "name": "StSq4",
+                "info": "",
+                "base_value": "3.90",
+                "has_x": false,
+                "goe": "1.17",
+                "judges": [ "3", "3", "3", "3", "3", "3", "3" ],
+                "ref": "",
+                "panel_score": "5.07"
+            },
+            {
+                "no": "7",
+                "name": "CCoSp4",
+                "info": "",
+                "base_value": "3.50",
+                "has_x": false,
+                "goe": "1.05",
+                "judges": [ "3", "3", "4", "3", "2", "3", "3" ],
+                "ref": "",
+                "panel_score": "4.55"
+            }
+        ],
+        "components": [
+            {
+                "name": "Skating Skills",
+                "factor": "1.00",
+                "judges": [ "7.75", "8.50", "8.25", "8.75", "8.25", "8.25", "8.50" ],
+                "ref": "",
+                "panel_score": "8.35"
+            },
+            {
+                "name": "Transitions",
+                "factor": "1.00",
+                "judges": [ "7.75", "8.25", "8.00", "8.50", "7.75", "7.75", "8.25" ],
+                "ref": "",
+                "panel_score": "8.00"
+            },
+            {
+                "name": "Performance",
+                "factor": "1.00",
+                "judges": [ "8.00", "8.50", "8.25", "8.75", "8.00", "8.00", "8.50" ],
+                "ref": "",
+                "panel_score": "8.25"
+            },
+            {
+                "name": "Composition",
+                "factor": "1.00",
+                "judges": [ "8.00", "8.50", "8.50", "8.75", "8.00", "8.00", "8.25" ],
+                "ref": "",
+                "panel_score": "8.25"
+            },
+            {
+                "name": "Interpretation of the Music",
+                "factor": "1.00",
+                "judges": [ "8.00", "8.75", "8.50", "9.00", "8.25", "8.00", "8.50" ],
+                "ref": "",
+                "panel_score": "8.40"
+            }
+        ],
+        "deductions_detail": ""
+    },
+    "2020_krnat2021_fs": {
+        "event_name": "2020-21 赛季 2021 韩国锦标赛 - FS",
+        "rank": "1",
+        "name": "Junhwan CHA",
+        "nation": "KOR",
+        "starting_number": "9",
+        "total_segment_score": "166.76",
+        "total_element_score": "82.86",
+        "total_component_score": "84.90",
+        "total_deductions": "-1.00",
+        "elements": [
+            {
+                "no": "1",
+                "name": "3F",
+                "info": "",
+                "base_value": "5.30",
+                "has_x": false,
+                "goe": "0.85",
+                "judges": [ "0", "2", "2", "2", "1", "1", "2" ],
+                "ref": "",
+                "panel_score": "6.15"
+            },
+            {
+                "no": "2",
+                "name": "4S",
+                "info": "",
+                "base_value": "9.70",
+                "has_x": false,
+                "goe": "2.13",
+                "judges": [ "2", "2", "3", "2", "2", "1", "4" ],
+                "ref": "",
+                "panel_score": "11.83"
+            },
+            {
+                "no": "3",
+                "name": "3Lz+3Lo",
+                "info": "",
+                "base_value": "10.80",
+                "has_x": false,
+                "goe": "0.83",
+                "judges": [ "3", "0", "2", "1", "1", "0", "3" ],
+                "ref": "",
+                "panel_score": "11.63"
+            },
+            {
+                "no": "4",
+                "name": "FCSp4",
+                "info": "",
+                "base_value": "3.20",
+                "has_x": false,
+                "goe": "0.45",
+                "judges": [ "2", "1", "2", "1", "1", "1", "2" ],
+                "ref": "",
+                "panel_score": "3.65"
+            },
+            {
+                "no": "5",
+                "name": "StSq3",
+                "info": "",
+                "base_value": "3.30",
+                "has_x": false,
+                "goe": "0.99",
+                "judges": [ "4", "3", "3", "3", "3", "2", "3" ],
+                "ref": "",
+                "panel_score": "4.29"
+            },
+            {
+                "no": "6",
+                "name": "3A+2T",
+                "info": "",
+                "base_value": "9.30",
+                "has_x": false,
+                "goe": "1.60",
+                "judges": [ "2", "1", "3", "2", "2", "0", "3" ],
+                "ref": "",
+                "panel_score": "10.90"
+            },
+            {
+                "no": "7",
+                "name": "3A",
+                "info": "",
+                "base_value": "8.80",
+                "has_x": true,
+                "goe": "1.76",
+                "judges": [ "2", "2", "3", "2", "2", "0", "3" ],
+                "ref": "",
+                "panel_score": "10.56"
+            },
+            {
+                "no": "8",
+                "name": "1F+1Eu+3S",
+                "info": "",
+                "base_value": "5.83",
+                "has_x": true,
+                "goe": "0.60",
+                "judges": [ "1", "1", "2", "1", "2", "0", "2" ],
+                "ref": "",
+                "panel_score": "6.43"
+            },
+            {
+                "no": "9",
+                "name": "ChSq1",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "1.60",
+                "judges": [ "3", "4", "4", "3", "3", "1", "3" ],
+                "ref": "",
+                "panel_score": "4.60"
+            },
+            {
+                "no": "10",
+                "name": "3Loq",
+                "info": "q",
+                "base_value": "5.39",
+                "has_x": true,
+                "goe": "-0.69",
+                "judges": [ "1", "-2", "-2", "-1", "-1", "-2", "-1" ],
+                "ref": "",
+                "panel_score": "4.70"
+            },
+            {
+                "no": "11",
+                "name": "CSSp4",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "0.78",
+                "judges": [ "3", "2", "4", "3", "2", "1", "3" ],
+                "ref": "",
+                "panel_score": "3.78"
+            },
+            {
+                "no": "12",
+                "name": "CCoSp4",
+                "info": "",
+                "base_value": "3.50",
+                "has_x": false,
+                "goe": "0.84",
+                "judges": [ "4", "2", "3", "2", "1", "2", "3" ],
+                "ref": "",
+                "panel_score": "4.34"
+            }
+        ],
+        "components": [
+            {
+                "name": "Skating Skills",
+                "factor": "2.00",
+                "judges": [ "8.25", "8.50", "8.75", "8.50", "8.50", "8.25", "9.00" ],
+                "ref": "",
+                "panel_score": "8.50"
+            },
+            {
+                "name": "Transitions",
+                "factor": "2.00",
+                "judges": [ "8.50", "8.25", "8.50", "8.25", "8.00", "7.75", "8.75" ],
+                "ref": "",
+                "panel_score": "8.30"
+            },
+            {
+                "name": "Performance",
+                "factor": "2.00",
+                "judges": [ "8.50", "8.75", "8.50", "8.50", "8.50", "8.00", "8.75" ],
+                "ref": "",
+                "panel_score": "8.55"
+            },
+            {
+                "name": "Composition",
+                "factor": "2.00",
+                "judges": [ "8.25", "8.75", "8.75", "8.50", "8.50", "8.00", "8.75" ],
+                "ref": "",
+                "panel_score": "8.55"
+            },
+            {
+                "name": "Interpretation of the Music",
+                "factor": "2.00",
+                "judges": [ "8.50", "8.75", "8.75", "8.50", "8.25", "8.25", "8.75" ],
+                "ref": "",
+                "panel_score": "8.55"
+            }
+        ],
+        "deductions_detail": "Time violation: -1.00"
+    },
     "2019_fc2020_sp": {
         "event_name": "2019-20 赛季 2020 四大洲锦标赛 - SP",
         "rank": "6",
@@ -11249,6 +12579,628 @@
             }
         ],
         "deductions_detail": ""
+    },
+    "2019_krnat2020_sp": {
+        "event_name": "2019-20 赛季 2020 韩国锦标赛 - SP",
+        "rank": "1",
+        "name": "Junhwan CHA",
+        "nation": "KOR",
+        "starting_number": "10",
+        "total_segment_score": "93.45",
+        "total_element_score": "51.15",
+        "total_component_score": "42.30",
+        "total_deductions": "0.00",
+        "elements": [
+            {
+                "no": "1",
+                "name": "4S",
+                "info": "",
+                "base_value": "9.70",
+                "has_x": false,
+                "goe": "2.33",
+                "judges": [ "2", "2", "1", "3", "2", "3", "4" ],
+                "ref": "",
+                "panel_score": "12.03"
+            },
+            {
+                "no": "2",
+                "name": "3Lz+3Lo",
+                "info": "",
+                "base_value": "10.80",
+                "has_x": false,
+                "goe": "0.94",
+                "judges": [ "2", "2", "2", "2", "0", "0", "2" ],
+                "ref": "",
+                "panel_score": "11.74"
+            },
+            {
+                "no": "3",
+                "name": "CSSp4",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "0.90",
+                "judges": [ "3", "3", "2", "3", "3", "3", "3" ],
+                "ref": "",
+                "panel_score": "3.90"
+            },
+            {
+                "no": "4",
+                "name": "3A",
+                "info": "",
+                "base_value": "8.80",
+                "has_x": true,
+                "goe": "1.12",
+                "judges": [ "1", "2", "0", "2", "1", "1", "3" ],
+                "ref": "",
+                "panel_score": "9.92"
+            },
+            {
+                "no": "5",
+                "name": "FCSp4",
+                "info": "",
+                "base_value": "3.20",
+                "has_x": false,
+                "goe": "0.51",
+                "judges": [ "2", "2", "1", "2", "1", "1", "2" ],
+                "ref": "",
+                "panel_score": "3.71"
+            },
+            {
+                "no": "6",
+                "name": "StSq4",
+                "info": "",
+                "base_value": "3.90",
+                "has_x": false,
+                "goe": "1.33",
+                "judges": [ "4", "3", "3", "4", "3", "4", "3" ],
+                "ref": "",
+                "panel_score": "5.23"
+            },
+            {
+                "no": "7",
+                "name": "CCoSp4",
+                "info": "",
+                "base_value": "3.50",
+                "has_x": false,
+                "goe": "1.12",
+                "judges": [ "3", "4", "4", "3", "3", "3", "3" ],
+                "ref": "",
+                "panel_score": "4.62"
+            }
+        ],
+        "components": [
+            {
+                "name": "Skating Skills",
+                "factor": "1.00",
+                "judges": [ "8.25", "8.50", "8.50", "8.50", "8.00", "8.50", "9.00" ],
+                "ref": "",
+                "panel_score": "8.45"
+            },
+            {
+                "name": "Transitions",
+                "factor": "1.00",
+                "judges": [ "8.00", "8.25", "8.00", "8.50", "8.00", "8.25", "8.75" ],
+                "ref": "",
+                "panel_score": "8.20"
+            },
+            {
+                "name": "Performance",
+                "factor": "1.00",
+                "judges": [ "8.50", "8.50", "8.50", "8.75", "8.50", "8.50", "9.00" ],
+                "ref": "",
+                "panel_score": "8.55"
+            },
+            {
+                "name": "Composition",
+                "factor": "1.00",
+                "judges": [ "8.50", "8.50", "8.25", "8.75", "8.50", "8.50", "9.00" ],
+                "ref": "",
+                "panel_score": "8.55"
+            },
+            {
+                "name": "Interpretation of the Music",
+                "factor": "1.00",
+                "judges": [ "8.50", "8.25", "8.50", "8.75", "8.50", "8.50", "9.00" ],
+                "ref": "",
+                "panel_score": "8.55"
+            }
+        ],
+        "deductions_detail": ""
+    },
+    "2019_krnat2020_fs": {
+        "event_name": "2019-20 赛季 2020 韩国锦标赛 - FS",
+        "rank": "1",
+        "name": "Junhwan CHA",
+        "nation": "KOR",
+        "starting_number": "8",
+        "total_segment_score": "185.09",
+        "total_element_score": "96.99",
+        "total_component_score": "88.10",
+        "total_deductions": "0.00",
+        "elements": [
+            {
+                "no": "1",
+                "name": "4T",
+                "info": "",
+                "base_value": "9.50",
+                "has_x": false,
+                "goe": "2.09",
+                "judges": [ "0", "2", "3", "3", "2", "2", "2" ],
+                "ref": "",
+                "panel_score": "11.59"
+            },
+            {
+                "no": "2",
+                "name": "4S",
+                "info": "",
+                "base_value": "9.70",
+                "has_x": false,
+                "goe": "2.52",
+                "judges": [ "1", "4", "3", "4", "2", "2", "2" ],
+                "ref": "",
+                "panel_score": "12.22"
+            },
+            {
+                "no": "3",
+                "name": "3Lz+3Lo",
+                "info": "",
+                "base_value": "10.80",
+                "has_x": false,
+                "goe": "1.18",
+                "judges": [ "1", "2", "3", "2", "3", "1", "2" ],
+                "ref": "",
+                "panel_score": "11.98"
+            },
+            {
+                "no": "4",
+                "name": "FCSp4",
+                "info": "",
+                "base_value": "3.20",
+                "has_x": false,
+                "goe": "0.45",
+                "judges": [ "1", "2", "2", "2", "1", "1", "1" ],
+                "ref": "",
+                "panel_score": "3.65"
+            },
+            {
+                "no": "5",
+                "name": "StSq2",
+                "info": "",
+                "base_value": "2.60",
+                "has_x": false,
+                "goe": "0.83",
+                "judges": [ "3", "4", "3", "3", "3", "4", "3" ],
+                "ref": "",
+                "panel_score": "3.43"
+            },
+            {
+                "no": "6",
+                "name": "3A+2T",
+                "info": "",
+                "base_value": "9.30",
+                "has_x": false,
+                "goe": "1.92",
+                "judges": [ "3", "2", "3", "3", "2", "2", "2" ],
+                "ref": "",
+                "panel_score": "11.22"
+            },
+            {
+                "no": "7",
+                "name": "3A",
+                "info": "",
+                "base_value": "8.80",
+                "has_x": true,
+                "goe": "2.08",
+                "judges": [ "3", "2", "4", "4", "2", "2", "2" ],
+                "ref": "",
+                "panel_score": "10.88"
+            },
+            {
+                "no": "8",
+                "name": "3F+1Eu+3S",
+                "info": "",
+                "base_value": "11.11",
+                "has_x": true,
+                "goe": "1.27",
+                "judges": [ "2", "3", "3", "3", "2", "2", "2" ],
+                "ref": "",
+                "panel_score": "12.38"
+            },
+            {
+                "no": "9",
+                "name": "ChSq1",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "1.90",
+                "judges": [ "3", "4", "5", "4", "3", "4", "4" ],
+                "ref": "",
+                "panel_score": "4.90"
+            },
+            {
+                "no": "10",
+                "name": "3Lo",
+                "info": "",
+                "base_value": "5.39",
+                "has_x": true,
+                "goe": "0.88",
+                "judges": [ "2", "2", "2", "3", "1", "2", "0" ],
+                "ref": "",
+                "panel_score": "6.27"
+            },
+            {
+                "no": "11",
+                "name": "CSSp4",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "0.78",
+                "judges": [ "3", "3", "2", "3", "1", "3", "2" ],
+                "ref": "",
+                "panel_score": "3.78"
+            },
+            {
+                "no": "12",
+                "name": "CCoSp4",
+                "info": "",
+                "base_value": "3.50",
+                "has_x": false,
+                "goe": "1.19",
+                "judges": [ "4", "4", "3", "3", "4", "3", "3" ],
+                "ref": "",
+                "panel_score": "4.69"
+            }
+        ],
+        "components": [
+            {
+                "name": "Skating Skills",
+                "factor": "2.00",
+                "judges": [ "8.50", "8.75", "9.00", "9.25", "8.50", "8.75", "8.75" ],
+                "ref": "",
+                "panel_score": "8.75"
+            },
+            {
+                "name": "Transitions",
+                "factor": "2.00",
+                "judges": [ "8.50", "8.50", "8.75", "9.00", "8.50", "8.50", "8.50" ],
+                "ref": "",
+                "panel_score": "8.55"
+            },
+            {
+                "name": "Performance",
+                "factor": "2.00",
+                "judges": [ "8.75", "9.00", "9.00", "9.25", "8.75", "9.00", "9.00" ],
+                "ref": "",
+                "panel_score": "8.95"
+            },
+            {
+                "name": "Composition",
+                "factor": "2.00",
+                "judges": [ "8.50", "8.75", "9.00", "9.25", "8.75", "8.75", "8.75" ],
+                "ref": "",
+                "panel_score": "8.80"
+            },
+            {
+                "name": "Interpretation of the Music",
+                "factor": "2.00",
+                "judges": [ "9.00", "9.00", "9.00", "9.25", "9.00", "9.00", "9.00" ],
+                "ref": "",
+                "panel_score": "9.00"
+            }
+        ],
+        "deductions_detail": ""
+    },
+    "2019_krrk_sp": {
+        "event_name": "2019-20 赛季 2019 韩国会长杯排名赛 - SP",
+        "rank": "1",
+        "name": "Junhwan CHA",
+        "nation": "KOR",
+        "starting_number": "6",
+        "total_segment_score": "89.61",
+        "total_element_score": "48.51",
+        "total_component_score": "41.10",
+        "total_deductions": "0.00",
+        "elements": [
+            {
+                "no": "1",
+                "name": "4S",
+                "info": "",
+                "base_value": "9.70",
+                "has_x": false,
+                "goe": "2.33",
+                "judges": [ "2", "3", "2", "3", "2", "2", "4" ],
+                "ref": "",
+                "panel_score": "12.03"
+            },
+            {
+                "no": "2",
+                "name": "3Lz+3Lo<",
+                "info": "<",
+                "base_value": "9.82",
+                "has_x": false,
+                "goe": "-0.47",
+                "judges": [ "-1", "-1", "-1", "-1", "0", "-1", "0" ],
+                "ref": "",
+                "panel_score": "9.35"
+            },
+            {
+                "no": "3",
+                "name": "CSSp4",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "0.84",
+                "judges": [ "3", "2", "2", "3", "3", "3", "3" ],
+                "ref": "",
+                "panel_score": "3.84"
+            },
+            {
+                "no": "4",
+                "name": "3A",
+                "info": "",
+                "base_value": "8.80",
+                "has_x": true,
+                "goe": "1.60",
+                "judges": [ "2", "2", "2", "2", "2", "1", "2" ],
+                "ref": "",
+                "panel_score": "10.40"
+            },
+            {
+                "no": "5",
+                "name": "FCSp4",
+                "info": "",
+                "base_value": "3.20",
+                "has_x": false,
+                "goe": "0.58",
+                "judges": [ "1", "1", "2", "2", "2", "2", "3" ],
+                "ref": "",
+                "panel_score": "3.78"
+            },
+            {
+                "no": "6",
+                "name": "StSq4",
+                "info": "",
+                "base_value": "3.90",
+                "has_x": false,
+                "goe": "1.25",
+                "judges": [ "3", "3", "3", "3", "3", "4", "4" ],
+                "ref": "",
+                "panel_score": "5.15"
+            },
+            {
+                "no": "7",
+                "name": "CCoSp3",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "0.96",
+                "judges": [ "4", "3", "3", "3", "3", "3", "4" ],
+                "ref": "",
+                "panel_score": "3.96"
+            }
+        ],
+        "components": [
+            {
+                "name": "Skating Skills",
+                "factor": "1.00",
+                "judges": [ "8.00", "8.00", "7.75", "8.25", "8.50", "8.75", "9.00" ],
+                "ref": "",
+                "panel_score": "8.30"
+            },
+            {
+                "name": "Transitions",
+                "factor": "1.00",
+                "judges": [ "7.50", "7.75", "7.50", "8.00", "8.00", "8.50", "8.75" ],
+                "ref": "",
+                "panel_score": "7.95"
+            },
+            {
+                "name": "Performance",
+                "factor": "1.00",
+                "judges": [ "8.00", "7.75", "7.75", "8.25", "8.50", "8.75", "8.75" ],
+                "ref": "",
+                "panel_score": "8.25"
+            },
+            {
+                "name": "Composition",
+                "factor": "1.00",
+                "judges": [ "8.00", "8.00", "7.75", "8.25", "8.25", "8.75", "9.00" ],
+                "ref": "",
+                "panel_score": "8.25"
+            },
+            {
+                "name": "Interpretation of the Music",
+                "factor": "1.00",
+                "judges": [ "8.00", "8.25", "7.75", "8.25", "8.50", "8.75", "9.00" ],
+                "ref": "",
+                "panel_score": "8.35"
+            }
+        ],
+        "deductions_detail": ""
+    },
+    "2019_krrk_fs": {
+        "event_name": "2019-20 赛季 2019 韩国会长杯排名赛 - FS",
+        "rank": "1",
+        "name": "Junhwan CHA",
+        "nation": "KOR",
+        "starting_number": "9",
+        "total_segment_score": "164.83",
+        "total_element_score": "83.23",
+        "total_component_score": "83.60",
+        "total_deductions": "-2.00",
+        "elements": [
+            {
+                "no": "1",
+                "name": "4T",
+                "info": "",
+                "base_value": "9.50",
+                "has_x": false,
+                "goe": "1.90",
+                "judges": [ "2", "2", "3", "1", "1", "2", "3" ],
+                "ref": "",
+                "panel_score": "11.40"
+            },
+            {
+                "no": "2",
+                "name": "4S<",
+                "info": "<",
+                "base_value": "7.76",
+                "has_x": false,
+                "goe": "-0.16",
+                "judges": [ "-1", "0", "0", "1", "0", "0", "-1" ],
+                "ref": "",
+                "panel_score": "7.60"
+            },
+            {
+                "no": "3",
+                "name": "3Lz+3Lo<<",
+                "info": "<<",
+                "base_value": "7.60",
+                "has_x": false,
+                "goe": "-2.95",
+                "judges": [ "-5", "-5", "-5", "-5", "-5", "-5", "-5" ],
+                "ref": "",
+                "panel_score": "4.65"
+            },
+            {
+                "no": "4",
+                "name": "FCSp4",
+                "info": "",
+                "base_value": "3.20",
+                "has_x": false,
+                "goe": "0.32",
+                "judges": [ "1", "1", "1", "1", "1", "1", "2" ],
+                "ref": "",
+                "panel_score": "3.52"
+            },
+            {
+                "no": "5",
+                "name": "StSq3",
+                "info": "",
+                "base_value": "3.30",
+                "has_x": false,
+                "goe": "0.99",
+                "judges": [ "3", "3", "3", "2", "3", "3", "3" ],
+                "ref": "",
+                "panel_score": "4.29"
+            },
+            {
+                "no": "6",
+                "name": "3A+2T",
+                "info": "",
+                "base_value": "9.30",
+                "has_x": false,
+                "goe": "0.64",
+                "judges": [ "0", "1", "0", "1", "1", "1", "2" ],
+                "ref": "",
+                "panel_score": "9.94"
+            },
+            {
+                "no": "7",
+                "name": "3A",
+                "info": "",
+                "base_value": "8.80",
+                "has_x": true,
+                "goe": "1.44",
+                "judges": [ "2", "2", "1", "1", "2", "2", "3" ],
+                "ref": "",
+                "panel_score": "10.24"
+            },
+            {
+                "no": "8",
+                "name": "3F+1Eu+3S",
+                "info": "",
+                "base_value": "11.11",
+                "has_x": true,
+                "goe": "1.27",
+                "judges": [ "3", "3", "2", "2", "2", "2", "4" ],
+                "ref": "",
+                "panel_score": "12.38"
+            },
+            {
+                "no": "9",
+                "name": "ChSq1",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "1.60",
+                "judges": [ "3", "4", "4", "2", "3", "3", "3" ],
+                "ref": "",
+                "panel_score": "4.60"
+            },
+            {
+                "no": "10",
+                "name": "3Lo",
+                "info": "",
+                "base_value": "5.39",
+                "has_x": true,
+                "goe": "0.88",
+                "judges": [ "2", "2", "1", "1", "1", "3", "3" ],
+                "ref": "",
+                "panel_score": "6.27"
+            },
+            {
+                "no": "11",
+                "name": "CSSp4",
+                "info": "",
+                "base_value": "3.00",
+                "has_x": false,
+                "goe": "0.72",
+                "judges": [ "3", "2", "3", "1", "2", "2", "4" ],
+                "ref": "",
+                "panel_score": "3.72"
+            },
+            {
+                "no": "12",
+                "name": "CCoSp4",
+                "info": "",
+                "base_value": "3.50",
+                "has_x": false,
+                "goe": "1.12",
+                "judges": [ "4", "3", "3", "2", "3", "3", "4" ],
+                "ref": "",
+                "panel_score": "4.62"
+            }
+        ],
+        "components": [
+            {
+                "name": "Skating Skills",
+                "factor": "2.00",
+                "judges": [ "8.50", "8.50", "8.25", "8.50", "8.00", "8.50", "8.75" ],
+                "ref": "",
+                "panel_score": "8.45"
+            },
+            {
+                "name": "Transitions",
+                "factor": "2.00",
+                "judges": [ "7.75", "8.25", "8.00", "8.00", "7.75", "8.25", "8.50" ],
+                "ref": "",
+                "panel_score": "8.05"
+            },
+            {
+                "name": "Performance",
+                "factor": "2.00",
+                "judges": [ "8.00", "8.50", "8.25", "8.75", "8.25", "8.50", "8.75" ],
+                "ref": "",
+                "panel_score": "8.45"
+            },
+            {
+                "name": "Composition",
+                "factor": "2.00",
+                "judges": [ "8.25", "8.50", "8.25", "8.75", "8.00", "8.50", "8.50" ],
+                "ref": "",
+                "panel_score": "8.40"
+            },
+            {
+                "name": "Interpretation of the Music",
+                "factor": "2.00",
+                "judges": [ "8.25", "8.50", "8.25", "8.75", "8.25", "8.50", "8.75" ],
+                "ref": "",
+                "panel_score": "8.45"
+            }
+        ],
+        "deductions_detail": "Time violation: -1.00, Falls: -1.00(1)"
     },
     "2019_gpchn2019_sp": {
         "event_name": "2019-20 赛季 2019 大奖赛中国杯 - SP",
@@ -13134,15 +15086,7 @@
                 "base_value": "0.00",
                 "has_x": false,
                 "goe": "0.00",
-                "judges": [
-                    "-",
-                    "-",
-                    "-",
-                    "-",
-                    "-",
-                    "-",
-                    "-"
-                ],
+                "judges": [ "-", "-", "-", "-", "-", "-", "-" ],
                 "ref": "",
                 "panel_score": "0.00"
             },
@@ -13153,15 +15097,7 @@
                 "base_value": "9.58",
                 "has_x": false,
                 "goe": "-0.35",
-                "judges": [
-                    "-2",
-                    "-2",
-                    "-1",
-                    "0",
-                    "1",
-                    "0",
-                    "0"
-                ],
+                "judges": [ "-2", "-2", "-1", "0", "1", "0", "0" ],
                 "ref": "",
                 "panel_score": "9.23"
             },
@@ -13172,15 +15108,7 @@
                 "base_value": "3.20",
                 "has_x": false,
                 "goe": "0.58",
-                "judges": [
-                    "2",
-                    "1",
-                    "1",
-                    "1",
-                    "3",
-                    "3",
-                    "2"
-                ],
+                "judges": [ "2", "1", "1", "1", "3", "3", "2" ],
                 "ref": "",
                 "panel_score": "3.78"
             },
@@ -13191,15 +15119,7 @@
                 "base_value": "8.80",
                 "has_x": true,
                 "goe": "2.08",
-                "judges": [
-                    "0",
-                    "2",
-                    "2",
-                    "3",
-                    "3",
-                    "3",
-                    "3"
-                ],
+                "judges": [ "0", "2", "2", "3", "3", "3", "3" ],
                 "ref": "",
                 "panel_score": "10.88"
             },
@@ -13210,15 +15130,7 @@
                 "base_value": "3.00",
                 "has_x": false,
                 "goe": "0.96",
-                "judges": [
-                    "2",
-                    "3",
-                    "3",
-                    "3",
-                    "3",
-                    "4",
-                    "4"
-                ],
+                "judges": [ "2", "3", "3", "3", "3", "4", "4" ],
                 "ref": "",
                 "panel_score": "3.96"
             },
@@ -13229,15 +15141,7 @@
                 "base_value": "3.90",
                 "has_x": false,
                 "goe": "1.33",
-                "judges": [
-                    "3",
-                    "3",
-                    "3",
-                    "3",
-                    "5",
-                    "4",
-                    "4"
-                ],
+                "judges": [ "3", "3", "3", "3", "5", "4", "4" ],
                 "ref": "",
                 "panel_score": "5.23"
             },
@@ -13248,15 +15152,7 @@
                 "base_value": "3.50",
                 "has_x": false,
                 "goe": "1.05",
-                "judges": [
-                    "2",
-                    "3",
-                    "3",
-                    "3",
-                    "3",
-                    "3",
-                    "3"
-                ],
+                "judges": [ "2", "3", "3", "3", "3", "3", "3" ],
                 "ref": "",
                 "panel_score": "4.55"
             }
@@ -13265,75 +15161,35 @@
             {
                 "name": "Skating Skills",
                 "factor": "1.00",
-                "judges": [
-                    "7.50",
-                    "7.75",
-                    "7.00",
-                    "8.25",
-                    "8.50",
-                    "7.75",
-                    "8.50"
-                ],
+                "judges": [ "7.50", "7.75", "7.00", "8.25", "8.50", "7.75", "8.50" ],
                 "ref": "",
                 "panel_score": "7.95"
             },
             {
                 "name": "Transitions",
                 "factor": "1.00",
-                "judges": [
-                    "7.25",
-                    "7.50",
-                    "6.75",
-                    "8.00",
-                    "8.50",
-                    "7.50",
-                    "8.00"
-                ],
+                "judges": [ "7.25", "7.50", "6.75", "8.00", "8.50", "7.50", "8.00" ],
                 "ref": "",
                 "panel_score": "7.65"
             },
             {
                 "name": "Performance",
                 "factor": "1.00",
-                "judges": [
-                    "7.50",
-                    "7.50",
-                    "7.00",
-                    "8.25",
-                    "8.25",
-                    "8.00",
-                    "8.50"
-                ],
+                "judges": [ "7.50", "7.50", "7.00", "8.25", "8.25", "8.00", "8.50" ],
                 "ref": "",
                 "panel_score": "7.90"
             },
             {
                 "name": "Composition",
                 "factor": "1.00",
-                "judges": [
-                    "7.75",
-                    "7.75",
-                    "7.00",
-                    "8.50",
-                    "8.50",
-                    "7.75",
-                    "8.50"
-                ],
+                "judges": [ "7.75", "7.75", "7.00", "8.50", "8.50", "7.75", "8.50" ],
                 "ref": "",
                 "panel_score": "8.05"
             },
             {
                 "name": "Interpretation of the Music",
                 "factor": "1.00",
-                "judges": [
-                    "7.50",
-                    "7.75",
-                    "7.25",
-                    "8.50",
-                    "8.75",
-                    "8.00",
-                    "8.75"
-                ],
+                "judges": [ "7.50", "7.75", "7.25", "8.50", "8.75", "8.00", "8.75" ],
                 "ref": "",
                 "panel_score": "8.10"
             }
@@ -13358,15 +15214,7 @@
                 "base_value": "9.50",
                 "has_x": false,
                 "goe": "2.09",
-                "judges": [
-                    "2",
-                    "2",
-                    "3",
-                    "3",
-                    "2",
-                    "2",
-                    "2"
-                ],
+                "judges": [ "2", "2", "3", "3", "2", "2", "2" ],
                 "ref": "",
                 "panel_score": "11.59"
             },
@@ -13377,15 +15225,7 @@
                 "base_value": "9.70",
                 "has_x": false,
                 "goe": "2.91",
-                "judges": [
-                    "3",
-                    "3",
-                    "3",
-                    "3",
-                    "4",
-                    "3",
-                    "2"
-                ],
+                "judges": [ "3", "3", "3", "3", "4", "3", "2" ],
                 "ref": "",
                 "panel_score": "12.61"
             },
@@ -13396,15 +15236,7 @@
                 "base_value": "9.58",
                 "has_x": false,
                 "goe": "-0.83",
-                "judges": [
-                    "-1",
-                    "-1",
-                    "-1",
-                    "-2",
-                    "-2",
-                    "-1",
-                    "-2"
-                ],
+                "judges": [ "-1", "-1", "-1", "-2", "-2", "-1", "-2" ],
                 "ref": "",
                 "panel_score": "8.75"
             },
@@ -13415,15 +15247,7 @@
                 "base_value": "3.90",
                 "has_x": false,
                 "goe": "1.48",
-                "judges": [
-                    "3",
-                    "3",
-                    "4",
-                    "4",
-                    "4",
-                    "5",
-                    "4"
-                ],
+                "judges": [ "3", "3", "4", "4", "4", "5", "4" ],
                 "ref": "",
                 "panel_score": "5.38"
             },
@@ -13434,15 +15258,7 @@
                 "base_value": "3.20",
                 "has_x": false,
                 "goe": "0.70",
-                "judges": [
-                    "2",
-                    "3",
-                    "2",
-                    "2",
-                    "3",
-                    "2",
-                    "2"
-                ],
+                "judges": [ "2", "3", "2", "2", "3", "2", "2" ],
                 "ref": "",
                 "panel_score": "3.90"
             },
@@ -13453,15 +15269,7 @@
                 "base_value": "3.00",
                 "has_x": false,
                 "goe": "1.90",
-                "judges": [
-                    "4",
-                    "3",
-                    "3",
-                    "4",
-                    "4",
-                    "4",
-                    "4"
-                ],
+                "judges": [ "4", "3", "3", "4", "4", "4", "4" ],
                 "ref": "",
                 "panel_score": "4.90"
             },
@@ -13472,15 +15280,7 @@
                 "base_value": "9.30",
                 "has_x": false,
                 "goe": "0.80",
-                "judges": [
-                    "0",
-                    "1",
-                    "2",
-                    "1",
-                    "2",
-                    "1",
-                    "0"
-                ],
+                "judges": [ "0", "1", "2", "1", "2", "1", "0" ],
                 "ref": "",
                 "panel_score": "10.10"
             },
@@ -13491,15 +15291,7 @@
                 "base_value": "8.80",
                 "has_x": true,
                 "goe": "1.92",
-                "judges": [
-                    "1",
-                    "2",
-                    "3",
-                    "3",
-                    "2",
-                    "3",
-                    "2"
-                ],
+                "judges": [ "1", "2", "3", "3", "2", "3", "2" ],
                 "ref": "",
                 "panel_score": "10.72"
             },
@@ -13510,15 +15302,7 @@
                 "base_value": "9.93",
                 "has_x": true,
                 "goe": "-0.21",
-                "judges": [
-                    "-1",
-                    "0",
-                    "1",
-                    "-1",
-                    "0",
-                    "0",
-                    "-1"
-                ],
+                "judges": [ "-1", "0", "1", "-1", "0", "0", "-1" ],
                 "ref": "",
                 "panel_score": "9.72"
             },
@@ -13529,15 +15313,7 @@
                 "base_value": "5.39",
                 "has_x": true,
                 "goe": "1.27",
-                "judges": [
-                    "3",
-                    "2",
-                    "3",
-                    "1",
-                    "4",
-                    "3",
-                    "2"
-                ],
+                "judges": [ "3", "2", "3", "1", "4", "3", "2" ],
                 "ref": "",
                 "panel_score": "6.66"
             },
@@ -13548,15 +15324,7 @@
                 "base_value": "3.50",
                 "has_x": false,
                 "goe": "0.98",
-                "judges": [
-                    "4",
-                    "1",
-                    "2",
-                    "3",
-                    "4",
-                    "2",
-                    "3"
-                ],
+                "judges": [ "4", "1", "2", "3", "4", "2", "3" ],
                 "ref": "",
                 "panel_score": "4.48"
             },
@@ -13567,15 +15335,7 @@
                 "base_value": "3.00",
                 "has_x": false,
                 "goe": "1.02",
-                "judges": [
-                    "4",
-                    "2",
-                    "3",
-                    "3",
-                    "5",
-                    "3",
-                    "4"
-                ],
+                "judges": [ "4", "2", "3", "3", "5", "3", "4" ],
                 "ref": "",
                 "panel_score": "4.02"
             }
@@ -13584,75 +15344,35 @@
             {
                 "name": "Skating Skills",
                 "factor": "2.00",
-                "judges": [
-                    "8.75",
-                    "8.75",
-                    "8.50",
-                    "8.75",
-                    "9.25",
-                    "8.25",
-                    "8.75"
-                ],
+                "judges": [ "8.75", "8.75", "8.50", "8.75", "9.25", "8.25", "8.75" ],
                 "ref": "",
                 "panel_score": "8.70"
             },
             {
                 "name": "Transitions",
                 "factor": "2.00",
-                "judges": [
-                    "8.75",
-                    "8.50",
-                    "8.25",
-                    "8.75",
-                    "9.00",
-                    "8.25",
-                    "8.25"
-                ],
+                "judges": [ "8.75", "8.50", "8.25", "8.75", "9.00", "8.25", "8.25" ],
                 "ref": "",
                 "panel_score": "8.50"
             },
             {
                 "name": "Performance",
                 "factor": "2.00",
-                "judges": [
-                    "8.75",
-                    "8.50",
-                    "8.75",
-                    "9.00",
-                    "9.25",
-                    "8.25",
-                    "8.75"
-                ],
+                "judges": [ "8.75", "8.50", "8.75", "9.00", "9.25", "8.25", "8.75" ],
                 "ref": "",
                 "panel_score": "8.75"
             },
             {
                 "name": "Composition",
                 "factor": "2.00",
-                "judges": [
-                    "8.75",
-                    "8.50",
-                    "8.50",
-                    "9.00",
-                    "9.25",
-                    "8.25",
-                    "9.00"
-                ],
+                "judges": [ "8.75", "8.50", "8.50", "9.00", "9.25", "8.25", "9.00" ],
                 "ref": "",
                 "panel_score": "8.75"
             },
             {
                 "name": "Interpretation of the Music",
                 "factor": "2.00",
-                "judges": [
-                    "8.75",
-                    "8.50",
-                    "8.50",
-                    "9.00",
-                    "9.25",
-                    "8.50",
-                    "9.00"
-                ],
+                "judges": [ "8.75", "8.50", "8.50", "9.00", "9.25", "8.50", "9.00" ],
                 "ref": "",
                 "panel_score": "8.75"
             }
@@ -16313,17 +18033,7 @@
             "base_value": "6.00",
             "has_x": false,
             "goe": "-2.10",
-            "judges": [
-                "-3",
-                "-3",
-                "-3",
-                "-3",
-                "-3",
-                "-3",
-                "-3",
-                "-3",
-                "-3"
-            ],
+            "judges": [ "-3", "-3", "-3", "-3", "-3", "-3", "-3", "-3", "-3" ],
             "ref": "",
             "panel_score": "3.90"
         },
@@ -16334,17 +18044,7 @@
             "base_value": "8.50",
             "has_x": false,
             "goe": "0.14",
-            "judges": [
-                "0",
-                "0",
-                "0",
-                "1",
-                "1",
-                "0",
-                "0",
-                "0",
-                "0"
-            ],
+            "judges": [ "0", "0", "0", "1", "1", "0", "0", "0", "0" ],
             "ref": "",
             "panel_score": "8.64"
         },
@@ -16355,17 +18055,7 @@
             "base_value": "3.00",
             "has_x": false,
             "goe": "1.14",
-            "judges": [
-                "2",
-                "2",
-                "2",
-                "3",
-                "3",
-                "3",
-                "2",
-                "2",
-                "2"
-            ],
+            "judges": [ "2", "2", "2", "3", "3", "3", "2", "2", "2" ],
             "ref": "",
             "panel_score": "4.14"
         },
@@ -16376,17 +18066,7 @@
             "base_value": "5.61",
             "has_x": true,
             "goe": "1.30",
-            "judges": [
-                "2",
-                "2",
-                "2",
-                "2",
-                "2",
-                "2",
-                "1",
-                "2",
-                "1"
-            ],
+            "judges": [ "2", "2", "2", "2", "2", "2", "1", "2", "1" ],
             "ref": "",
             "panel_score": "6.91"
         },
@@ -16397,17 +18077,7 @@
             "base_value": "3.20",
             "has_x": false,
             "goe": "1.00",
-            "judges": [
-                "2",
-                "2",
-                "1",
-                "2",
-                "2",
-                "2",
-                "2",
-                "2",
-                "2"
-            ],
+            "judges": [ "2", "2", "1", "2", "2", "2", "2", "2", "2" ],
             "ref": "",
             "panel_score": "4.20"
         },
@@ -16418,17 +18088,7 @@
             "base_value": "2.60",
             "has_x": false,
             "goe": "0.71",
-            "judges": [
-                "2",
-                "1",
-                "1",
-                "2",
-                "1",
-                "2",
-                "1",
-                "2",
-                "1"
-            ],
+            "judges": [ "2", "1", "1", "2", "1", "2", "1", "2", "1" ],
             "ref": "",
             "panel_score": "3.31"
         },
@@ -16439,17 +18099,7 @@
             "base_value": "3.50",
             "has_x": false,
             "goe": "1.00",
-            "judges": [
-                "2",
-                "1",
-                "2",
-                "2",
-                "2",
-                "2",
-                "2",
-                "2",
-                "2"
-            ],
+            "judges": [ "2", "1", "2", "2", "2", "2", "2", "2", "2" ],
             "ref": "",
             "panel_score": "4.50"
         }
@@ -16694,17 +18344,7 @@
             "base_value": "10.30",
             "has_x": false,
             "goe": "1.30",
-            "judges": [
-                "2",
-                "2",
-                "2",
-                "1",
-                "2",
-                "2",
-                "2",
-                "2",
-                "1"
-            ],
+            "judges": [ "2", "2", "2", "1", "2", "2", "2", "2", "1" ],
             "ref": "",
             "panel_score": "11.60"
         },
@@ -16715,17 +18355,7 @@
             "base_value": "5.90",
             "has_x": false,
             "goe": "-0.71",
-            "judges": [
-                "0",
-                "-1",
-                "-1",
-                "-1",
-                "0",
-                "-1",
-                "0",
-                "-1",
-                "-1"
-            ],
+            "judges": [ "0", "-1", "-1", "-1", "0", "-1", "0", "-1", "-1" ],
             "ref": "",
             "panel_score": "5.19"
         },
@@ -16736,17 +18366,7 @@
             "base_value": "3.00",
             "has_x": false,
             "goe": "0.93",
-            "judges": [
-                "1",
-                "2",
-                "2",
-                "2",
-                "2",
-                "2",
-                "2",
-                "3",
-                "1"
-            ],
+            "judges": [ "1", "2", "2", "2", "2", "2", "2", "3", "1" ],
             "ref": "",
             "panel_score": "3.93"
         },
@@ -16757,17 +18377,7 @@
             "base_value": "5.61",
             "has_x": true,
             "goe": "1.40",
-            "judges": [
-                "2",
-                "2",
-                "2",
-                "2",
-                "2",
-                "3",
-                "2",
-                "2",
-                "1"
-            ],
+            "judges": [ "2", "2", "2", "2", "2", "3", "2", "2", "1" ],
             "ref": "",
             "panel_score": "7.01"
         },
@@ -16778,17 +18388,7 @@
             "base_value": "3.20",
             "has_x": false,
             "goe": "0.93",
-            "judges": [
-                "0",
-                "2",
-                "2",
-                "2",
-                "2",
-                "1",
-                "2",
-                "2",
-                "2"
-            ],
+            "judges": [ "0", "2", "2", "2", "2", "1", "2", "2", "2" ],
             "ref": "",
             "panel_score": "4.13"
         },
@@ -16799,17 +18399,7 @@
             "base_value": "3.30",
             "has_x": false,
             "goe": "0.86",
-            "judges": [
-                "2",
-                "1",
-                "2",
-                "1",
-                "2",
-                "2",
-                "2",
-                "2",
-                "1"
-            ],
+            "judges": [ "2", "1", "2", "1", "2", "2", "2", "2", "1" ],
             "ref": "",
             "panel_score": "4.16"
         },
@@ -16820,17 +18410,7 @@
             "base_value": "3.50",
             "has_x": false,
             "goe": "0.86",
-            "judges": [
-                "1",
-                "2",
-                "2",
-                "1",
-                "3",
-                "1",
-                "2",
-                "2",
-                "2"
-            ],
+            "judges": [ "1", "2", "2", "1", "3", "1", "2", "2", "2" ],
             "ref": "",
             "panel_score": "4.36"
         }
@@ -16892,17 +18472,7 @@
             "base_value": "10.30",
             "has_x": false,
             "goe": "0.60",
-            "judges": [
-                "0",
-                "1",
-                "0",
-                "2",
-                "1",
-                "1",
-                "1",
-                "1",
-                "1"
-            ],
+            "judges": [ "0", "1", "0", "2", "1", "1", "1", "1", "1" ],
             "ref": "",
             "panel_score": "10.90"
         },
@@ -16913,17 +18483,7 @@
             "base_value": "0.40",
             "has_x": false,
             "goe": "-0.23",
-            "judges": [
-                "-3",
-                "-3",
-                "-2",
-                "-3",
-                "-1",
-                "-2",
-                "-1",
-                "-3",
-                "-2"
-            ],
+            "judges": [ "-3", "-3", "-2", "-3", "-1", "-2", "-1", "-3", "-2" ],
             "ref": "",
             "panel_score": "0.17"
         },
@@ -16934,17 +18494,7 @@
             "base_value": "9.80",
             "has_x": false,
             "goe": "-0.14",
-            "judges": [
-                "0",
-                "0",
-                "-1",
-                "1",
-                "0",
-                "0",
-                "0",
-                "-1",
-                "0"
-            ],
+            "judges": [ "0", "0", "-1", "1", "0", "0", "0", "-1", "0" ],
             "ref": "",
             "panel_score": "9.66"
         },
@@ -16955,17 +18505,7 @@
             "base_value": "3.20",
             "has_x": false,
             "goe": "0.43",
-            "judges": [
-                "2",
-                "1",
-                "0",
-                "2",
-                "0",
-                "1",
-                "0",
-                "1",
-                "1"
-            ],
+            "judges": [ "2", "1", "0", "2", "0", "1", "0", "1", "1" ],
             "ref": "",
             "panel_score": "3.63"
         },
@@ -16976,17 +18516,7 @@
             "base_value": "3.00",
             "has_x": false,
             "goe": "0.36",
-            "judges": [
-                "1",
-                "1",
-                "0",
-                "1",
-                "1",
-                "1",
-                "1",
-                "0",
-                "0"
-            ],
+            "judges": [ "1", "1", "0", "1", "1", "1", "1", "0", "0" ],
             "ref": "",
             "panel_score": "3.36"
         },
@@ -16997,17 +18527,7 @@
             "base_value": "6.49",
             "has_x": true,
             "goe": "-0.86",
-            "judges": [
-                "-1",
-                "-1",
-                "-1",
-                "0",
-                "-1",
-                "-1",
-                "-1",
-                "0",
-                "-1"
-            ],
+            "judges": [ "-1", "-1", "-1", "0", "-1", "-1", "-1", "0", "-1" ],
             "ref": "",
             "panel_score": "5.63"
         },
@@ -17018,17 +18538,7 @@
             "base_value": "5.83",
             "has_x": true,
             "goe": "1.00",
-            "judges": [
-                "1",
-                "2",
-                "2",
-                "2",
-                "1",
-                "1",
-                "1",
-                "2",
-                "0"
-            ],
+            "judges": [ "1", "2", "2", "2", "1", "1", "1", "2", "0" ],
             "ref": "",
             "panel_score": "6.83"
         },
@@ -17039,17 +18549,7 @@
             "base_value": "3.63",
             "has_x": true,
             "goe": "0.36",
-            "judges": [
-                "1",
-                "1",
-                "0",
-                "1",
-                "1",
-                "1",
-                "1",
-                "0",
-                "0"
-            ],
+            "judges": [ "1", "1", "0", "1", "1", "1", "1", "0", "0" ],
             "ref": "",
             "panel_score": "3.99"
         },
@@ -17060,17 +18560,7 @@
             "base_value": "11.22",
             "has_x": true,
             "goe": "0.90",
-            "judges": [
-                "0",
-                "1",
-                "2",
-                "2",
-                "1",
-                "1",
-                "1",
-                "2",
-                "1"
-            ],
+            "judges": [ "0", "1", "2", "2", "1", "1", "1", "2", "1" ],
             "ref": "",
             "panel_score": "12.12"
         },
@@ -17081,17 +18571,7 @@
             "base_value": "3.30",
             "has_x": false,
             "goe": "0.43",
-            "judges": [
-                "1",
-                "1",
-                "1",
-                "2",
-                "1",
-                "1",
-                "1",
-                "0",
-                "0"
-            ],
+            "judges": [ "1", "1", "1", "2", "1", "1", "1", "0", "0" ],
             "ref": "",
             "panel_score": "3.73"
         },
@@ -17102,17 +18582,7 @@
             "base_value": "5.61",
             "has_x": true,
             "goe": "0.80",
-            "judges": [
-                "1",
-                "1",
-                "2",
-                "1",
-                "2",
-                "1",
-                "0",
-                "1",
-                "1"
-            ],
+            "judges": [ "1", "1", "2", "1", "2", "1", "0", "1", "1" ],
             "ref": "",
             "panel_score": "6.41"
         },
@@ -17123,17 +18593,7 @@
             "base_value": "3.50",
             "has_x": false,
             "goe": "0.93",
-            "judges": [
-                "2",
-                "2",
-                "2",
-                "2",
-                "2",
-                "2",
-                "1",
-                "2",
-                "1"
-            ],
+            "judges": [ "2", "2", "2", "2", "2", "2", "1", "2", "1" ],
             "ref": "",
             "panel_score": "4.43"
         }
@@ -17489,7 +18949,7 @@
     "2015_wjc2016_sp": {
         "event_name": "2015-16 赛季(青年组) 2016 世界青年锦标赛 - SP",
         "rank": "7",
-        "name": "Jun Hwan CHA",
+        "name": "Junhwan CHA",
         "nation": "KOR",
         "starting_number": "11",
         "total_segment_score": "74.38",
@@ -17617,7 +19077,7 @@
     "2015_wjc2016_fs": {
         "event_name": "2015-16 赛季(青年组) 2016 世界青年锦标赛 - FS",
         "rank": "6",
-        "name": "Jun Hwan CHA",
+        "name": "Junhwan CHA",
         "nation": "KOR",
         "starting_number": "15",
         "total_segment_score": "132.73",
@@ -18109,7 +19569,7 @@
     "2015_yog2016_team_fs": {
         "event_name": "2015-16 赛季(青年组) 2016 冬季青年奥林匹克运动会（团体） - FS",
         "rank": "3",
-        "name": "CHA Jun Hwan",
+        "name": "Junhwan CHA",
         "nation": "KOR",
         "starting_number": "6",
         "total_segment_score": "139.97",

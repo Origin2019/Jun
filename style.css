@@ -1159,31 +1159,40 @@ body.protocol-page {
 .elements-table th.info-th {
     writing-mode: vertical-rl;
 }
-.elements-table th:nth-child(1) { width: 2%; }
-.elements-table th:nth-child(2) { width: 15%; }
-.elements-table th:nth-child(3) { width: 11%; }
-.elements-table th:nth-child(4) { width: 5%; }
-.elements-table th:nth-child(5) { width: 5%; }
-.elements-table th:nth-child(6),
-.elements-table th:nth-child(7),
-.elements-table th:nth-child(8),
-.elements-table th:nth-child(9),
-.elements-table th:nth-child(10),
-.elements-table th:nth-child(11),
-.elements-table th:nth-child(12),
-.elements-table th:nth-child(13),
-.elements-table th:nth-child(14) { width: 4.8%; }
-.elements-table th:nth-child(15) { width: 5%; }
-.elements-table th:nth-child(16) { width: 7%; }
+
+/* --- 新增：小分表强对齐专属样式 --- */
+.isu-protocol table th.num-col,
+.isu-protocol table td.num-col {
+    text-align: right !important;          /* 强制靠右对齐 */
+    padding-right: 12px !important;        /* 强制右侧留出安全间距，防止和文字粘连 */
+    font-variant-numeric: tabular-nums !important; /* 强制启用等宽数字，让个位和十位完美对正 */
+}
+
+/* 专门给 GOE 一列使用：靠右对齐，但右侧强制留出 15px 间距，推开 J1 */
+.goe-col {
+    text-align: right;
+    padding-right: 15px !important;
+    font-variant-numeric: tabular-nums;
+}
+
+/* 给 J1~J9 的表头和分数共同使用：统统靠右对齐 */
+.judge-score {
+    text-align: right;
+    padding-right: 12px;
+    font-variant-numeric: tabular-nums;
+}
 
 /* 节目内容分 (Program Components) */
 .components-table thead tr,
 .components-table tbody tr.score-total-row {
     font-weight: bold;
 }
-.components-table th:nth-child(1) { width: 36%; }
-.components-table th:nth-child(2) { width: 7%; }
-.components-table th:nth-child(4) { width: 7%; }
+
+/* Factor 列：直接改为居中对齐，这样既能向左移，又能彻底避免和 J1 粘连 */
+.pr-factor {
+    text-align: center !important;
+    padding-right: 0 !important;
+}
 
 /* 3. 底部：扣分明细区 (对应 mt-[5px] h-[23px] border-2 border-black px-16) */
 .deductions-box {
