@@ -1210,3 +1210,125 @@ body.protocol-page {
     margin-left: 64px;
     font-weight: normal;
 }
+
+/* =========================================
+   未来赛程页面样式 (Future Competitions) - 已修改版
+   ========================================= */
+body.future-page {
+    background-color: #f8f9fa; /* 浅灰底色 */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.future-page .page-title {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 15px;    /* 【修改：从 50px 改为 25px】标题成功往上提了 */
+    margin-bottom: 60px;  /* 适当微调了下边距 */
+    font-size: 2.2rem;
+}
+
+.future-container {
+    max-width: 900px; /* 控制整个区域的最大宽度 */
+    margin: 0 auto;
+    padding: 0 20px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* 卡片之间的间距 */
+}
+
+/* 整个卡片的容器 */
+.future-card {
+    display: flex;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    background: #fff;
+    /* 【修改：去掉了 transition 过渡动画，让卡片保持静止】 */
+}
+
+/* 【修改：删除了原本的 .future-card:hover 鼠标悬浮动画块，鼠标放上去不会再放大或有阴影变化】 */
+
+/* ---------------- 左侧深色信息区 ---------------- */
+.fc-left {
+    background-color: #6486b8; /* 莫兰迪灰蓝色 */
+    color: #ffffff;
+    width: 320px; /* 锁定左侧宽度 */
+    padding: 30px 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fc-left .fc-title {
+    margin: 0 0 15px 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.fc-left .fc-date,
+.fc-left .fc-location {
+    margin: 5px 0;
+    font-size: 1rem;
+    opacity: 0.95;
+}
+
+.fc-left .fc-details {
+    margin-top: 25px;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    opacity: 0.85;
+}
+
+.fc-left .fc-details p {
+    margin: 4px 0;
+}
+
+/* ---------------- 右侧浅色表格区 ---------------- */
+.fc-right {
+    background-color: #f3f6fb; /* 极淡蓝灰背景 */
+    flex-grow: 1; /* 占据右侧剩下的所有空间 */
+    padding: 30px 40px;
+    display: flex;
+    align-items: center; /* 垂直居中表格 */
+}
+
+/* 右侧内部排版表格 */
+.fc-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.fc-table th {
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+.fc-table td {
+    padding: 12px 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+/* ---------------- 手机端响应式适配 ---------------- */
+@media (max-width: 768px) {
+    .future-card {
+        flex-direction: column; /* 手机端转为上下堆叠 */
+    }
+    .fc-left {
+        width: 100%;
+        padding: 25px;
+    }
+    .fc-right {
+        padding: 25px 15px;
+        overflow-x: auto; /* 若表格太宽允许横向滑动 */
+    }
+    .fc-table {
+        min-width: 400px; /* 保证手机端文字不会被挤换行 */
+    }
+}
