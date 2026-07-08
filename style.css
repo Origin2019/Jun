@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    background-image: url("static/封面图片.webp");
+    background-image: url("https://cdn.jsdelivr.net/gh/origin2019/Jun@main/static/封面图片.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -810,7 +810,7 @@ body.long-bg-page {
     min-height: 100vh;      /* 保证页面至少有一屏高 */
     
     /* 背景图设置 */
-    background-image: url("static/童星背景.webp"); 
+    background-image: url("https://cdn.jsdelivr.net/gh/origin2019/Jun@main/static/童星背景.webp");
     background-repeat: no-repeat;
     background-size: 100% auto;     /* 宽度撑满，高度等比 */
     background-position: top center;
