@@ -1345,6 +1345,7 @@ body.recommended-page {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .carousel-3d-wrapper {
@@ -1361,7 +1362,6 @@ body.recommended-page {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* 防止溢出撑开页面 */
 }
 
 /* 每一个独立的轮播滑块 */
