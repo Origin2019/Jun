@@ -21,8 +21,35 @@
             </div>
         </div>
 
-        <div id="analysis-content">
-            <div class="loading">数据加载中，请稍候...</div>
+        <!--  新增的搜索框部分  -->
+        <div class="search-container" style="text-align: center; margin-bottom: 30px;">
+            <input type="text" id="action-search-input" placeholder="输入动作名称（如 3a, 4T+3T）" style="padding: 12px 20px; width: 280px; border: 2px solid #d1e8ff; border-radius: 25px; font-size: 16px; outline: none; transition: all 0.3s ease;">
+            <button id="action-search-btn" class="cool-btn" style="margin-left: 10px; padding: 12px 25px;">查找</button>
+            <div id="search-message" style="color: #e74c3c; margin-top: 15px; display: none; font-size: 1.1rem; font-weight: bold;">暂无匹配的动作结果</div>
+        </div>
+
+        <!-- 新增的左右布局容器 -->
+        <div class="stats-layout">
+            <!-- 左侧固定目录 -->
+            <aside class="stats-toc">
+                <div class="toc-title">目录</div>
+                <ul class="toc-list">
+                    <li>
+                        <a href="#jumps">跳跃</a>
+                        <ul class="toc-sublist">
+                            <li><a href="#jumps-solo">单跳</a></li>
+                            <li><a href="#jumps-combo">连跳</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#spins">旋转</a></li>
+                    <li><a href="#steps">步法</a></li>
+                </ul>
+            </aside>
+
+            <!-- 右侧数据内容 -->
+            <div id="analysis-content" class="stats-content">
+                <div class="loading">数据加载中，请稍候...</div>
+            </div>
         </div>
     </div>
 
@@ -71,7 +98,7 @@
 
                 elements.forEach(el => {
                     let cat = '';
-                    const originalName = el.name.trim(); // 保留带符号的原名
+                    let originalName = el.name.trim(); // 【修改点1】：将 const 改为 let，以便后续追加 " F"
                     let cleanName = originalName;
 
                     // 核心分类逻辑
@@ -85,11 +112,30 @@
                         cleanName = cleanName.replace(/[!<qe*]/g, '');
                         // 移除 +COMBO 和 +REP
                         cleanName = cleanName.replace(/\+COMBO|\+REP/g, '');
+                        // 【新增】：将三连跳中间的 1Lo 统一替换为 1Eu 进行合并分组
+                        cleanName = cleanName.replace('+1Lo+', '+1Eu+');
 
                         if (cleanName.includes('+') || cleanName.includes('SEQ')) {
                             cat = 'jumps_combo';
                         } else {
                             cat = 'jumps_solo';
+                        }
+
+                        // 【修改点2】：新增摔倒跳跃判断
+                        const infoStr = el.info || '';
+                        const judgesArr = el.judges || [];
+
+                        // 从比赛名称中提取第一个四位数字作为年份 (例如从 "2025-26 赛季..." 提取出 2025)
+                        const yearMatch = comp.event_name.match(/\d{4}/);
+                        const eventYear = yearMatch ? parseInt(yearMatch[0]) : 2099;
+
+                        // 判断条件
+                        const hasFInfo = infoStr.includes('F');
+                        const isAllMinus5 = judgesArr.length > 0 && judgesArr.every(j => j === '-5');
+                        const isAllMinus3 = judgesArr.length > 0 && judgesArr.every(j => j === '-3') && eventYear < 2020;
+
+                        if (hasFInfo || isAllMinus5 || isAllMinus3) {
+                            originalName += ' <span style="color: #e74c3c; font-weight: bold; margin-left: 4px;">F</span>';
                         }
                     }
 
@@ -97,9 +143,12 @@
                     const goeVal = parseFloat(el.goe) || 0;
                     const scoreVal = parseFloat(el.panel_score) || 0;
 
+                    // 【修改】：去除“赛季”二字，并将“2022-23”这种简写补全为“2022-2023”格式
+                    let cleanSeason = comp.season.replace(/赛季/g, '').trim();
+                    cleanSeason = cleanSeason.replace(/(\d{4})-(\d{2})$/, "$1-20$2");
                     const record = {
                         event: comp.event_name,
-                        season: comp.season,
+                        season: cleanSeason,
                         original_name: originalName, // 存入原名用于在表格中展示
                         has_x: el.has_x ? 'x' : '',
                         goe: goeVal,
@@ -183,20 +232,71 @@
             // 5. 拼接组装页面 DOM
             const container = document.getElementById('analysis-content');
             container.innerHTML = `
-                <h2 class="category-title">跳跃</h2>
+                <h2 id="jumps" class="category-title" style="margin-top: 0;">跳跃</h2>
 
-                <h3 class="subcategory-title">单跳</h3>
+                <h3 id="jumps-solo" class="subcategory-title">单跳</h3>
                 ${renderTable(jumpsSolo, 'jump')}
 
-                <h3 class="subcategory-title">连跳</h3>
+                <h3 id="jumps-combo" class="subcategory-title">连跳</h3>
                 ${renderTable(jumpsCombo, 'jump')}
 
-                <h2 class="category-title">旋转</h2>
+                <h2 id="spins" class="category-title">旋转</h2>
                 ${renderTable(spins, 'spin')}
 
-                <h2 class="category-title">步法</h2>
+                <h2 id="steps" class="category-title">步法</h2>
                 ${renderTable(steps, 'step')}
             `;
+
+            // 新增的搜索功能逻辑
+            const searchInput = document.getElementById('action-search-input');
+            const searchBtn = document.getElementById('action-search-btn');
+            const searchMessage = document.getElementById('search-message');
+
+            const performSearch = () => {
+                // 获取输入值，去除首尾空格，并统一转为小写以支持大小写不敏感搜索
+                const query = searchInput.value.trim().toLowerCase();
+                const details = document.querySelectorAll('.element-details');
+                const categoryTitles = document.querySelectorAll('.category-title, .subcategory-title');
+                let hasResult = false;
+
+                if (query === '') {
+                    // 如果搜索框为空，恢复所有数据的默认显示状态
+                    details.forEach(detail => {
+                        detail.style.display = 'block';
+                        detail.open = false; // 恢复为折叠状态
+                    });
+                    categoryTitles.forEach(title => title.style.display = 'block');
+                    searchMessage.style.display = 'none';
+                    return;
+                }
+
+                // 遍历每一个动作详情框进行筛选
+                details.forEach(detail => {
+                    // 获取没有符号的处理后名称
+                    const actionName = detail.querySelector('.summary-name').textContent.trim().toLowerCase();
+
+                    // 判断是否包含搜索词
+                    if (actionName.includes(query)) {
+                        detail.style.display = 'block'; // 显示匹配项
+                        detail.open = false;
+                        hasResult = true;
+                    } else {
+                        detail.style.display = 'none';  // 隐藏不匹配项
+                    }
+                });
+
+                // 搜索状态下，隐藏大分类和子分类的标题（比如“跳跃”、“单跳”），让页面更干净地只展示搜索结果
+                categoryTitles.forEach(title => title.style.display = 'none');
+
+                // 控制“没有结果”提示的显示与隐藏
+                searchMessage.style.display = hasResult ? 'none' : 'block';
+            };
+
+            // 绑定点击事件和回车键触发搜索
+            searchBtn.addEventListener('click', performSearch);
+            searchInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') performSearch();
+            });
 
         }).catch(err => {
             console.error(err);

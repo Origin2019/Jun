@@ -1533,7 +1533,7 @@ body.recommended-page {
    ========================================= */
 
 .stats-page {
-    max-width: 1000px;
+    max-width: 1150px;
     margin: 40px auto;
     padding: 0 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1662,4 +1662,91 @@ body.recommended-page {
     text-align: center;
     padding: 50px;
     color: #7f8c8d;
+}
+
+/* 开启网页全局平滑滚动，点击目录跳转时会丝滑滑过去 */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 左右分栏布局 */
+.stats-layout {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start; /* 关键属性：保证左右两侧高度独立，粘性定位才会生效 */
+    position: relative;
+}
+
+/* 左侧固定目录 (Sticky) */
+.stats-toc {
+    position: sticky;
+    top: 20px;            /* 当往下滚动，距离屏幕顶部 20px 时就会固定住 */
+    flex: 0 0 70px;      /* 固定侧边栏宽度 */
+    background: #fff;
+    padding: 18px 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.toc-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+}
+
+.toc-list, .toc-sublist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc-list > li {
+    margin-bottom: 12px;
+}
+
+.toc-sublist {
+    margin-top: 8px;
+    margin-left: 10px;
+    border-left: 2px solid #ecf0f1;
+    padding-left: 10px;
+}
+
+.toc-sublist li {
+    margin-bottom: 8px;
+}
+
+.stats-toc a {
+    text-decoration: none;
+    color: #7f8c8d;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+.stats-toc a:hover {
+    color: #3498db;
+    font-weight: bold;
+    transform: translateX(4px); /* 鼠标放上去时微微往右弹一下 */
+}
+
+/* 右侧内容区域 */
+.stats-content {
+    flex: 1;      /* 占据右侧剩余所有空间 */
+    min-width: 0; /* 防止表格太宽撑破外层布局 */
+}
+
+/* 响应式：手机端自动改为上下堆叠布局，取消悬浮 */
+@media (max-width: 768px) {
+    .stats-layout {
+        flex-direction: column;
+    }
+    .stats-toc {
+        position: static;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
 }
