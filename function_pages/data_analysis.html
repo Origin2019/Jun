@@ -1,13 +1,197 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <title>数据统计</title>
     <link rel="stylesheet" href="../style.css">
 </head>
-<body>
+<body class="long-bg-page">
 
-    <h1>数据统计页面还没写！包括选手国际赛动作的完成情况、世界排名、积分情况、各种best</h1>
+    <div class="stats-page">
+        <h1 class="stats-title">数据统计</h1>
 
+        <div class="cards-container">
+            <div class="stat-card">
+                <h3>世界排名</h3>
+                <p>14</p>
+            </div>
+            <div class="stat-card">
+                <h3>积分</h3>
+                <p>3052</p>
+            </div>
+        </div>
+
+        <div id="analysis-content">
+            <div class="loading">数据加载中，请稍候...</div>
+        </div>
+    </div>
+
+    <script>
+        // 并发请求两个 JSON 数据文件
+        Promise.all([
+            fetch('../data/competitions.json?t=' + new Date().getTime()).then(res => res.json()),
+            fetch('../data/detailed_scores.json?t=' + new Date().getTime()).then(res => res.json())
+        ]).then(([competitions, detailedScores]) => {
+
+            // 1. 筛选比赛并建立映射关系
+            const validProtocols = {};
+            competitions.forEach(seasonData => {
+                seasonData.events.forEach(event => {
+                    // 严格过滤：排除名称包含“韩国”或“选拔”的比赛
+                    if (event.name.includes('韩国') || event.name.includes('选拔')) return;
+
+                    // 映射短节目和自由滑的 Protocol ID
+                    if (event.segments && event.segments.SP && event.segments.SP.protocol_id) {
+                        validProtocols[event.segments.SP.protocol_id] = {
+                            season: seasonData.season,
+                            event_name: event.name + ' - 短节目'
+                        };
+                    }
+                    if (event.segments && event.segments.FS && event.segments.FS.protocol_id) {
+                        validProtocols[event.segments.FS.protocol_id] = {
+                            season: seasonData.season,
+                            event_name: event.name + ' - 自由滑'
+                        };
+                    }
+                });
+            });
+
+            // 2. 提取并根据规则分组动作
+            const grouped = {
+                jumps_solo: {},
+                jumps_combo: {},
+                spins: {},
+                steps: {}
+            };
+
+            Object.keys(detailedScores).forEach(pid => {
+                // 如果当前小分表不在有效名单内，直接跳过
+                if (!validProtocols[pid]) return;
+                const comp = validProtocols[pid];
+                const elements = detailedScores[pid].elements || [];
+
+                elements.forEach(el => {
+                    let cat = '';
+                    const name = el.name.trim();
+
+                    // 核心分类逻辑
+                    if (name.includes('Sp')) {
+                        cat = 'spins';
+                    } else if (name.includes('StSq') || name.includes('ChSq')) {
+                        cat = 'steps';
+                    } else {
+                        // 包含 +, SEQ 或 COMBO 归为连跳
+                        if (name.includes('+') || name.includes('SEQ') || name.includes('COMBO')) {
+                            cat = 'jumps_combo';
+                        } else {
+                            cat = 'jumps_solo';
+                        }
+                    }
+
+                    const bvVal = parseFloat(el.base_value) || 0;
+                    const goeVal = parseFloat(el.goe) || 0;
+                    const scoreVal = parseFloat(el.panel_score) || 0;
+
+                    const record = {
+                        event: comp.event_name,
+                        season: comp.season,
+                        has_x: el.has_x ? 'x' : '',
+                        goe: goeVal,
+                        bv: bvVal,
+                        score: scoreVal
+                    };
+
+                    if (!grouped[cat][name]) grouped[cat][name] = [];
+                    grouped[cat][name].push(record);
+                });
+            });
+
+            // 3. 排序核心函数
+            const prepareGroup = (groupObj) => {
+                return Object.keys(groupObj).map(name => {
+                    // ① 同名动作内：按得分高低降序排序
+                    const execs = groupObj[name].sort((a, b) => b.score - a.score);
+                    // ② 取该动作的历史最高基础分，用于组与组之间的排序
+                    const maxBv = Math.max(...execs.map(e => e.bv));
+                    const maxScore = Math.max(...execs.map(e => e.score));
+                    return { name, execs, maxBv, maxScore };
+                }).sort((a, b) => b.maxBv - a.maxBv); // 按基础分值大小降序排列整个列表
+            };
+
+            const jumpsSolo = prepareGroup(grouped.jumps_solo);
+            const jumpsCombo = prepareGroup(grouped.jumps_combo);
+            const spins = prepareGroup(grouped.spins);
+            const steps = prepareGroup(grouped.steps);
+
+            // 4. HTML 渲染组件
+            const renderTable = (group) => {
+                if (group.length === 0) return '<p style="color:#7f8c8d; padding:10px;">暂无满足条件的数据</p>';
+                return group.map(item => `
+                    <details class="element-details">
+                        <summary class="element-summary">
+                            <div>
+                                <span class="summary-name">${item.name}</span>
+                                <span class="summary-count">(${item.execs.length}次)</span>
+                            </div>
+                            <span class="summary-max">最高分: ${item.maxScore.toFixed(2)}</span>
+                        </summary>
+                        <div class="table-wrapper">
+                            <table class="element-table">
+                                <thead>
+                                    <tr>
+                                        <th style="text-align:left;">比赛</th>
+                                        <th>赛季</th>
+                                        <th>x</th>
+                                        <th>Basic Value</th>
+                                        <th>GOE</th>
+                                        <th>总分</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${item.execs.map(ex => {
+                                        // 智能设置 GOE 的颜色：正数为绿，负数为红
+                                        const goeColor = ex.goe > 0 ? '#27ae60' : (ex.goe < 0 ? '#c0392b' : '#7f8c8d');
+                                        const goeStr = (ex.goe > 0 ? '+' : '') + ex.goe.toFixed(2);
+                                        return `
+                                        <tr>
+                                            <td style="text-align:left;">${ex.event}</td>
+                                            <td>${ex.season}</td>
+                                            <td class="has-x">${ex.has_x}</td>
+                                            <td>${ex.bv.toFixed(2)}</td>
+                                            <td style="color:${goeColor};">${goeStr}</td>
+                                            <td class="score-val">${ex.score.toFixed(2)}</td>
+                                        </tr>
+                                        `;
+                                    }).join('')}
+                                </tbody>
+                            </table>
+                        </div>
+                    </details>
+                `).join('');
+            };
+
+            // 5. 拼接组装页面 DOM
+            const container = document.getElementById('analysis-content');
+            container.innerHTML = \`
+                <h2 class="category-title">跳跃</h2>
+
+                <h3 class="subcategory-title">连跳</h3>
+                \${renderTable(jumpsCombo)}
+
+                <h3 class="subcategory-title">单跳</h3>
+                \${renderTable(jumpsSolo)}
+
+                <h2 class="category-title">旋转</h2>
+                \${renderTable(spins)}
+
+                <h2 class="category-title">步法</h2>
+                \${renderTable(steps)}
+            \`;
+
+        }).catch(err => {
+            console.error(err);
+            document.getElementById('analysis-content').innerHTML = '<div class="loading" style="color:#e74c3c;">数据加载失败，请检查网络或文件路径是否正确。</div>';
+        });
+    </script>
 </body>
 </html>
