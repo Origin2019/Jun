@@ -1697,7 +1697,7 @@ html {
 /* 左侧固定目录 (Sticky) */
 .stats-toc {
     position: sticky;
-    top: 20px;            /* 当往下滚动，距离屏幕顶部 20px 时就会固定住 */
+    top: 80px;            /* 当往下滚动，距离屏幕顶部 20px 时就会固定住 */
     flex: 0 0 70px;      /* 固定侧边栏宽度 */
     background: #fff;
     padding: 18px 15px;
