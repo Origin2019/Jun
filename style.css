@@ -1548,30 +1548,47 @@ body.recommended-page {
 .cards-container {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 15px;
     margin-bottom: 40px;
+    flex-wrap: nowrap;
 }
 .stat-card {
     background: #fff;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    padding: 25px 40px;
+    padding: 25px 30px;
     text-align: center;
     min-width: 160px;
+    flex: 1; /* 让所有卡片平分空间 */
     border-bottom: 4px solid #3498db;
 }
 .stat-card h3 {
     margin: 0 0 10px 0;
     color: #7f8c8d;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 500;
 }
 .stat-card p {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2.2em;
     font-weight: bold;
     color: #2c3e50;
 }
+
+/* 针对 PB 卡片内部分数的样式微调，让它和下面一行的比赛名称更协调 */
+.stat-card.pb-card p.pb-score {
+    margin-bottom: 5px; /* 分数和底部比赛名称之间留一点空隙 */
+    font-size: 2.2em;   /* 分数字号稍微改小一点点，给底下留空间 */
+}
+
+/* 底部比赛名称的样式 */
+.stat-card.pb-card .pb-event {
+    display: block;
+    color: #95a5a6;     /* 较浅的灰色 */
+    font-size: 0.85em;
+    font-weight: normal;
+}
+
 .category-title {
     border-bottom: 2px solid #3498db;
     padding-bottom: 8px;
@@ -1749,4 +1766,189 @@ html {
         box-sizing: border-box;
         margin-bottom: 10px;
     }
+}
+
+/* =========================================
+   --- 比赛页面样式 (competition.html) ---
+   ========================================= */
+
+body.competition-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 覆盖其他页面已有的 .timeline-container 样式 */
+body.competition-page .timeline-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    border-left: none; /* 取消首页时间轴的竖线 */
+}
+
+body.competition-page .title {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+/* 赛季节点样式 */
+body.competition-page .season-node {
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    position: static;
+}
+
+/* 屏蔽首页时间轴的小圆点 */
+body.competition-page .season-node::before {
+    display: none;
+}
+
+body.competition-page .season-title {
+    padding: 15px 20px;
+    background: #2c3e50;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+/* 青年组标题颜色（稍浅的蓝灰色） */
+body.competition-page .season-node.junior .season-title { background: #546e7a; }
+
+/* Novice组标题颜色（更浅的蓝灰色） */
+body.competition-page .season-node.novice .season-title { background: #90a4ae; }
+
+/* 比赛卡片样式 */
+body.competition-page .event-wrapper { padding: 10px 20px; }
+
+body.competition-page .event-card {
+    border-left: 3px solid #3498db;
+    margin: 10px 0;
+    background: #fafafa;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+body.competition-page .event-name {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+body.competition-page .total-score {
+    background: #e1f5fe;
+    color: #0288d1;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+/* PB和SB的标签样式 */
+body.competition-page .best-tag {
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 1px solid rgba(2, 136, 209, 0.3);
+}
+body.competition-page .best-tag.pb { color: #e74c3c; }
+body.competition-page .best-tag.sb { color: #e67e22; }
+
+/* 让文字完美居中，标签绝对定位悬挂在左侧 */
+body.competition-page .project-container {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+body.competition-page .badge-container {
+    position: absolute;
+    right: 100%;
+    margin-right: 8px;
+    display: flex;
+}
+body.competition-page .project-label {
+    text-align: left;
+    white-space: nowrap;
+}
+
+/* 单项 (SP/FS) 左侧的 PB/SB 独立小框样式 */
+body.competition-page .segment-best {
+    display: inline-block;
+    font-size: 0.85em;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+    line-height: 1;
+}
+body.competition-page .segment-best.pb {
+    color: #e74c3c;
+    background-color: rgba(231, 76, 60, 0.15);
+}
+body.competition-page .segment-best.sb {
+    color: #e67e22;
+    background-color: rgba(230, 126, 34, 0.15);
+}
+
+/* 表格样式 */
+body.competition-page .event-details {
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+body.competition-page .score-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+body.competition-page .score-table th,
+body.competition-page .score-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+body.competition-page .score-table th {
+    color: #7f8c8d;
+    font-size: 0.85em;
+    text-transform: uppercase;
+}
+
+/* 按钮与链接样式 */
+body.competition-page a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+body.competition-page a:hover {
+    text-decoration: underline;
+    color: #3498db;
+}
+
+body.competition-page .btn-ex {
+    display: inline-block;
+    background: #9b59b6;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+body.competition-page .btn-ex:hover {
+    background: #8e44ad;
+    color: #fff;
+    text-decoration: none;
 }
