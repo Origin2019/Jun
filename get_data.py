@@ -224,7 +224,7 @@ def extract_text_details(lines, skater_data):
 
 def process_all_competitions():
     try:
-        with open("competitions.json", "r", encoding="utf-8") as f:
+        with open("data/competitions.json", "r", encoding="utf-8") as f:
             competitions_data = json.load(f)
     except FileNotFoundError:
         print("未找到 competitions.json 文件！请确保它与脚本在同一目录下。")
@@ -265,11 +265,11 @@ def process_all_competitions():
                     # 即使有了重试机制，稍微慢一点也能防爬虫拦截
                     time.sleep(1.0)
 
-    with open("detailed_scores.json", "w", encoding="utf-8") as f:
+    with open("data/detailed_scores.json", "w", encoding="utf-8") as f:
         json.dump(all_protocols, f, ensure_ascii=False, indent=4)
     print("\n✅ detailed_scores.json 导出成功！")
 
-    with open("competitions.json", "w", encoding="utf-8") as f:
+    with open("data/competitions.json", "w", encoding="utf-8") as f:
         json.dump(competitions_data, f, ensure_ascii=False, indent=4)
     print("✅ competitions.json 更新 protocol_id 成功！")
 

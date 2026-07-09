@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Protocol</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../../style.css">
 </head>
 <body class="protocol-page">
 
@@ -192,7 +192,7 @@
     let eventId = urlParams.get("id") || urlParams.get("event");
 
     try {
-      const response = await fetch(`detailed_scores.json?t=${new Date().getTime()}`);
+      const response = await fetch(`../../data/detailed_scores.json?t=${new Date().getTime()}`);
       if (!response.ok)
         throw new Error("无法加载 detailed_scores.json 数据文件");
       const data = await response.json();

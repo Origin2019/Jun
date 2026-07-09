@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>music</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="about-page">
+
+    <div class="music-header">
+        <h1>历年赛季选曲</h1>
+        <p class="subtitle">“→” 表示赛季中换曲</p>
+    </div>
+
+    <div class="music-grid" id="music-list">
+        </div>
+
+    <script>
+        // 新增的文本格式化函数
+        function formatMusicText(text) {
+            // 如果是减号或空内容，直接返回，不处理
+            if (!text || text.trim() === '-') return '-';
+
+            // 1. 根据箭头 "→" 分割多首曲子
+            return text.split('→').map(piece => {
+                piece = piece.trim(); // 去掉两边的空格
+
+                // 2. 检查是否包含 " by "
+                if (piece.includes(' by ')) {
+                    const index = piece.indexOf(' by ');
+                    const title = piece.substring(0, index); // 提取曲名
+                    const composer = piece.substring(index + 4); // 提取 by 后面的作曲家
+
+                    // 曲名加粗，by 和作曲家不加粗
+                    return `<strong class="song-title">${title}</strong> by ${composer}`;
+                } else {
+                    // 3. 如果没有 "by"，整个片段直接加粗
+                    return `<strong class="song-title">${piece}</strong>`;
+                }
+            }).join(' → '); // 4. 用带空格的箭头重新连接起来
+        }
+
+        fetch('../data/music.json?t=' + new Date().getTime())
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('music-list');
+                data.forEach(item => {
+                    const card = document.createElement('div');
+                    card.className = 'music-card';
+
+                    // 在渲染数据时，使用刚才写好的 formatMusicText 函数进行包装
+                    card.innerHTML = `
+                        <div class="season-tag">${item.season}</div>
+                        <div class="program-box">
+                            <p><strong>短节目:</strong> ${formatMusicText(item.sp)}</p>
+                            <p><strong>自由滑:</strong> ${formatMusicText(item.fs)}</p>
+                            <p><strong>表演滑:</strong> ${formatMusicText(item.ex)}</p>
+                        </div>
+                    `;
+                    container.appendChild(card);
+                });
+            })
+            .catch(error => console.error('Error loading music data:', error));
+    </script>
+</body>
+
+</html>
+
