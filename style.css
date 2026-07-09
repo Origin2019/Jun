@@ -1343,7 +1343,7 @@ body.recommended-page {
     background-color: #f4f4f2; /* 兜底底色 */
 
     /* --- 新增背景图设置 --- */
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("static/推荐页背景.webp"); /* 修改为你准备好的背景图名称 */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("static/推荐页背景.webp"); /* 修改为你准备好的背景图名称 */
     background-size: cover;          /* 让背景图覆盖全屏 */
     background-position: center;     /* 背景图居中 */
     background-attachment: fixed;    /* 背景固定，不随滑动而滚动 */
