@@ -1490,7 +1490,7 @@ body.recommended-page {
 /* ---------------- 底部控制按钮 ---------------- */
 
 .carousel-controls {
-    margin-top: -10px;
+    margin-top: -20px;
     display: flex;
     justify-content: center;
     gap: 30px;
