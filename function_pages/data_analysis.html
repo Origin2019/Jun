@@ -5,7 +5,7 @@
     <title>数据统计</title>
     <link rel="stylesheet" href="../style.css">
 </head>
-<body class="long-bg-page">
+<body style="background-color: #f8f9fa; margin: 0; padding: 0; min-height: 100vh;">
 
     <div class="stats-page">
         <h1 class="stats-title">数据统计</h1>
@@ -141,7 +141,7 @@
                                     <tr>
                                         <th style="text-align:left;">比赛</th>
                                         <th>赛季</th>
-                                        <th>x</th>
+                                        <th>后半</th>
                                         <th>Basic Value</th>
                                         <th>GOE</th>
                                         <th>总分</th>
@@ -170,23 +170,24 @@
                 `).join('');
             };
 
+            // 修复点 2：去掉了包裹字符串的转移反斜杠 (\)，恢复纯净模板字符串
             // 5. 拼接组装页面 DOM
             const container = document.getElementById('analysis-content');
-            container.innerHTML = \`
+            container.innerHTML = `
                 <h2 class="category-title">跳跃</h2>
 
                 <h3 class="subcategory-title">连跳</h3>
-                \${renderTable(jumpsCombo)}
+                ${renderTable(jumpsCombo)}
 
                 <h3 class="subcategory-title">单跳</h3>
-                \${renderTable(jumpsSolo)}
+                ${renderTable(jumpsSolo)}
 
                 <h2 class="category-title">旋转</h2>
-                \${renderTable(spins)}
+                ${renderTable(spins)}
 
                 <h2 class="category-title">步法</h2>
-                \${renderTable(steps)}
-            \`;
+                ${renderTable(steps)}
+            `;
 
         }).catch(err => {
             console.error(err);
