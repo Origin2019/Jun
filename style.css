@@ -901,6 +901,7 @@ body.long-bg-page {
 .play-icon {
     width: 64px;
     height: 64px;
+    box-sizing: border-box;
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(6px); /* 背景模糊 */
     -webkit-backdrop-filter: blur(6px);
@@ -1342,7 +1343,7 @@ body.recommended-page {
     background-color: #f4f4f2; /* 兜底底色 */
 
     /* --- 新增背景图设置 --- */
-    background-image: url("static/推荐页背景.webp"); /* 修改为你准备好的背景图名称 */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("static/推荐页背景.webp"); /* 修改为你准备好的背景图名称 */
     background-size: cover;          /* 让背景图覆盖全屏 */
     background-position: center;     /* 背景图居中 */
     background-attachment: fixed;    /* 背景固定，不随滑动而滚动 */
@@ -1408,16 +1409,32 @@ body.recommended-page {
 
 /* 2. 位于左侧露出一半的卡片 */
 .carousel-3d-slide.prev {
-    opacity: 0.5;
+    opacity: 1;
     z-index: 5;
     transform: translateX(-55%) scale(0.75); /* 向左移55%，缩小到75% */
 }
 
 /* 3. 位于右侧露出一半的卡片 */
 .carousel-3d-slide.next {
-    opacity: 0.5;
+    opacity: 1;
     z-index: 5;
     transform: translateX(55%) scale(0.75); /* 向右移55%，缩小到75% */
+}
+
+/* --- 新增：为视频添加半透明白色蒙版（白纱） --- */
+.carousel-3d-slide .video-preview::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(255, 255, 255, 0.45); /* 垫在上面的白纱，可根据喜好调节0.65这个数值 */
+    pointer-events: none; /* 让鼠标事件穿透 */
+    transition: opacity 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 5; /* 确保盖在视频封面上 */
+}
+
+/* 当卡片移动到正中间(active)时，隐藏白纱，露出完全清晰的视频 */
+.carousel-3d-slide.active .video-preview::after {
+    opacity: 0;
 }
 
 /* 其他不在两旁的卡片隐藏到背面 */
@@ -1445,7 +1462,7 @@ body.recommended-page {
 
 .slide-overlay-img.large-overlay {
     width: 290px;  /* 明显放大这两张图 */
-    left: -70px;   /* 图变大了，往左侧多偏一点才不会挡住太多视频 */
+    left: -90px;   /* 图变大了，往左侧多偏一点才不会挡住太多视频 */
     top: -20px;    /* 往上多偏一点 */
 }
 
@@ -1473,7 +1490,7 @@ body.recommended-page {
 /* ---------------- 底部控制按钮 ---------------- */
 
 .carousel-controls {
-    margin-top: 25px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     gap: 30px;
