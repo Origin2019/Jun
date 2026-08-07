@@ -1952,3 +1952,98 @@ body.competition-page .btn-ex:hover {
     color: #fff;
     text-decoration: none;
 }
+
+/* =========================================
+   赛场之外 (off_court.html)
+   ========================================= */
+.off-court-body {
+    background: linear-gradient(180deg, #f0f7ff 0%, #f8f9fa 100%);
+    color: #2c3e50;
+    min-height: 100vh;
+    padding-bottom: 60px;
+}
+.oc-topbar {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    padding: 16px 20px;
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+.oc-page-wrap { max-width: 980px; margin: 0 auto; padding: 90px 20px 20px; }
+.oc-header { text-align: center; margin-bottom: 28px; }
+.oc-header h1 { font-size: 2rem; color: #2c3e50; }
+.oc-header p { color: #888; margin-top: 8px; font-size: 0.95rem; }
+
+.oc-tabs {
+    display: flex; justify-content: center; gap: 12px;
+    margin-bottom: 30px; flex-wrap: wrap;
+}
+.oc-tab {
+    padding: 10px 26px; border-radius: 999px;
+    border: 2px solid #d1e8ff; background: #fff;
+    font-size: 1rem; cursor: pointer; color: #4a6fa5;
+    transition: all 0.3s ease;
+}
+.oc-tab:hover { border-color: #64B5F6; color: #4a9fe0; }
+.oc-tab.active {
+    background: #64B5F6; color: #fff; border-color: #64B5F6;
+    box-shadow: 0 6px 16px rgba(100,181,246,0.35);
+}
+
+.oc-panel { display: none; }
+.oc-panel.active { display: block; }
+
+/* 冰演卡片 */
+.show-card {
+    background: #fff; border-radius: 18px; padding: 22px 26px;
+    margin-bottom: 22px; box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    border-left: 6px solid #64B5F6;
+}
+.show-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 14px; flex-wrap: wrap; }
+.show-head h2 { font-size: 1.3rem; color: #2c3e50; }
+.show-head .date {
+    font-size: 0.85rem; color: #fff; background: #4a90d9;
+    padding: 3px 12px; border-radius: 999px;
+}
+.video-list { list-style: none; text-align: left; }
+.video-list li { margin-bottom: 10px; text-align: left; }
+.video-list a {
+    display: inline-flex; align-items: baseline; gap: 8px;
+    color: #4a6fa5; text-decoration: none; font-size: 0.98rem;
+    transition: color 0.2s;
+}
+.video-list a::before {
+    content: "▶"; font-size: 0.7rem; color: #64B5F6;
+}
+.video-list a:hover { color: #4a9fe0; }
+
+/* 杂志 / 活动条目卡片 */
+.item-card {
+    background: #fff; border-radius: 16px; padding: 18px 24px;
+    margin-bottom: 16px; box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.04);
+}
+.item-card h3 { font-size: 1.08rem; color: #2c3e50; margin-bottom: 12px; }
+.item-links { display: flex; flex-wrap: wrap; gap: 10px; }
+.item-links a {
+    display: inline-block; padding: 7px 16px; border-radius: 999px;
+    background: #eef6ff; color: #4a6fa5; text-decoration: none;
+    font-size: 0.9rem; border: 1px solid #d1e8ff; transition: all 0.25s ease;
+}
+.item-links a:hover { background: #64B5F6; color: #fff; border-color: #64B5F6; }
+
+.oc-loading { text-align: center; color: #888; padding: 40px 0; }
+.oc-counter { text-align: center; color: #999; font-size: 0.85rem; margin-bottom: 20px; }
+
+/* 三分类卡片统一两列排列，手机端转为一列 */
+.oc-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+    row-gap: 28px;
+}
+.oc-grid .show-card,
+.oc-grid .item-card { margin-bottom: 0; }
+@media (max-width: 768px) {
+    .oc-grid { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>赛场之外</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="off-court-body">
+    <div class="oc-topbar">
+        <a href="../about.html" style="text-decoration:none;">
+            <button class="cool-btn" style="padding: 8px 18px; font-size: 14px; background:#64B5F6; color:#fff; border:none; border-radius:999px; cursor:pointer; box-shadow:0 4px 12px rgba(100,181,246,0.35);">&larr; 返回</button>
+        </a>
+    </div>
+
+    <div class="oc-page-wrap">
+        <div class="oc-header">
+            <h1>赛场之外</h1>
+        </div>
+
+        <div class="oc-tabs">
+            <button class="oc-tab active" data-panel="ice">冰演</button>
+            <button class="oc-tab" data-panel="magazines">杂志与代言</button>
+            <button class="oc-tab" data-panel="activities">综艺 &amp; 活动 &amp; 采访</button>
+        </div>
+
+        <div class="oc-panel active" id="panel-ice">
+            <div class="oc-counter" id="count-ice"></div>
+            <div id="content-ice" class="oc-loading">数据加载中，请稍候...</div>
+        </div>
+        <div class="oc-panel" id="panel-magazines">
+            <div class="oc-counter" id="count-magazines"></div>
+            <div id="content-magazines" class="oc-loading">数据加载中，请稍候...</div>
+        </div>
+        <div class="oc-panel" id="panel-activities">
+            <div class="oc-counter" id="count-activities"></div>
+            <div id="content-activities" class="oc-loading">数据加载中，请稍候...</div>
+        </div>
+    </div>
+
+    <script>
+        // 标签切换
+        document.querySelectorAll('.oc-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.oc-tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.oc-panel').forEach(p => p.classList.remove('active'));
+                tab.classList.add('active');
+                document.getElementById('panel-' + tab.dataset.panel).classList.add('active');
+            });
+        });
+
+        // 解析日期 "2018.4.20" / "2019.4.1" 为时间戳
+        function dateVal(s) {
+            if (!s) return 0;
+            const m = String(s).match(/(\d{4})[.\-](\d{1,2})[.\-](\d{1,2})/);
+            if (!m) return 0;
+            return new Date(+m[1], +m[2] - 1, +m[3]).getTime();
+        }
+
+        // 渲染冰演列表（按 show 分组，时间倒排）
+        function renderIce(data, container, counter) {
+            if (!data || !data.length) {
+                container.innerHTML = '<div class="oc-loading">暂无数据</div>';
+                return;
+            }
+            counter.textContent = '共 ' + data.length + ' 场演出';
+            const sorted = [...data].sort((a, b) => dateVal(b.date) - dateVal(a.date));
+            container.innerHTML = '<div class="oc-grid">' + sorted.map(show => `
+                <div class="show-card">
+                    <div class="show-head">
+                        <h2>${show.show}</h2>
+                        ${show.date ? `<span class="date">${show.date}</span>` : ''}
+                    </div>
+                    <ul class="video-list">
+                        ${(show.videos || []).map(v => `
+                            <li><a href="${v.url}" target="_blank" rel="noopener noreferrer">${v.title || show.show}</a></li>
+                        `).join('')}
+                    </ul>
+                </div>
+            `).join('') + '</div>';
+        }
+
+        // 渲染条目列表（杂志/代言、综艺活动采访），按现有文件顺序倒排（最新的在最上面）
+        function renderItems(data, container, counter) {
+            if (!data || !data.length) {
+                container.innerHTML = '<div class="oc-loading">暂无数据</div>';
+                return;
+            }
+            counter.textContent = '共 ' + data.length + ' 条';
+            const sorted = data.slice().reverse();
+            container.innerHTML = '<div class="oc-grid">' + sorted.map(item => `
+                <div class="item-card">
+                    <h3>${item.title}</h3>
+                    <div class="item-links">
+                        ${(item.videos || []).map(v => `
+                            <a href="${v.url}" target="_blank" rel="noopener noreferrer">${v.title || '视频'}</a>
+                        `).join('')}
+                    </div>
+                </div>
+            `).join('') + '</div>';
+        }
+
+        const t = new Date().getTime();
+        Promise.all([
+            fetch('../data/ice_shows.json?t=' + t).then(r => r.json()),
+            fetch('../data/magazines.json?t=' + t).then(r => r.json()),
+            fetch('../data/activities.json?t=' + t).then(r => r.json())
+        ]).then(([ice, magazines, activities]) => {
+            renderIce(ice, document.getElementById('content-ice'), document.getElementById('count-ice'));
+            renderItems(magazines, document.getElementById('content-magazines'), document.getElementById('count-magazines'));
+            renderItems(activities, document.getElementById('content-activities'), document.getElementById('count-activities'));
+        }).catch(err => {
+            console.error(err);
+            ['ice', 'magazines', 'activities'].forEach(id => {
+                document.getElementById('content-' + id).innerHTML =
+                    '<div class="oc-loading" style="color:#e74c3c;">数据加载失败，请检查文件路径</div>';
+            });
+        });
+    </script>
+</body>
+</html>
