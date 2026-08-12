@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>测测你适合车俊焕的哪套节目</title>
+    <link rel="stylesheet" href="../style.css">
+    <meta name="referrer" content="no-referrer">
+</head>
+<body class="test-page">
+    <a href="../about.html" class="test-back-link">
+        <button class="cool-btn test-back-btn" type="button">&larr; 返回</button>
+    </a>
+
+    <div class="test-container">
+        <!-- 开始界面 -->
+        <section class="test-start" id="startPanel">
+            <h1 class="test-main-title">测测你适合车俊焕的哪套节目</h1>
+            <p class="test-intro">回答下面的 16 道题，我们会根据你的回答，用 8 个维度（情感、力量、明暗、动静、自信、叙事、梦幻、史诗）为你匹配最契合的一套车俊焕节目。</p>
+            <button class="cool-btn test-start-btn" type="button" id="startBtn">开始测试</button>
+        </section>
+
+        <!-- 答题界面 -->
+        <section class="test-quiz hidden" id="quizPanel">
+            <div class="test-progress-wrap">
+                <div class="test-progress-bar">
+                    <div class="test-progress-fill" id="progressFill"></div>
+                </div>
+                <span class="test-progress-text" id="progressText"></span>
+            </div>
+            <div class="test-question-card">
+                <h2 class="test-question-title" id="questionTitle"></h2>
+                <div class="test-option-list" id="optionList"></div>
+            </div>
+            <div class="test-nav">
+                <button class="cool-btn test-nav-btn" type="button" id="prevBtn">&larr; 上一题</button>
+                <button class="cool-btn test-nav-btn" type="button" id="nextBtn">下一题 &rarr;</button>
+            </div>
+        </section>
+
+        <!-- 结果界面 -->
+        <section class="test-result hidden" id="resultPanel">
+            <h2 class="test-result-heading">你的本命节目是</h2>
+            <div class="test-result-card">
+                <h3 class="test-result-name" id="resultName"></h3>
+                <p class="test-result-meta" id="resultMeta"></p>
+                <p class="test-result-tags" id="resultTags"></p>
+                <a class="cool-btn test-result-link" id="resultLink" href="#" target="_blank" rel="noopener">观看视频</a>
+            </div>
+            <h3 class="test-result-subheading">其他合适的节目</h3>
+            <div class="test-runnerups" id="runnerups"></div>
+            <button class="cool-btn test-restart-btn" type="button" id="restartBtn">重新测试</button>
+        </section>
+    </div>
+
+    <script>
+        // 8 个维度的名称
+        const DIMS = ['情感', '力量', '明暗', '动静', '自信', '叙事', '梦幻', '史诗'];
+
+        // 16 道题（w 为核心题 1.5 / 普通题 1.0 / 末尾题 1.2）
+        const QUESTIONS = [
+            {
+                weight: 1.5,
+                text: '如果要形容你最喜欢的冰演氛围，你会选？',
+                options: [
+                    { label: 'A', text: '华丽、梦幻，像坠入一场不真实的梦', v: [60, 30, 70, 40, 50, 50, 95, 40] },
+                    { label: 'B', text: '情绪浓烈，像一部有完整故事的电影', v: [95, 60, 40, 50, 60, 95, 40, 70] },
+                    { label: 'C', text: '热烈、整活，一上冰就想把全场点燃', v: [60, 80, 85, 95, 73, 30, 20, 35] },
+                    { label: 'D', text: '安静、克制，有一种只有自己才能读懂的情绪', v: [85, 30, 30, 25, 40, 70, 60, 30] }
+                ]
+            },
+            {
+                weight: 1.0,
+                text: '熬夜看比赛的时候，你一般会：',
+                options: [
+                    { label: 'A', text: '看完喜欢的选手就睡', v: [50, 50, 60, 40, 70, 30, 40, 30] },
+                    { label: 'B', text: '撑到看完全部选手，看到比赛结果才放心睡', v: [70, 75, 50, 60, 60, 70, 30, 80] },
+                    { label: 'C', text: '不熬夜，第二天起床直接看比赛结果', v: [40, 40, 70, 30, 80, 40, 50, 40] }
+                ]
+            },
+            {
+                weight: 1.5,
+                text: '下面哪句话最戳你？',
+                options: [
+                    { label: 'A', text: '哪怕已经跌到谷底，也总有重新站起来的时候。', v: [85, 90, 50, 75, 80, 85, 30, 75] },
+                    { label: 'B', text: '有些故事没有圆满结局，却还是会让人念念不忘。', v: [95, 40, 30, 35, 40, 95, 50, 60] },
+                    { label: 'C', text: '我不想成为谁期待的样子，我只想做真正的自己。', v: [80, 65, 60, 60, 85, 75, 65, 35] },
+                    { label: 'D', text: '有些相遇、有些命运，好像从一开始就已经写好了。', v: [75, 60, 35, 50, 50, 90, 70, 85] }
+                ]
+            },
+            {
+                weight: 1.5,
+                text: '你看花滑时，对\u201c技术和艺术\u201d的态度更接近？',
+                options: [
+                    { label: 'A', text: '技术当然重要，但真正让我记住的是情绪有没有传达出来', v: [95, 40, 50, 45, 50, 85, 60, 50] },
+                    { label: 'B', text: '我就喜欢那种高难度扑面而来的爽感，技术越炸越上头', v: [45, 95, 70, 90, 85, 30, 20, 65] },
+                    { label: 'C', text: '难度不一定要最高，但整套节目一定要流畅、漂亮、浑然一体', v: [70, 40, 80, 50, 60, 60, 85, 40] },
+                    { label: 'D', text: '最理想的是两者都在线：既有技术，又有非常强的表现力', v: [80, 85, 50, 75, 90, 80, 40, 85] }
+                ]
+            },
+            {
+                weight: 1.0,
+                text: '你最能 get 到花滑节目的服装（考斯滕）的哪种风格？',
+                options: [
+                    { label: 'A', text: '华丽闪耀，细节很多，灯光下特别漂亮', v: [60, 50, 85, 60, 70, 50, 85, 60] },
+                    { label: 'B', text: '简洁利落，但一眼就有角色感和气场', v: [60, 85, 60, 75, 90, 65, 25, 65] },
+                    { label: 'C', text: '带一点故事感，像节目本身的一部分', v: [85, 50, 45, 45, 50, 95, 55, 70] },
+                    { label: 'D', text: '舒展轻盈，不抢动作，但越看越觉得有味道', v: [80, 35, 75, 35, 55, 65, 80, 30] }
+                ]
+            },
+            {
+                weight: 1.0,
+                text: '在生活或学习中遇到突如其来的重大挫折时，你的真实反应往往是？',
+                options: [
+                    { label: 'A', text: '先懵一下，但很快开始想接下来还能怎么补救', v: [50, 75, 65, 70, 75, 50, 30, 50] },
+                    { label: 'B', text: '很不甘心，越想越觉得\u201c我不能就这么算了\u201d', v: [85, 90, 45, 85, 85, 70, 20, 70] },
+                    { label: 'C', text: '暂时离开这个混乱的场景，给自己一点空间慢慢消化', v: [85, 30, 40, 25, 40, 65, 75, 30] },
+                    { label: 'D', text: '表面看起来没什么，实际上会憋着一股劲，之后再一次性处理', v: [75, 80, 25, 55, 60, 80, 30, 75] }
+                ]
+            },
+            {
+                weight: 1.0,
+                text: '如果有人误解你的时候，你一般：',
+                options: [
+                    { label: 'A', text: '只要不影响实际，我懒得解释，时间会证明一切', v: [45, 70, 50, 35, 85, 40, 30, 55] },
+                    { label: 'B', text: '我还是会解释一下，我不希望别人一直误会我', v: [65, 60, 75, 65, 65, 55, 40, 35] },
+                    { label: 'C', text: '当下可能有点难过，但比起解释，我更在意对方能不能真正理解我', v: [95, 35, 40, 30, 45, 90, 70, 25] },
+                    { label: 'D', text: '表面没什么，心里其实会记很久', v: [85, 50, 25, 40, 50, 75, 40, 60] }
+                ]
+            },
+            {
+                weight: 1.0,
+                text: '看比赛时，喜欢的选手准备出场，你通常属于：',
+                options: [
+                    { label: 'A', text: '\u201c来吧！狠狠干一场！\u201d', v: [60, 90, 80, 95, 95, 35, 20, 50] },
+                    { label: 'B', text: '\u201c别紧张，稳住就行……\u201d', v: [70, 55, 60, 40, 60, 50, 40, 40] },
+                    { label: 'C', text: '\u201c我已经开始脑补节目结束后的场景了。\u201d', v: [80, 35, 65, 50, 50, 85, 80, 50] },
+                    { label: 'D', text: '\u201c我什么都不敢说，我怕毒奶到选手。\u201d', v: [85, 40, 30, 30, 35, 60, 50, 65] }
+                ]
+            },
+            {
+                weight: 1.0,
+                text: '如果突然拥有一个完全没有安排的周末，你最想怎么过？',
+                options: [
+                    { label: 'A', text: '约朋友出门，去哪都行，热闹最重要', v: [50, 65, 90, 90, 80, 30, 30, 25] },
+                    { label: 'B', text: '找个舒服的地方，一个人慢慢待着', v: [75, 25, 50, 20, 50, 50, 80, 20] },
+                    { label: 'C', text: '临时起意去一个没去过的地方', v: [60, 70, 75, 80, 75, 60, 60, 40] },
+                    { label: 'D', text: '在家把喜欢的电影、音乐、剧一次性补完', v: [85, 30, 45, 30, 40, 95, 75, 60] }
+                ]
+            },
+            {
+                weight: 1.0,
+                text: '全世界滑冰水平下降 100 倍而你提升 100 倍，你最想做的第一件事是？',
+                options: [
+                    { label: 'A', text: '立刻报名冬奥，拿下属于我的金牌走向巅峰', v: [50, 85, 75, 80, 95, 40, 20, 85] },
+                    { label: 'B', text: '我要把能尝试的跳跃、旋转、步法全试一遍，爽完再说', v: [50, 90, 85, 95, 85, 25, 25, 35] },
+                    { label: 'C', text: '先开一场自己的冰演，不用顾忌分数和失误，滑得酣畅淋漓就行', v: [80, 60, 80, 75, 75, 60, 70, 40] },
+                    { label: 'D', text: '终于没人卷技术了，我要认真研究一下怎么把节目滑得最好看', v: [85, 35, 60, 40, 60, 85, 85, 50] }
+                ]
+            },
+            {
+                weight: 1.0,
+                text: '喜欢的选手在重要的比赛留下了遗憾，你会很久走不出来：',
+                options: [
+                    { label: 'A', text: '非常符合', v: [95, 50, 20, 40, 35, 90, 30, 65] },
+                    { label: 'B', text: '比较符合', v: [75, 55, 40, 50, 50, 70, 40, 50] },
+                    { label: 'C', text: '比较不符合', v: [55, 65, 65, 65, 70, 45, 50, 40] },
+                    { label: 'D', text: '非常不符合', v: [35, 80, 85, 80, 85, 30, 50, 30] }
+                ]
+            },
+            {
+                weight: 1.0,
+                text: '如果喜欢的选手突然换了一首完全不同风格的节目，你第一反应是？',
+                options: [
+                    { label: 'A', text: '好耶！换风格最有意思了，我已经开始期待 Ta 会怎么诠释', v: [60, 75, 85, 85, 85, 50, 60, 40] },
+                    { label: 'B', text: '有点舍不得原来的，但只要滑得好我最后还是会接受', v: [70, 55, 60, 50, 60, 65, 50, 45] },
+                    { label: 'C', text: '先别急着评价，我想看看完整节目再说', v: [50, 60, 50, 40, 70, 60, 40, 50] },
+                    { label: 'D', text: '等等……完全不同风格？我需要一点时间做好心理准备', v: [80, 35, 30, 25, 35, 75, 40, 50] }
+                ]
+            },
+            {
+                weight: 1.0,
+                text: '手机电量只剩 5%，而你还要在外面待三个小时，你会：',
+                options: [
+                    { label: 'A', text: '开省电模式，能不用就不用，规划着撑到回家', v: [50, 60, 45, 30, 65, 60, 30, 60] },
+                    { label: 'B', text: '管它呢，先把最想做的事情做完，没电再说', v: [60, 85, 80, 90, 85, 30, 40, 30] },
+                    { label: 'C', text: '第一时间找充电宝/充电的地方，先把这个问题解决掉', v: [40, 80, 65, 75, 80, 40, 20, 30] },
+                    { label: 'D', text: '开始计算：5% 到底还能撑多久……然后越算越焦虑', v: [85, 30, 25, 45, 30, 70, 40, 45] }
+                ]
+            },
+            {
+                weight: 1.0,
+                text: '你去电影院看电影，最怕遇到哪一种情况？',
+                options: [
+                    { label: 'A', text: '旁边的人一直剧透，完全破坏了故事的悬念感', v: [70, 50, 40, 40, 50, 95, 50, 60] },
+                    { label: 'B', text: '画面和音乐都很顶，但旁边一直有人讲话', v: [80, 40, 50, 35, 50, 70, 90, 50] },
+                    { label: 'C', text: '前面的人一直挡屏幕，最精彩的地方偏偏看不清', v: [60, 75, 60, 70, 60, 50, 40, 60] },
+                    { label: 'D', text: '演到最关键的地方突然卡顿、黑屏', v: [75, 80, 30, 60, 50, 75, 30, 80] }
+                ]
+            },
+            {
+                weight: 1.5,
+                text: '如果你最喜欢的一套节目只能保留一个版本，你会选：',
+                options: [
+                    { label: 'A', text: '零失误的完美封神之战，气场全开毫无破绽', v: [60, 90, 75, 80, 95, 50, 30, 85] },
+                    { label: 'B', text: '即使有瑕疵，但情感爆发到极致的那一场', v: [98, 60, 35, 60, 50, 95, 50, 60] },
+                    { label: 'C', text: '顶着巨大压力，绝地反击力挽狂澜的燃向之战', v: [85, 95, 50, 85, 85, 85, 20, 90] },
+                    { label: 'D', text: '最自由、最不像在比赛、完全沉浸在音乐里的那一次', v: [80, 35, 85, 45, 65, 60, 95, 30] }
+                ]
+            },
+            {
+                weight: 1.2,
+                text: '休赛季没有比赛，你一般会：',
+                options: [
+                    { label: 'A', text: '考古选手的比赛或日常', v: [80, 40, 60, 40, 50, 85, 60, 50] },
+                    { label: 'B', text: '持续跟踪选手训练、准备新节目的进度', v: [60, 75, 65, 70, 75, 60, 40, 60] },
+                    { label: 'C', text: '专注自己的生活', v: [40, 50, 80, 40, 85, 30, 40, 25] },
+                    { label: 'D', text: '每日 N 刷喜欢的节目', v: [90, 45, 50, 50, 50, 90, 75, 50] },
+                    { label: 'E', text: '关注滑圈小道消息，顺便谴责某些冰协和 ISU', v: [70, 85, 30, 80, 60, 50, 20, 70] }
+                ]
+            }
+        ];
+
+        // 16 套节目：名称、赛季、类型、标签、8 维参数、视频链接
+        const PROGRAMS = [
+            { name: 'Rain, In Your Black Eyes', meta: '25-26 赛季 · 短节目', tags: ['意难平憾', '细腻深情'], params: [96, 65, 35, 32, 40, 92, 23, 58], url: 'https://www.bilibili.com/video/BV1WxM86jEuU/?share_source=copy_web&vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Moulin Rouge', meta: '25-26 赛季 · 自由滑', tags: ['坚韧不拔', '永不言弃'], params: [72, 75, 50, 70, 60, 94, 34, 72], url: 'https://weibo.com/tv/show/1034:5251443691814946?from=old_pc_videoshow' },
+            { name: 'Balada para un Loco', meta: '24-25 / 25-26 赛季 · 自由滑', tags: ['绝地反击', '涅槃重生'], params: [90, 89, 60, 80, 85, 90, 45, 68], url: 'https://www.bilibili.com/video/BV1XbXmBpE7K?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Not A Dream', meta: '25-26 赛季 · 表演滑', tags: ['自由舒展', '神性温柔'], params: [85, 35, 78, 38, 50, 67, 88, 30], url: 'https://www.bilibili.com/video/BV1Lnz4BwEea?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Thunder', meta: '25-26 赛季 · 表演滑', tags: ['青春活力', '氛围王者'], params: [72, 67, 75, 90, 82, 40, 35, 32], url: 'https://www.bilibili.com/video/BV17Hk6BUEJp?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Natural', meta: '24-25 赛季 · 短节目', tags: ['自信从容', '气场全开'], params: [65, 89, 70, 68, 86, 50, 30, 58], url: 'https://www.bilibili.com/video/BV1D8exztEPY?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Mr/Mme', meta: '24-25 赛季 · 表演滑', tags: ['破碎唯美', '诉说真我'], params: [92, 36, 40, 35, 42, 88, 72, 25], url: 'https://www.bilibili.com/video/BV1QK1RY4E68?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Masquerade Waltz', meta: '23-24 赛季 · 短节目', tags: ['险中求胜', '无畏挑战'], params: [65, 65, 45, 72, 62, 69, 45, 60], url: 'https://www.bilibili.com/video/BV1am41197Bk?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'The Batman Theme', meta: '23-24 赛季 · 自由滑', tags: ['隐忍负重', '暗黑冷峻'], params: [75, 78, 22, 58, 54, 82, 25, 85], url: 'https://weibo.com/tv/show/1034:4997454895185967?from=old_pc_videoshow' },
+            { name: 'golden hour', meta: '22-23 / 23-24 赛季 · 表演滑', tags: ['梦幻绝美', '行云流水'], params: [82, 30, 92, 42, 60, 45, 96, 28], url: 'https://www.bilibili.com/video/BV1n84y1g7pe?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Michael Jackson Medley', meta: '22-23 赛季 · 短节目', tags: ['巅峰归来', '意气风发'], params: [67, 85, 78, 85, 90, 43, 28, 45], url: 'https://www.bilibili.com/video/BV1Vk4y1L7P3?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'No Time to Die', meta: '22-23 赛季 · 自由滑', tags: ['刚柔并济', '感染力强'], params: [89, 70, 48, 65, 80, 85, 32, 82], url: 'https://www.bilibili.com/video/BV1pcvpB9EMF?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Fate Of The Clockmaker', meta: '21-22 赛季 · 短节目', tags: ['宿命纠缠', '优雅凌厉'], params: [70, 68, 42, 70, 72, 86, 48, 76], url: 'https://www.bilibili.com/video/BV1M5411m7X4?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Turandot', meta: '21-22 赛季 · 自由滑', tags: ['恢弘磅礴', '气韵卓然'], params: [75, 82, 60, 75, 88, 85, 30, 95], url: 'https://www.bilibili.com/video/BV1rR4y1w7hc?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'The Fire Within', meta: '19-20 / 20-21 赛季 · 自由滑', tags: ['赤诚纯粹', '心火不灭'], params: [90, 72, 62, 70, 78, 88, 50, 62], url: 'https://www.bilibili.com/video/BV1em1mYLEFM?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Peanut Butter Jelly', meta: '16-17 / 17-18 赛季 · 表演滑', tags: ['少年初成', '朝气盎然'], params: [45, 45, 85, 82, 70, 30, 28, 20], url: 'https://www.bilibili.com/video/BV1Ps411n7Cq?p=2&vd_source=ee061c1404f1440009c2080352c0d3a5' }
+        ];
+
+        const $ = id => document.getElementById(id);
+        const startPanel = $('startPanel');
+        const quizPanel = $('quizPanel');
+        const resultPanel = $('resultPanel');
+
+        let currentIndex = 0;
+        const answers = [];
+
+        function showPanel(panel) {
+            startPanel.classList.add('hidden');
+            quizPanel.classList.add('hidden');
+            resultPanel.classList.add('hidden');
+            panel.classList.remove('hidden');
+        }
+
+        function renderQuestion() {
+            const q = QUESTIONS[currentIndex];
+            $('questionTitle').textContent = `${currentIndex + 1}. ${q.text}`;
+            $('progressFill').style.width = `${((currentIndex + 1) / QUESTIONS.length) * 100}%`;
+            $('progressText').textContent = `${currentIndex + 1} / ${QUESTIONS.length}`;
+            $('nextBtn').textContent = currentIndex === QUESTIONS.length - 1 ? '查看结果' : '下一题 \u2192';
+            $('prevBtn').classList.toggle('hidden', currentIndex === 0);
+
+            const list = $('optionList');
+            list.innerHTML = '';
+            q.options.forEach((opt, i) => {
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'test-option';
+                btn.innerHTML = `<span class="test-option-label">${opt.label}</span><span class="test-option-text">${opt.text}</span>`;
+                if (answers[currentIndex] === i) {
+                    btn.classList.add('selected');
+                }
+                btn.addEventListener('click', () => {
+                    answers[currentIndex] = i;
+                    list.querySelectorAll('.test-option').forEach(b => b.classList.remove('selected'));
+                    btn.classList.add('selected');
+                });
+                list.appendChild(btn);
+            });
+        }
+
+        function computeResult() {
+            // 加权汇总出用户画像向量
+            const user = new Array(8).fill(0);
+            QUESTIONS.forEach((q, qi) => {
+                const opt = q.options[answers[qi]];
+                for (let d = 0; d < 8; d++) {
+                    user[d] += q.weight * opt.v[d];
+                }
+            });
+
+            // 与每套节目的参数向量做余弦相似度
+            const scored = PROGRAMS.map(p => {
+                let dot = 0, normA = 0, normB = 0;
+                for (let d = 0; d < 8; d++) {
+                    dot += user[d] * p.params[d];
+                    normA += user[d] * user[d];
+                    normB += p.params[d] * p.params[d];
+                }
+                return { program: p, score: dot / (Math.sqrt(normA) * Math.sqrt(normB) || 1) };
+            }).sort((a, b) => b.score - a.score);
+
+            return scored;
+        }
+
+        function showResult() {
+            const scored = computeResult();
+            const top = scored[0].program;
+            $('resultName').textContent = top.name;
+            $('resultMeta').textContent = top.meta;
+            $('resultTags').textContent = top.tags.join(' · ');
+            $('resultLink').href = top.url;
+
+            const wrap = $('runnerups');
+            wrap.innerHTML = '';
+            scored.slice(1, 4).forEach(item => {
+                const box = document.createElement('div');
+                box.className = 'test-runnerup';
+                const tags = item.program.tags.join(' · ');
+                box.innerHTML = `
+                    <strong>${item.program.name}</strong>
+                    <span>${item.program.meta}</span>
+                    <em>${tags}</em>
+                    <a href="${item.program.url}" target="_blank" rel="noopener">观看</a>
+                `;
+                wrap.appendChild(box);
+            });
+        }
+
+        $('startBtn').addEventListener('click', () => {
+            showPanel(quizPanel);
+            renderQuestion();
+        });
+
+        $('prevBtn').addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                renderQuestion();
+            }
+        });
+
+        $('nextBtn').addEventListener('click', () => {
+            if (answers[currentIndex] === undefined) {
+                alert('请先选择一项再继续哦');
+                return;
+            }
+            if (currentIndex === QUESTIONS.length - 1) {
+                showResult();
+                showPanel(resultPanel);
+            } else {
+                currentIndex++;
+                renderQuestion();
+            }
+        });
+
+        $('restartBtn').addEventListener('click', () => {
+            answers.length = 0;
+            currentIndex = 0;
+            showPanel(startPanel);
+        });
+    </script>
+</body>
+</html>
