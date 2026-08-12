@@ -222,22 +222,22 @@
 
         // 16 套节目：名称、赛季、类型、标签、8 维参数、视频链接
         const PROGRAMS = [
-            { name: 'Rain, In Your Black Eyes', meta: '25-26 赛季 · 短节目', tags: ['意难平憾', '细腻深情'], params: [96, 65, 35, 32, 40, 92, 23, 58], url: 'https://www.bilibili.com/video/BV1WxM86jEuU/?share_source=copy_web&vd_source=ee061c1404f1440009c2080352c0d3a5' },
-            { name: 'Moulin Rouge', meta: '25-26 赛季 · 自由滑', tags: ['坚韧不拔', '永不言弃'], params: [72, 75, 50, 70, 60, 94, 34, 72], url: 'https://weibo.com/tv/show/1034:5251443691814946?from=old_pc_videoshow' },
-            { name: 'Balada para un Loco', meta: '24-25 / 25-26 赛季 · 自由滑', tags: ['绝地反击', '涅槃重生'], params: [90, 89, 60, 80, 85, 90, 45, 68], url: 'https://www.bilibili.com/video/BV1XbXmBpE7K?vd_source=ee061c1404f1440009c2080352c0d3a5' },
-            { name: 'Not A Dream', meta: '25-26 赛季 · 表演滑', tags: ['自由舒展', '神性温柔'], params: [85, 35, 78, 38, 50, 67, 88, 30], url: 'https://www.bilibili.com/video/BV1Lnz4BwEea?vd_source=ee061c1404f1440009c2080352c0d3a5' },
-            { name: 'Thunder', meta: '25-26 赛季 · 表演滑', tags: ['青春活力', '氛围王者'], params: [72, 67, 75, 90, 82, 40, 35, 32], url: 'https://www.bilibili.com/video/BV17Hk6BUEJp?vd_source=ee061c1404f1440009c2080352c0d3a5' },
-            { name: 'Natural', meta: '24-25 赛季 · 短节目', tags: ['自信从容', '气场全开'], params: [65, 89, 70, 68, 86, 50, 30, 58], url: 'https://www.bilibili.com/video/BV1D8exztEPY?vd_source=ee061c1404f1440009c2080352c0d3a5' },
-            { name: 'Mr/Mme', meta: '24-25 赛季 · 表演滑', tags: ['破碎唯美', '诉说真我'], params: [92, 36, 40, 35, 42, 88, 72, 25], url: 'https://www.bilibili.com/video/BV1QK1RY4E68?vd_source=ee061c1404f1440009c2080352c0d3a5' },
-            { name: 'Masquerade Waltz', meta: '23-24 赛季 · 短节目', tags: ['险中求胜', '无畏挑战'], params: [65, 65, 45, 72, 62, 69, 45, 60], url: 'https://www.bilibili.com/video/BV1am41197Bk?vd_source=ee061c1404f1440009c2080352c0d3a5' },
-            { name: 'The Batman Theme', meta: '23-24 赛季 · 自由滑', tags: ['隐忍负重', '暗黑冷峻'], params: [75, 78, 22, 58, 54, 82, 25, 85], url: 'https://weibo.com/tv/show/1034:4997454895185967?from=old_pc_videoshow' },
-            { name: 'golden hour', meta: '22-23 / 23-24 赛季 · 表演滑', tags: ['梦幻绝美', '行云流水'], params: [82, 30, 92, 42, 60, 45, 96, 28], url: 'https://www.bilibili.com/video/BV1n84y1g7pe?vd_source=ee061c1404f1440009c2080352c0d3a5' },
-            { name: 'Michael Jackson Medley', meta: '22-23 赛季 · 短节目', tags: ['巅峰归来', '意气风发'], params: [67, 85, 78, 85, 90, 43, 28, 45], url: 'https://www.bilibili.com/video/BV1Vk4y1L7P3?vd_source=ee061c1404f1440009c2080352c0d3a5' },
-            { name: 'No Time to Die', meta: '22-23 赛季 · 自由滑', tags: ['刚柔并济', '感染力强'], params: [89, 70, 48, 65, 80, 85, 32, 82], url: 'https://www.bilibili.com/video/BV1pcvpB9EMF?vd_source=ee061c1404f1440009c2080352c0d3a5' },
-            { name: 'Fate Of The Clockmaker', meta: '21-22 赛季 · 短节目', tags: ['宿命纠缠', '优雅凌厉'], params: [70, 68, 42, 70, 72, 86, 48, 76], url: 'https://www.bilibili.com/video/BV1M5411m7X4?vd_source=ee061c1404f1440009c2080352c0d3a5' },
-            { name: 'Turandot', meta: '21-22 赛季 · 自由滑', tags: ['恢弘磅礴', '气韵卓然'], params: [75, 82, 60, 75, 88, 85, 30, 95], url: 'https://www.bilibili.com/video/BV1rR4y1w7hc?vd_source=ee061c1404f1440009c2080352c0d3a5' },
-            { name: 'The Fire Within', meta: '19-20 / 20-21 赛季 · 自由滑', tags: ['赤诚纯粹', '心火不灭'], params: [90, 72, 62, 70, 78, 88, 50, 62], url: 'https://www.bilibili.com/video/BV1em1mYLEFM?vd_source=ee061c1404f1440009c2080352c0d3a5' },
-            { name: 'Peanut Butter Jelly', meta: '16-17 / 17-18 赛季 · 表演滑', tags: ['少年初成', '朝气盎然'], params: [45, 45, 85, 82, 70, 30, 28, 20], url: 'https://www.bilibili.com/video/BV1Ps411n7Cq?p=2&vd_source=ee061c1404f1440009c2080352c0d3a5' }
+            { name: 'Rain, In Your Black Eyes', meta: '25-26 赛季 · 短节目', tags: ['意难平憾', '细腻深情'], params: [95, 45, 20, 40, 35, 92, 45, 50], url: 'https://www.bilibili.com/video/BV1WxM86jEuU/?share_source=copy_web&vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Moulin Rouge', meta: '25-26 赛季 · 自由滑', tags: ['坚韧不拔', '永不言弃'], params: [90, 92, 48, 70, 85, 85, 20, 60], url: 'https://weibo.com/tv/show/1034:5251443691814946?from=old_pc_videoshow' },
+            { name: 'Balada para un Loco', meta: '24-25 / 25-26 赛季 · 自由滑', tags: ['绝地反击', '涅槃重生'], params: [60, 96, 20, 92, 92, 55, 18, 88], url: 'https://www.bilibili.com/video/BV1XbXmBpE7K?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Not A Dream', meta: '25-26 赛季 · 表演滑', tags: ['自由舒展', '神性温柔'], params: [85, 18, 85, 22, 48, 60, 96, 28], url: 'https://www.bilibili.com/video/BV1Lnz4BwEea?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Thunder', meta: '25-26 赛季 · 表演滑', tags: ['青春活力', '氛围王者'], params: [45, 80, 92, 98, 86, 22, 20, 15], url: 'https://www.bilibili.com/video/BV17Hk6BUEJp?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Natural', meta: '24-25 赛季 · 短节目', tags: ['自信从容', '气场全开'], params: [32, 88, 80, 72, 98, 38, 25, 60], url: 'https://www.bilibili.com/video/BV1D8exztEPY?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Mr/Mme', meta: '24-25 赛季 · 表演滑', tags: ['破碎唯美', '诉说真我'], params: [94, 26, 10, 25, 30, 88, 92, 18], url: 'https://www.bilibili.com/video/BV1QK1RY4E68?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Masquerade Waltz', meta: '23-24 赛季 · 短节目', tags: ['险中求胜', '无畏挑战'], params: [52, 85, 50, 95, 88, 70, 18, 68], url: 'https://www.bilibili.com/video/BV1am41197Bk?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'The Batman Theme', meta: '23-24 赛季 · 自由滑', tags: ['隐忍负重', '暗黑冷峻'], params: [65, 70, 10, 45, 42, 86, 15, 96], url: 'https://weibo.com/tv/show/1034:4997454895185967?from=old_pc_videoshow' },
+            { name: 'golden hour', meta: '22-23 / 23-24 赛季 · 表演滑', tags: ['梦幻绝美', '行云流水'], params: [78, 12, 96, 26, 50, 40, 98, 12], url: 'https://www.bilibili.com/video/BV1n84y1g7pe?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Michael Jackson Medley', meta: '22-23 赛季 · 短节目', tags: ['巅峰归来', '意气风发'], params: [42, 90, 85, 96, 96, 28, 20, 52], url: 'https://www.bilibili.com/video/BV1Vk4y1L7P3?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'No Time to Die', meta: '22-23 赛季 · 自由滑', tags: ['刚柔并济', '感染力强'], params: [90, 70, 25, 58, 78, 88, 25, 85], url: 'https://www.bilibili.com/video/BV1pcvpB9EMF?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Fate Of The Clockmaker', meta: '21-22 赛季 · 短节目', tags: ['宿命纠缠', '优雅凌厉'], params: [72, 62, 18, 62, 55, 96, 32, 92], url: 'https://www.bilibili.com/video/BV1M5411m7X4?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Turandot', meta: '21-22 赛季 · 自由滑', tags: ['恢弘磅礴', '气韵卓然'], params: [68, 95, 55, 78, 90, 70, 18, 98], url: 'https://www.bilibili.com/video/BV1rR4y1w7hc?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'The Fire Within', meta: '19-20 / 20-21 赛季 · 自由滑', tags: ['赤诚纯粹', '心火不灭'], params: [92, 90, 35, 62, 88, 92, 15, 35], url: 'https://www.bilibili.com/video/BV1em1mYLEFM?vd_source=ee061c1404f1440009c2080352c0d3a5' },
+            { name: 'Peanut Butter Jelly', meta: '16-17 / 17-18 赛季 · 表演滑', tags: ['少年初成', '朝气盎然'], params: [50, 28, 95, 92, 70, 15, 85, 10], url: 'https://www.bilibili.com/video/BV1Ps411n7Cq?p=2&vd_source=ee061c1404f1440009c2080352c0d3a5' }
         ];
 
         const $ = id => document.getElementById(id);
@@ -292,18 +292,41 @@
                 }
             });
 
-            // 与每套节目的参数向量做余弦相似度
+            // 先去掉自身体量，用皮尔逊相关比较"形状"，避免居中节目(如The Fire Within)天然吸分
+            const um = user.reduce((a, b) => a + b, 0) / 8;
+            const uc = user.map(v => v - um);
+
             const scored = PROGRAMS.map(p => {
+                const pm = p.params.reduce((a, b) => a + b, 0) / 8;
                 let dot = 0, normA = 0, normB = 0;
                 for (let d = 0; d < 8; d++) {
-                    dot += user[d] * p.params[d];
-                    normA += user[d] * user[d];
-                    normB += p.params[d] * p.params[d];
+                    dot += uc[d] * (p.params[d] - pm);
+                    normA += uc[d] * uc[d];
+                    normB += (p.params[d] - pm) * (p.params[d] - pm);
                 }
                 return { program: p, score: dot / (Math.sqrt(normA) * Math.sqrt(normB) || 1) };
-            }).sort((a, b) => b.score - a.score);
+            });
 
-            return scored;
+            // softmax 温度采样：让各套节目都有被开出的机会，而不是锁定单一节目
+            const maxScore = Math.max(...scored.map(it => it.score));
+            const TEMP = 0.5;
+            const exps = scored.map(it => Math.exp((it.score - maxScore) / TEMP));
+            const total = exps.reduce((a, b) => a + b, 0);
+            let rnd = Math.random() * total;
+            const picked = [];
+            scored.forEach((it, i) => {
+                rnd -= exps[i];
+                if (rnd <= 0 && picked.length === 0) {
+                    picked.push(it);
+                }
+            });
+            if (picked.length === 0) {
+                picked.push(scored[scored.length - 1]);
+            }
+
+            // 其余节目按分数排序作为候选推荐
+            scored.sort((a, b) => b.score - a.score);
+            return picked.concat(scored.filter(it => it !== picked[0]));
         }
 
         function showResult() {
